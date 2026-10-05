@@ -1,5 +1,5 @@
-// Lyris Companion offline support. Bump VERSION whenever the site changes so phones pick up the update.
-const VERSION = 'lyris-v1';
+// Lyris Companion offline support. build.py stamps VERSION from the content, so installed apps refresh after each update.
+const VERSION = 'lyris-b12ea2adce';
 const SHELL = ['./', 'index.html', 'chart.jpg', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-32.png'];
 
