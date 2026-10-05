@@ -1,0 +1,23 @@
+{
+  "name": "Lyris Companion",
+  "short_name": "Lyris",
+  "description": "Lore, guides, bestiary, star chart and how to join the Lyris Minecraft server.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070b1f",
+  "theme_color": "#070b1f",
+  "categories": ["games", "entertainment", "books"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Guides", "url": "./#guides", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "The sky", "url": "./#sky", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "How to join", "url": "./#join", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
