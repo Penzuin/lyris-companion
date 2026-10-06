@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Lyris Atlas</title>
+<meta name="description" content="The Lyris Atlas: an interactive painted map of the world of Lyris.">
+<meta name="theme-color" content="#3a2e24">
+<link rel="icon" href="../icons/icon-192.png">
+<style>:root{box-sizing:border-box}body{margin:0;padding:0}img{max-width:100%}[hidden]{display:none!important}
+.back{display:inline-block;margin-top:6px;font:500 14px "Alegreya Sans",system-ui,sans-serif;color:var(--brass)}</style>
+</head>
+<body>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&family=Alegreya+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a chart table. The map fills the left; a ledger panel on the right (stacks under the map on phones). */
+:root {
+  --sea: #c9d3c8;          /* map surround, the painted sea */
+  --panel: #f3efe4;        /* ledger paper */
+  --ink: #2f2a24;          /* text */
+  --ink-soft: #6a6052;     /* captions */
+  --rule: #d8cfbd;         /* hairlines */
+  --brass: #8a5a1c;        /* accent: brass instruments */
+  --pin: #9b2c22;          /* place pins */
+  --chip: #e7e0cf;
+  --leaf: #3f7a3a;
+  --display: "IM Fell English SC", "IM Fell English", Georgia, serif;
+  --serif: "IM Fell English", Georgia, serif;
+  --body: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --sea: #1d2a2c; --panel: #1f2321; --ink: #ebe4d4; --ink-soft: #a89f8d; --rule: #3a3f3a;
+  --brass: #d6a35a; --pin: #e0705f; --chip: #2c312e; --leaf: #7fbf6f; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --sea: #1d2a2c; --panel: #1f2321; --ink: #ebe4d4; --ink-soft: #a89f8d; --rule: #3a3f3a;
+  --brass: #d6a35a; --pin: #e0705f; --chip: #2c312e; --leaf: #7fbf6f; color-scheme: dark }
+
+html, body { height: 100%; }
+body { background: var(--panel); color: var(--ink); font: 16px/1.45 var(--body); }
+.app { height: 100%; display: grid; grid-template-columns: minmax(0, 1fr) 360px; }
+@media (max-width: 820px) { .app { grid-template-columns: 1fr; grid-template-rows: 62vh auto; height: auto; } }
+
+/* ---------- map ---------- */
+.stage { position: relative; overflow: hidden; background: var(--sea); touch-action: none; cursor: grab; min-height: 0; }
+.stage.drag { cursor: grabbing; }
+.world { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; }
+.world img { display: block; max-width: none; width: 3000px; height: 3000px; user-select: none; -webkit-user-drag: none; }
+.world img.layer { position: absolute; inset: 0; }
+.pins { position: absolute; inset: 0; }
+.pin { position: absolute; width: 0; height: 0; }
+.pin button { position: absolute; left: -9px; top: -9px; width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--pin);
+  background: color-mix(in srgb, var(--panel) 55%, transparent); cursor: pointer; padding: 0; transform: scale(var(--inv, 1)); }
+.pin button:hover, .pin button:focus-visible, .pin.on button { background: var(--pin); outline: none; }
+.pin.w button { border-color: var(--brass); border-radius: 3px; transform: rotate(45deg) scale(var(--inv, 1)); }
+.pin.w button:hover, .pin.w.on button { background: var(--brass); }
+.pin.s button { width: 12px; height: 12px; left: -6px; top: -6px; border-width: 2px; border-color: var(--ink); border-radius: 2px; transform: rotate(45deg) scale(var(--inv, 1)); }
+.pin.s button:hover, .pin.s.on button { background: var(--ink); }
+.pin.t button { border-color: var(--leaf); border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; }
+.pin.t button:hover, .pin.t.on button { background: var(--leaf); }
+.pins[hidden] { display: none; }
+.mark { position: absolute; width: 22px; height: 22px; margin: -11px 0 0 -11px; pointer-events: none; transform: scale(var(--inv, 1)); }
+.mark::before, .mark::after { content: ""; position: absolute; background: var(--brass); }
+.mark::before { left: 10px; top: 0; width: 2px; height: 22px; }
+.mark::after { top: 10px; left: 0; height: 2px; width: 22px; }
+
+.hud { position: absolute; left: 12px; bottom: calc(12px + env(safe-area-inset-bottom, 0px)); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; pointer-events: none; }
+.readout { pointer-events: none; background: color-mix(in srgb, var(--panel) 92%, transparent); border: 1px solid var(--rule);
+  border-radius: 6px; padding: 6px 10px; font: 13px/1.35 var(--mono); font-variant-numeric: tabular-nums; color: var(--ink); min-width: 15ch; }
+.readout b { font-weight: 500; color: var(--brass); }
+.ctrls { position: absolute; right: 12px; top: 12px; display: flex; flex-direction: column; gap: 6px; }
+.ctrls button, .seg button { font: 500 15px var(--body); color: var(--ink); background: var(--panel); border: 1px solid var(--rule); cursor: pointer; }
+.ctrls button { width: 36px; height: 36px; border-radius: 6px; font-size: 20px; line-height: 1; }
+.ctrls button:hover, .seg button:hover { border-color: var(--brass); }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
+
+/* ---------- ledger ---------- */
+.ledger { overflow-y: auto; border-left: 1px solid var(--rule); padding-block: 20px 28px; padding-inline: 20px; display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+@media (max-width: 820px) { .ledger { border-left: 0; border-top: 1px solid var(--rule); overflow: visible; } }
+h1 { font: 40px/1 var(--display); letter-spacing: 0.06em; margin: 0; text-wrap: balance; }
+.sub { margin: 4px 0 0; font: italic 16px var(--serif); color: var(--ink-soft); }
+.label { font: 500 11px var(--body); letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 8px; }
+.seg { display: flex; border-radius: 6px; overflow: hidden; border: 1px solid var(--rule); }
+.seg button { flex: 1; border: 0; border-right: 1px solid var(--rule); padding: 8px 6px; border-radius: 0; background: var(--panel); }
+.seg button:last-child { border-right: 0; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--panel); }
+.row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.toggle { display: flex; gap: 8px; align-items: center; font-size: 15px; cursor: pointer; }
+.toggle input { accent-color: var(--brass); width: 16px; height: 16px; }
+
+.card { border-top: 2px solid var(--ink); padding-top: 12px; display: flex; flex-direction: column; gap: 10px; }
+.card h2 { font: 28px/1.05 var(--display); margin: 0; text-wrap: balance; }
+.card .kicker { font: italic 15px var(--serif); color: var(--brass); }
+.card p { margin: 0; max-width: 60ch; }
+dl.facts { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 14px; margin: 0; font-size: 15px; }
+dl.facts dt { color: var(--ink-soft); }
+dl.facts dd { margin: 0; }
+.coord { font: 14px var(--mono); font-variant-numeric: tabular-nums; }
+.copy { display: flex; gap: 8px; align-items: stretch; }
+.copy code { flex: 1; min-width: 0; font: 13px var(--mono); background: var(--chip); padding: 7px 9px; border-radius: 5px; overflow-x: auto; white-space: nowrap; }
+.copy button { font: 500 14px var(--body); border: 1px solid var(--brass); color: var(--brass); background: transparent; border-radius: 5px; padding: 0 12px; cursor: pointer; }
+
+.search { width: 100%; font: 15px var(--body); color: var(--ink); background: var(--chip); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 10px; }
+ul.places { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; }
+ul.places button { width: 100%; text-align: left; display: grid; grid-template-columns: 14px minmax(0, 1fr) auto; gap: 10px; align-items: baseline;
+  background: none; border: 0; border-bottom: 1px solid var(--rule); padding: 7px 2px; color: var(--ink); font: 15px var(--body); cursor: pointer; }
+ul.places button:hover { color: var(--brass); }
+ul.places .k { font-size: 11px; color: var(--pin); }
+ul.places .k.w { color: var(--brass); }
+ul.places .k.t { color: var(--leaf); }
+ul.places .k.s { color: var(--ink); }
+ul.places .c { font: 12px var(--mono); color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.goto { display: grid; grid-template-columns: 1fr 1fr auto; gap: 8px; }
+.goto input { min-width: 0; font: 14px var(--mono); color: var(--ink); background: var(--chip); border: 1px solid var(--rule); border-radius: 6px; padding: 7px 8px; }
+.goto button { font: 500 14px var(--body); background: var(--ink); color: var(--panel); border: 0; border-radius: 6px; padding: 0 14px; cursor: pointer; }
+.note { font-size: 13px; color: var(--ink-soft); margin: 0; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="app">
+  <div class="stage" id="stage" aria-label="Map of Lyris. Drag to pan, scroll or pinch to zoom, click to inspect a spot.">
+    <div class="world" id="world">
+      <img id="base" src="painted.jpg" alt="Painted map of Lyris" draggable="false">
+      <img id="lay" class="layer" alt="" draggable="false" hidden>
+      <div class="pins" id="pins"></div>
+      <div class="mark" id="mark" hidden></div>
+    </div>
+    <div class="ctrls">
+      <button id="zin" aria-label="Zoom in">+</button>
+      <button id="zout" aria-label="Zoom out">−</button>
+      <button id="zfit" aria-label="Show the whole world" style="font-size:14px">⤢</button>
+    </div>
+    <div class="hud"><div class="readout" id="readout">X <b>—</b>  Z <b>—</b></div></div>
+  </div>
+
+  <aside class="ledger">
+    <header>
+      <h1>Lyris</h1>
+      <p class="sub">the Known World, 25,000 blocks square: terrain, Moonharbor and the Delvers' Gate</p>
+      <a class="back" href="../">← Lyris Companion</a>
+    </header>
+
+    <section>
+      <p class="label">Layer</p>
+      <div class="seg" role="group" aria-label="Map layer">
+        <button data-l="painted" aria-pressed="true">Painted</button>
+        <button data-l="relief" aria-pressed="false">Relief</button>
+        <button data-l="biomes" aria-pressed="false">Biomes</button>
+      </div>
+      <div class="row" style="margin-top:10px">
+        <label class="toggle"><input type="checkbox" id="showpins" checked> Pins (Moonharbor ★, Delvers' Gate ▲, the Fallen Star and the Grand Observatory ○)</label>
+      </div>
+    </section>
+
+    <section class="card" id="info" aria-live="polite"></section>
+
+    <section>
+      <p class="label">Go to coordinates</p>
+      <form class="goto" id="goto">
+        <input id="gx" inputmode="numeric" placeholder="X" aria-label="X coordinate" value="200">
+        <input id="gz" inputmode="numeric" placeholder="Z" aria-label="Z coordinate" value="-2300">
+        <button type="submit">Go</button>
+      </form>
+    </section>
+
+    <section>
+      <p class="label">Places</p>
+      <input class="search" id="q" type="search" placeholder="Find a place" aria-label="Find a place">
+      <ul class="places" id="list"></ul>
+    </section>
+
+    <p class="note">Heights are read from the 1:25 lookup copy of the heightmap, so they are within about a block. North is up; Z grows to the south.</p>
+  </aside>
+</div>
+
+<script>
+const IMG = 3000, HALF = 12500, BPP = 25000 / IMG;
+const BIOMES = ["ocean","deep ocean","cold ocean","deep cold ocean","frozen ocean","deep frozen ocean","lukewarm ocean","deep lukewarm ocean","warm ocean","river","frozen river","beach","snowy beach","stony shore","plains","sunflower plains","meadow","forest","flower forest","birch forest","dark forest","old growth spruce taiga","old growth pine taiga","taiga","snowy taiga","grove","snowy slopes","frozen peaks","jagged peaks","stony peaks","windswept hills","windswept forest","snowy plains","ice spikes","cherry grove","savanna","savanna plateau","windswept savanna","desert","badlands","eroded badlands","wooded badlands","swamp","mangrove swamp","jungle","sparse jungle","bamboo jungle","mushroom fields","pale garden","old growth birch forest","windswept gravelly hills"];
+const KEYS = [];
+const REG = {};
+const PLACES = [[200, -2300, "capital", "Moonharbor"], [1650, -3950, "gate", "The Delvers' Gate"], [-120, -2612, "feature", "Oruth, the Fallen Star"], [1406, -3045, "feature", "The Grand Observatory"]];
+const NOTES = {
+  "Moonharbor": "The harbour town and spawn, on the shore of the round bay (ground at Y 65).",
+  "Oruth, the Fallen Star": "Where the star fell: the Chamber of the Hollow Star, a glass dome on the sea bed under the bay (floor at Y -39). Oruth's crystal heart sings there.",
+  "The Grand Observatory": "Proposed site: a broad flat summit at about Y 275 (the plateau is about 80 blocks across, all above Y 263), the highest ground near the North Road. Clear sight west over the bay to the Fallen Star. Reached by a spur climbing east from the road near lantern V (980, -2905). Above Y 180, so stargazers get the full +1 height bonus, and far from town light.",
+  "The Delvers' Gate": "The way into the Hollowdeep at the top of the North Road (about Y 136). The Cleft runs east from the Lampbearers to the Court and the Great Door at (1820, 155, -3955)."
+};
+const LAKE_LEVEL = {"1": 71, "2": 79, "3": 80, "4": 84, "5": 77, "6": 98, "7": 72, "8": 74, "9": 115, "10": 100, "11": 79, "12": 82, "13": 83, "14": 98, "15": 87, "16": 90, "17": 88, "18": 76, "19": 83, "20": 96, "21": 113, "22": 76, "23": 71, "24": 84, "25": 86, "26": 104, "27": 193, "28": 98, "29": 90, "30": 115, "31": 82, "32": 109, "33": 76, "34": 95, "35": 176, "36": 86, "37": 77, "38": 106, "39": 81, "40": 88, "41": 77, "42": 84, "43": 107, "44": 102, "45": 115, "46": 75, "47": 85, "48": 91, "49": 94, "50": 94, "51": 97, "52": 90, "53": 77, "54": 114, "55": 110, "56": 76, "57": 115, "58": 69, "59": 142, "60": 96, "61": 114, "62": 115, "63": 173, "64": 75, "65": 83, "66": 66, "67": 65, "68": 106, "69": 77, "70": 94, "71": 71, "72": 101, "73": 98, "74": 100, "75": 71, "76": 93, "77": 89, "78": 74, "79": 93, "80": 123, "81": 95, "82": 79, "83": 126, "84": 89, "85": 118, "86": 105, "87": 112, "88": 67, "89": 90, "90": 81, "91": 111, "92": 72, "93": 111, "94": 103, "95": 110, "96": 92, "97": 79, "98": 122, "99": 106, "100": 93, "101": 111, "102": 82, "103": 99, "104": 90, "105": 69, "106": 98, "107": 112, "108": 103, "109": 90, "110": 80, "111": 90, "112": 99, "113": 88, "114": 104, "115": 90, "116": 92, "117": 87, "118": 179, "119": 86, "120": 83, "121": 120, "122": 90, "123": 106, "124": 73, "125": 120, "126": 126, "127": 82, "128": 82, "129": 92, "130": 89, "131": 98, "132": 82, "133": 107, "134": 77, "135": 86, "136": 98, "137": 72, "138": 90, "139": 72, "140": 77, "141": 96, "142": 76, "143": 88, "144": 93, "145": 98, "146": 101, "147": 113, "148": 83, "149": 94, "150": 119, "151": 100, "152": 77, "153": 112, "154": 108, "155": 93, "156": 66, "157": 80, "158": 90, "159": 112, "160": 76, "161": 84, "162": 103, "163": 79, "164": 88, "165": 80, "166": 97, "167": 84, "168": 183, "169": 82, "170": 71, "171": 97, "172": 100, "173": 213, "174": 89, "175": 102, "176": 99, "177": 79, "178": 83, "179": 104, "180": 111, "181": 73, "182": 71, "183": 163, "184": 201, "185": 103, "186": 75, "187": 88, "188": 155, "189": 104, "190": 214, "191": 121, "192": 77, "193": 103, "194": 103, "195": 87, "196": 90, "197": 155, "198": 86, "199": 72, "200": 71, "201": 96};
+const KIND = { site: "Ruin or lore site", wayroot: "Wayroot portal tree", wonder: "Natural wonder", capital: "Capital", town: "Town", gate: "Gate", ruin: "Ruin", feature: "Landmark", water: "Water", peak: "Peak" };
+const KSYM = { site: "◆", wayroot: "♣", wonder: "✦", capital: "★", town: "●", gate: "▲", ruin: "◆", feature: "○", water: "≈", peak: "▲" };
+
+const stage = document.getElementById('stage'), world = document.getElementById('world');
+const lay = document.getElementById('lay'), pinsEl = document.getElementById('pins'), mark = document.getElementById('mark');
+let s = 0.3, tx = 0, ty = 0;
+
+// lookup images -> pixel arrays (1000 x 1000, 25 blocks per pixel)
+const LK = {};
+function loadLookup(name) {
+  return new Promise(res => {
+    const im = new Image();
+    im.onload = () => {
+      const c = document.createElement('canvas'); c.width = im.width; c.height = im.height;
+      const g = c.getContext('2d', { willReadFrequently: true }); g.drawImage(im, 0, 0);
+      LK[name] = { w: im.width, d: g.getImageData(0, 0, im.width, im.height).data }; res();
+    };
+    im.onerror = () => res();
+    im.src = name + '.png';
+  });
+}
+Promise.all(['hmap', 'bidx', 'regions', 'lakes'].map(loadLookup)).then(() => { if (cur) inspect(cur.x, cur.z, cur.place); });
+function look(name, x, z) {
+  const L = LK[name]; if (!L) return null;
+  const i = Math.min(L.w - 1, Math.max(0, Math.floor((x + HALF) / 25000 * L.w)));
+  const j = Math.min(L.w - 1, Math.max(0, Math.floor((z + HALF) / 25000 * L.w)));
+  return L.d[(j * L.w + i) * 4];
+}
+
+function apply() {
+  world.style.transform = `translate(${tx}px, ${ty}px) scale(${s})`;
+  world.style.setProperty('--inv', String(Math.min(3, 1 / s)));
+}
+function fit() {
+  const r = stage.getBoundingClientRect();
+  s = Math.min(r.width, r.height) / IMG * 1.25;   // the land fills the middle of the square
+  tx = (r.width - IMG * s) / 2; ty = (r.height - IMG * s) / 2; apply();
+}
+function zoomAt(f, cx, cy) {
+  const ns = Math.max(0.12, Math.min(4, s * f));
+  tx = cx - (cx - tx) * ns / s; ty = cy - (cy - ty) * ns / s; s = ns; apply();
+}
+function centerOn(x, z, scale) {
+  const r = stage.getBoundingClientRect();
+  if (scale) s = scale;
+  tx = r.width / 2 - (x + HALF) / BPP * s; ty = r.height / 2 - (z + HALF) / BPP * s; apply();
+}
+const toWorld = (cx, cy) => ({ x: Math.round(((cx - tx) / s) * BPP - HALF), z: Math.round(((cy - ty) / s) * BPP - HALF) });
+
+// pointer pan + pinch
+const pts = new Map(); let moved = false, last = null, pinch = null;
+stage.addEventListener('pointerdown', e => {
+  if (e.target.closest('button')) return;
+  stage.setPointerCapture(e.pointerId); pts.set(e.pointerId, { x: e.clientX, y: e.clientY }); moved = false; last = { x: e.clientX, y: e.clientY };
+  if (pts.size === 2) { const [a, b] = [...pts.values()]; pinch = { d: Math.hypot(a.x - b.x, a.y - b.y) }; }
+  stage.classList.add('drag');
+});
+stage.addEventListener('pointermove', e => {
+  const r = stage.getBoundingClientRect();
+  const w = toWorld(e.clientX - r.left, e.clientY - r.top); hover(w.x, w.z);
+  if (!pts.has(e.pointerId)) return;
+  pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (pts.size === 2 && pinch) {
+    const [a, b] = [...pts.values()]; const d = Math.hypot(a.x - b.x, a.y - b.y);
+    zoomAt(d / pinch.d, (a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top); pinch.d = d; moved = true; return;
+  }
+  const dx = e.clientX - last.x, dy = e.clientY - last.y;
+  if (Math.abs(dx) + Math.abs(dy) > 2) moved = true;
+  tx += dx; ty += dy; last = { x: e.clientX, y: e.clientY }; apply();
+});
+function up(e) {
+  pts.delete(e.pointerId); if (pts.size < 2) pinch = null;
+  if (pts.size === 0) {
+    stage.classList.remove('drag');
+    if (!moved && e.type === 'pointerup' && !e.target.closest('button')) {
+      const r = stage.getBoundingClientRect(); const w = toWorld(e.clientX - r.left, e.clientY - r.top); inspect(w.x, w.z);
+    }
+  }
+  if (pts.size === 1) last = [...pts.values()][0];
+}
+stage.addEventListener('pointerup', up); stage.addEventListener('pointercancel', up);
+stage.addEventListener('wheel', e => {
+  e.preventDefault(); const r = stage.getBoundingClientRect();
+  zoomAt(Math.exp(-e.deltaY * 0.0015), e.clientX - r.left, e.clientY - r.top);
+}, { passive: false });
+document.getElementById('zin').onclick = () => { const r = stage.getBoundingClientRect(); zoomAt(1.5, r.width / 2, r.height / 2); };
+document.getElementById('zout').onclick = () => { const r = stage.getBoundingClientRect(); zoomAt(1 / 1.5, r.width / 2, r.height / 2); };
+document.getElementById('zfit').onclick = fit;
+window.addEventListener('resize', fit);
+
+const readout = document.getElementById('readout');
+function ground(x, z) { const v = look('hmap', x, z); return v == null ? null : Math.round(v * 1.5 - 64); }
+function hover(x, z) {
+  if (Math.abs(x) > HALF || Math.abs(z) > HALF) { readout.innerHTML = 'Off the map'; return; }
+  const y = ground(x, z), b = look('bidx', x, z);
+  readout.innerHTML = `X <b>${x}</b>  Z <b>${z}</b>${y != null ? `  Y <b>${y}</b>` : ''}${b != null && BIOMES[b] ? `<br>${BIOMES[b]}` : ''}`;
+}
+
+// info card
+const info = document.getElementById('info');
+let cur = null;
+function esc(t) { return String(t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+function inspect(x, z, place) {
+  cur = { x, z, place };
+  mark.hidden = false; mark.style.left = (x + HALF) / BPP + 'px'; mark.style.top = (z + HALF) / BPP + 'px';
+  document.querySelectorAll('.pin').forEach(p => p.classList.toggle('on', place && p.dataset.n === place[3]));
+  const y = ground(x, z), b = look('bidx', x, z), ri = look('regions', x, z);
+  const rk = null, R = null;
+  const lk = look('lakes', x, z), lakeLv = lk ? LAKE_LEVEL[lk] : null;
+  const water = (y != null && y < 63) || !!lakeLv;
+  const tpY = y == null ? '~' : Math.max(64, y + 1);
+  const title = place ? place[3] : R ? R[0] : 'Open sea';
+  const kick = place ? `${KIND[place[2]]}${R ? ' · ' + R[0] : ''}` : R ? R[1] : (water ? 'Sea' : '');
+  let html = `<div><div class="kicker">${esc(kick)}</div><h2>${esc(title)}</h2></div>`;
+  if (place && NOTES[place[3]]) html += `<p>${esc(NOTES[place[3]])}</p>`;
+  else if (!place && R) html += `<p>${esc(R[2])}</p>`;
+  html += '<dl class="facts">';
+  html += `<dt>Coordinates</dt><dd class="coord">X ${x}, Z ${z}</dd>`;
+  if (lakeLv) html += `<dt>Lake</dt><dd class="coord">water to Y ${lakeLv - 1} (filled by LyrisShaper)</dd>`;
+  if (y != null) html += `<dt>${water && !lakeLv ? 'Sea floor' : 'Ground'}</dt><dd class="coord">Y ${y}${water && !lakeLv ? ` (${63 - y} blocks of water)` : ''}</dd>`;
+  if (b != null && BIOMES[b]) html += `<dt>Biome</dt><dd>${esc(BIOMES[b])}</dd>`;
+  if (R) html += `<dt>Region biomes</dt><dd>${esc(R[3])}</dd><dt>Good for</dt><dd>${esc(R[4])}</dd>`;
+  html += '</dl>';
+  const cmd = `/tp @s ${x} ${tpY} ${z}`;
+  html += `<div class="copy"><code id="cmd">${esc(cmd)}</code><button id="cp" type="button">Copy</button></div>`;
+  info.innerHTML = html;
+  document.getElementById('cp').onclick = async ev => {
+    const btn = ev.currentTarget;
+    try { await navigator.clipboard.writeText(cmd); btn.textContent = 'Copied'; }
+    catch { const r = document.createRange(); r.selectNodeContents(document.getElementById('cmd')); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); btn.textContent = 'Selected'; }
+    setTimeout(() => btn.textContent = 'Copy', 1600);
+  };
+}
+
+// pins + list
+PLACES.forEach(p => {
+  if (p[3] === 'The Sounding') return;
+  const d = document.createElement('div'); d.className = p[2] === 'wonder' ? 'pin w' : p[2] === 'site' ? 'pin s' : p[2] === 'wayroot' ? 'pin t' : 'pin'; d.dataset.n = p[3];
+  d.style.left = (p[0] + HALF) / BPP + 'px'; d.style.top = (p[1] + HALF) / BPP + 'px';
+  const b = document.createElement('button'); b.type = 'button'; b.setAttribute('aria-label', p[3]); b.title = p[3];
+  b.addEventListener('pointerup', e => e.stopPropagation());
+  b.onclick = e => { e.stopPropagation(); inspect(p[0], p[1], p); };
+  d.appendChild(b); pinsEl.appendChild(d);
+});
+document.getElementById('showpins').onchange = e => { pinsEl.hidden = !e.target.checked; };
+const list = document.getElementById('list');
+const entries = [
+  ...PLACES.map(p => ({ name: p[3], k: p[2], x: p[0], z: p[1], p }))
+];
+// region centres for the list
+const RC = {};
+entries.forEach(e => { if (e.rk) { e.x = RC[e.rk][0]; e.z = RC[e.rk][1]; } });
+function renderList(q) {
+  q = (q || '').trim().toLowerCase();
+  const rank = e => e.k === 'wonder' ? 0 : e.k === 'wayroot' ? 1 : e.k === 'site' ? 2 : e.k === 'region' ? 4 : 3;
+  const items = entries.filter(e => !q || e.name.toLowerCase().includes(q)).sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name));
+  list.innerHTML = items.slice(0, q ? 60 : 140).map((e, i) => `<li><button type="button" data-i="${entries.indexOf(e)}"><span class="k${e.k === 'wonder' ? ' w' : e.k === 'wayroot' ? ' t' : e.k === 'site' ? ' s' : ''}">${e.k === 'region' ? '▢' : KSYM[e.k]}</span><span>${esc(e.name)}</span><span class="c">${e.x}, ${e.z}</span></button></li>`).join('');
+}
+list.addEventListener('click', ev => {
+  const b = ev.target.closest('button'); if (!b) return;
+  const e = entries[+b.dataset.i];
+  centerOn(e.x, e.z, e.k === 'region' ? 0.55 : 1.1);
+  inspect(e.x, e.z, e.p || null);
+});
+document.getElementById('q').addEventListener('input', e => renderList(e.target.value));
+renderList('');
+document.getElementById('goto').addEventListener('submit', e => {
+  e.preventDefault();
+  const x = parseInt(document.getElementById('gx').value, 10), z = parseInt(document.getElementById('gz').value, 10);
+  if (Number.isNaN(x) || Number.isNaN(z)) return;
+  const cx = Math.max(-HALF, Math.min(HALF, x)), cz = Math.max(-HALF, Math.min(HALF, z));
+  centerOn(cx, cz, 1.1); inspect(cx, cz);
+});
+
+// layers
+const SRC = { relief: 'relief.jpg', biomes: 'biomes.png' };
+document.querySelectorAll('.seg button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.seg button').forEach(o => o.setAttribute('aria-pressed', String(o === b)));
+  const l = b.dataset.l;
+  if (l === 'painted') { lay.hidden = true; } else { lay.src = SRC[l]; lay.hidden = false; }
+});
+
+fit();
+inspect(200, -2300, PLACES[0]);
+</script>
+
+
+</body>
+</html>
