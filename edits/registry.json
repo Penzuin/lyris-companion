@@ -1,5 +1,5 @@
 {
- "next": 95,
+ "next": 96,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1315,6 +1315,20 @@
     329,
     92,
     -2370
+   ]
+  },
+  "moonwell-steps": {
+   "id": "e0095-moonwell-steps",
+   "slot": 295,
+   "ver": 1,
+   "title": "Moonwell Square: crescent steps round the Moonwell, planted banks",
+   "box": [
+    290,
+    69,
+    -2440,
+    299,
+    76,
+    -2407
    ]
   }
  }
