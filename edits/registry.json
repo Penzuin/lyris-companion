@@ -1,5 +1,5 @@
 {
- "next": 5,
+ "next": 7,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -55,6 +55,34 @@
     171,
     80,
     -2300
+   ]
+  },
+  "quay-inland-west": {
+   "id": "e0005-quay-inland-west",
+   "slot": 5,
+   "ver": 1,
+   "title": "Harbour quay widened inland (west, Fishers' Quay to the stair)",
+   "box": [
+    144,
+    63,
+    -2364,
+    235,
+    75,
+    -2347
+   ]
+  },
+  "quay-inland-east": {
+   "id": "e0006-quay-inland-east",
+   "slot": 6,
+   "ver": 1,
+   "title": "Harbour quay widened inland (east quay and north walk)",
+   "box": [
+    236,
+    60,
+    -2478,
+    299,
+    82,
+    -2347
    ]
   }
  }

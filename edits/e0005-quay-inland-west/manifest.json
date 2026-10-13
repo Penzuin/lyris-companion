@@ -1,0 +1,36 @@
+{
+ "id": "e0005-quay-inland-west",
+ "title": "Harbour quay widened inland (west, Fishers' Quay to the stair)",
+ "slot": 5,
+ "box": [
+  144,
+  63,
+  -2364,
+  235,
+  75,
+  -2347
+ ],
+ "files": [
+  {
+   "src": "spawn_e0005_quay_inland_west_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0005_quay_inland_west_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0005_quay_inland_west_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0005_quay_inland_west_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0005_quay_inland_west_v1 144 63 -2364"
+ ],
+ "checks": [
+  "144 64 -2363 minecraft:andesite",
+  "176 64 -2352 minecraft:cobblestone",
+  "187 64 -2350 minecraft:andesite",
+  "198 64 -2351 minecraft:cobblestone"
+ ],
+ "blocks": 991,
+ "wait": 15000
+}

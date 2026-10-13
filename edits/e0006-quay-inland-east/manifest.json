@@ -1,0 +1,36 @@
+{
+ "id": "e0006-quay-inland-east",
+ "title": "Harbour quay widened inland (east quay and north walk)",
+ "slot": 6,
+ "box": [
+  236,
+  60,
+  -2478,
+  299,
+  82,
+  -2347
+ ],
+ "files": [
+  {
+   "src": "spawn_e0006_quay_inland_east_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0006_quay_inland_east_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0006_quay_inland_east_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0006_quay_inland_east_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0006_quay_inland_east_v1 236 60 -2478"
+ ],
+ "checks": [
+  "236 64 -2364 minecraft:stone",
+  "254 64 -2370 minecraft:cobblestone",
+  "261 64 -2373 minecraft:cobblestone",
+  "272 64 -2439 minecraft:cobblestone"
+ ],
+ "blocks": 1832,
+ "wait": 15000
+}
