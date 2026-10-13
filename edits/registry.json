@@ -1,5 +1,5 @@
 {
- "next": 18,
+ "next": 21,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -237,6 +237,48 @@
     258,
     66,
     -2389
+   ]
+  },
+  "market2-square": {
+   "id": "e0018-market2-square",
+   "slot": 18,
+   "ver": 1,
+   "title": "Market Square: 12 stall pitches + links",
+   "box": [
+    193,
+    64,
+    -2309,
+    227,
+    78,
+    -2280
+   ]
+  },
+  "market2-row": {
+   "id": "e0019-market2-row",
+   "slot": 19,
+   "ver": 1,
+   "title": "Cooper's Row",
+   "box": [
+    178,
+    62,
+    -2289,
+    266,
+    87,
+    -2264
+   ]
+  },
+  "market2-lots": {
+   "id": "e0020-market2-lots",
+   "slot": 20,
+   "ver": 1,
+   "title": "13 shop plots round Market Square and Cooper's Row",
+   "box": [
+    176,
+    63,
+    -2309,
+    266,
+    89,
+    -2262
    ]
   }
  }

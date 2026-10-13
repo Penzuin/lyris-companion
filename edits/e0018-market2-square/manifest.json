@@ -1,0 +1,36 @@
+{
+ "id": "e0018-market2-square",
+ "title": "Market Square: 12 stall pitches + links",
+ "slot": 18,
+ "box": [
+  193,
+  64,
+  -2309,
+  227,
+  78,
+  -2280
+ ],
+ "files": [
+  {
+   "src": "spawn_e0018_market2_square_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0018_market2_square_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0018_market2_square_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0018_market2_square_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0018_market2_square_v1 193 64 -2309"
+ ],
+ "checks": [
+  "198 64 -2304 minecraft:stone_bricks",
+  "201 65 -2304 minecraft:stone_bricks",
+  "206 65 -2304 minecraft:stone_bricks",
+  "218 66 -2290 minecraft:cobblestone"
+ ],
+ "blocks": 1842,
+ "wait": 15000
+}

@@ -1,0 +1,36 @@
+{
+ "id": "e0020-market2-lots",
+ "title": "13 shop plots round Market Square and Cooper's Row",
+ "slot": 20,
+ "box": [
+  176,
+  63,
+  -2309,
+  266,
+  89,
+  -2262
+ ],
+ "files": [
+  {
+   "src": "spawn_e0020_market2_lots_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0020_market2_lots_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0020_market2_lots_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0020_market2_lots_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0020_market2_lots_v1 176 63 -2309"
+ ],
+ "checks": [
+  "180 63 -2278 minecraft:stone_bricks",
+  "193 65 -2288 minecraft:stone_bricks",
+  "217 67 -2275 minecraft:stone_bricks",
+  "248 71 -2276 minecraft:stone_bricks"
+ ],
+ "blocks": 4256,
+ "wait": 15000
+}

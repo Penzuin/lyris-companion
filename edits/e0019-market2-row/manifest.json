@@ -1,0 +1,36 @@
+{
+ "id": "e0019-market2-row",
+ "title": "Cooper's Row",
+ "slot": 19,
+ "box": [
+  178,
+  62,
+  -2289,
+  266,
+  87,
+  -2264
+ ],
+ "files": [
+  {
+   "src": "spawn_e0019_market2_row_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0019_market2_row_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0019_market2_row_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0019_market2_row_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0019_market2_row_v1 178 62 -2289"
+ ],
+ "checks": [
+  "178 62 -2283 minecraft:cobblestone",
+  "206 65 -2284 minecraft:cobblestone",
+  "224 68 -2283 minecraft:polished_andesite",
+  "247 70 -2284 minecraft:cobblestone"
+ ],
+ "blocks": 2477,
+ "wait": 15000
+}
