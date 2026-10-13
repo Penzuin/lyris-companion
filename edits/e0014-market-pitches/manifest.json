@@ -12,18 +12,18 @@
  ],
  "files": [
   {
-   "src": "spawn_e0014_market_pitches_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0014_market_pitches_v1.nbt",
+   "src": "spawn_e0014_market_pitches_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0014_market_pitches_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0014_market_pitches_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0014_market_pitches_v1.nbt",
+   "src": "spawn_e0014_market_pitches_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0014_market_pitches_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0014_market_pitches_v1 152 63 -2375"
+  "place template minecraft:spawn_e0014_market_pitches_v2 152 63 -2375"
  ],
  "checks": [
   "152 64 -2365 minecraft:spruce_planks",

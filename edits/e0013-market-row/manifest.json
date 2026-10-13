@@ -12,18 +12,18 @@
  ],
  "files": [
   {
-   "src": "spawn_e0013_market_row_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0013_market_row_v1.nbt",
+   "src": "spawn_e0013_market_row_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0013_market_row_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0013_market_row_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0013_market_row_v1.nbt",
+   "src": "spawn_e0013_market_row_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0013_market_row_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0013_market_row_v1 178 62 -2354"
+  "place template minecraft:spawn_e0013_market_row_v2 178 62 -2354"
  ],
  "checks": [
   "178 64 -2351 minecraft:stone_bricks",

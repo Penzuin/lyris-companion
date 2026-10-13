@@ -12,18 +12,18 @@
  ],
  "files": [
   {
-   "src": "spawn_e0015_trade_hut_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0015_trade_hut_v1.nbt",
+   "src": "spawn_e0015_trade_hut_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0015_trade_hut_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0015_trade_hut_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0015_trade_hut_v1.nbt",
+   "src": "spawn_e0015_trade_hut_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0015_trade_hut_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0015_trade_hut_v1 151 65 -2355"
+  "place template minecraft:spawn_e0015_trade_hut_v2 151 65 -2355"
  ],
  "checks": [
   "151 66 -2350 minecraft:stone_bricks",
