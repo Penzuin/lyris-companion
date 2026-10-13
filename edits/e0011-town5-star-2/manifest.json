@@ -1,0 +1,36 @@
+{
+ "id": "e0011-town5-star-2",
+ "title": "Pier Town roads: Starward Road (2/3)",
+ "slot": 11,
+ "box": [
+  367,
+  88,
+  -2495,
+  398,
+  121,
+  -2467
+ ],
+ "files": [
+  {
+   "src": "spawn_e0011_town5_star_2_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0011_town5_star_2_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0011_town5_star_2_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0011_town5_star_2_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0011_town5_star_2_v1 367 88 -2495"
+ ],
+ "checks": [
+  "367 88 -2475 minecraft:grass_block",
+  "379 94 -2475 minecraft:cobblestone",
+  "386 101 -2477 minecraft:stone_bricks",
+  "392 106 -2479 minecraft:stone_bricks"
+ ],
+ "blocks": 1736,
+ "wait": 15000
+}

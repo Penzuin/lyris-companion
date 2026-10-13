@@ -1,0 +1,36 @@
+{
+ "id": "e0008-town5-quaywest",
+ "title": "Pier Town roads: Point Lane, Green Walk, South Road",
+ "slot": 8,
+ "box": [
+  141,
+  63,
+  -2363,
+  249,
+  82,
+  -2280
+ ],
+ "files": [
+  {
+   "src": "spawn_e0008_town5_quaywest_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0008_town5_quaywest_v2.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0008_town5_quaywest_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0008_town5_quaywest_v2.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0008_town5_quaywest_v2 141 63 -2363"
+ ],
+ "checks": [
+  "141 65 -2339 minecraft:dirt_path",
+  "191 64 -2324 minecraft:grass_block",
+  "209 65 -2308 minecraft:gravel",
+  "232 66 -2316 minecraft:andesite"
+ ],
+ "blocks": 5087,
+ "wait": 15000
+}
