@@ -1,5 +1,5 @@
 {
- "next": 96,
+ "next": 97,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1329,6 +1329,20 @@
     299,
     76,
     -2407
+   ]
+  },
+  "mainstreet-hatter": {
+   "id": "e0096-mainstreet-hatter",
+   "slot": 96,
+   "ver": 1,
+   "title": "The Hatter (Main Street)",
+   "box": [
+    269,
+    70,
+    -2384,
+    284,
+    98,
+    -2369
    ]
   }
  }

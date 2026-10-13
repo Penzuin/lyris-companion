@@ -1,0 +1,37 @@
+{
+ "id": "e0096-mainstreet-hatter",
+ "title": "The Hatter (Main Street)",
+ "slot": 96,
+ "box": [
+  269,
+  70,
+  -2384,
+  284,
+  98,
+  -2369
+ ],
+ "files": [
+  {
+   "src": "spawn_e0096_mainstreet_hatter_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0096_mainstreet_hatter_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0096_mainstreet_hatter_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0096_mainstreet_hatter_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0096_mainstreet_hatter_v1 269 70 -2384",
+  "data merge block 281 75 -2378 {front_text:{messages:['\"\"','\"The Hatter\"','\"hats & caps\"','\"\"']},back_text:{messages:['\"\"','\"The Hatter\"','\"hats & caps\"','\"\"']},is_waxed:1b}"
+ ],
+ "checks": [
+  "280 71 -2377 minecraft:spruce_door",
+  "273 93 -2379 minecraft:campfire",
+  "281 75 -2378 minecraft:dark_oak_hanging_sign",
+  "271 72 -2383 minecraft:air"
+ ],
+ "blocks": 4285,
+ "wait": 12000
+}
