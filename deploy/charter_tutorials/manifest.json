@@ -1,0 +1,49 @@
+{
+ "files": [
+  {
+   "src": "LyrisCharter-1.0.0.jar",
+   "dst": "/plugins/LyrisCharter-1.0.0.jar",
+   "sha256": "702bcdad68fddc6b4ea6946260b90305d53543bfd4c157841523111f83f07c07"
+  },
+  {
+   "src": "config.yml",
+   "dst": "/plugins/LyrisCharter/config.yml",
+   "sha256": "4c6b88837261ebdf1922f71e4608a1b4faa8818c0a6f85b9f479e68888ca55c5"
+  },
+  {
+   "src": "edric_penhallow.png",
+   "dst": "/plugins/LyrisLoom/content/pack/assets/lyris_charter/textures/entity/edric_penhallow.png",
+   "sha256": "cc16cbb9ebbf175f08b48c0b8722b125ed21885d4ee136b877099c0cef800f40"
+  },
+  {
+   "src": "9061.dat",
+   "dst": "/world/data/minecraft/maps/9061.dat",
+   "sha256": "e10f39fad69f64ddf68eebe759b6975d9f88ac9401914a2e074a8f6ea792d6f7"
+  },
+  {
+   "src": "9062.dat",
+   "dst": "/world/data/minecraft/maps/9062.dat",
+   "sha256": "21d1a4b06ff812ac621c50cb483d7346ec664947dcb282b2231c78ff6f4c9e32"
+  },
+  {
+   "src": "9063.dat",
+   "dst": "/world/data/minecraft/maps/9063.dat",
+   "sha256": "d57bae47b78fff71c1b905ec9e5a6e1510a23b298f8690273edbcd3ed9a2d2d0"
+  },
+  {
+   "src": "9064.dat",
+   "dst": "/world/data/minecraft/maps/9064.dat",
+   "sha256": "8a389e6297cc7a98647365534778106ebee64559271c11f126d317742162f242"
+  },
+  {
+   "src": "9065.dat",
+   "dst": "/world/data/minecraft/maps/9065.dat",
+   "sha256": "5c80a34c99863aa33e4983b02ab3d38d9387c904fadfc8fa96c7906b169efedc"
+  },
+  {
+   "src": "9066.dat",
+   "dst": "/world/data/minecraft/maps/9066.dat",
+   "sha256": "fb4874b92fb2c378120ce4a4e3623506be543f734f9c7d2004dc4c2bb9b55435"
+  }
+ ]
+}

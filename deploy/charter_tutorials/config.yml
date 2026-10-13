@@ -1,0 +1,84 @@
+# LyrisCharter: the Settler's Charter, Moonharbor's tutorial at the Charter House.
+world: world
+
+# The Lamp Charter lectern. Right-clicking it unsigned signs the Charter (signed players read it as normal).
+lectern: [269, 71, -2432]
+# The lodestone at the heart of the compass rose. Task "compass" needs a compass bound here.
+lodestone: [271, 70, -2434]
+compass-any-lodestone: false
+
+# Edric Penhallow, Keeper of the Register: a mannequin at the Charter desk.
+edric:
+  location: [268.5, 71.0, -2429.5]
+  yaw: 180.0
+  skin: 'lyris_charter:entity/edric_penhallow'
+  name: '<#e6d2a0>Edric Penhallow'
+  title: '<gray>Keeper of the Register'
+  talk-range: 8
+
+# What signing hands over (Nexo / LyrisLoom ids).
+signing-gifts:
+  hand_lantern: 1
+  lamp_oil: 2
+
+rewards:
+  copper-per-task: 15                # paid through Vault (LyrisCoins), in copper
+  # The Freeholder title, hat and announcement wait until the Charter has more pages (owner, 2026-10-13).
+  freeholder-enabled: false
+  freeholder-copper: 50
+  freeholder-item: freeholder_hat
+  freeholder-permission: lyris.title.freeholder
+  broadcast: true
+
+emberdeep-world: lyris_emberdeep
+night-start: 13000
+night-end: 23000
+
+# Task order is the order of the book pages and of Edric's hints. Set enabled: false to hide a task
+# (a task whose plugin isn't loaded hides itself).
+tasks:
+  lantern:
+    enabled: true
+    title: Fill Your Lantern
+    hint: 'Hold your lantern in one hand and lamp oil in the other, then use them. You have oil from signing; the Lamp Seller sells more at dusk.'
+    done: 'Your lantern is fed. Keep it so, and the mist keeps its distance.'
+  coin:
+    enabled: false
+    title: First Coin
+    hint: 'Sell something at a stall in the market: the Farmer, the Fishmonger or the General Merchant.'
+    done: 'Your first coin in the Reach. Mind the bag; it has a hole in its patience.'
+  fish:
+    enabled: false
+    title: Off the Pier
+    hint: 'Catch any fish. The Lantern Pier is right outside, and the Fishmonger buys what you land.'
+    done: 'A fish! The bay feeds the lamps, they say. Now it feeds you.'
+  seed:
+    enabled: false
+    title: A Patch of Ground
+    hint: 'Buy seeds from the Farmer''s Stall and plant one in tilled earth. Mind the season on the packet.'
+    done: 'Something of yours is growing in the Reach. That is how charters start.'
+  cook:
+    enabled: false
+    title: Something Warm
+    hint: 'Cook any dish at a pot, oven or skillet. A burnt one counts; we have all eaten Charred Mess.'
+    done: 'Warm food. The first rule of the road, after the lamp.'
+  claim:
+    enabled: false
+    title: Stake a Claim
+    hint: 'Choose your ground out in the Reach and claim it. That is what this Charter is for.'
+    done: 'Your claim is written in the Register. The next settler will see your light from the road.'
+  sky:
+    enabled: false
+    title: Read the Sky
+    hint: 'At night, look up through a spyglass (copper and an amethyst shard). The stars are how we find our way.'
+    done: 'You have looked up. Most folk never do, and most folk get lost.'
+  shaft:
+    enabled: false
+    title: Down the Shaft
+    hint: 'Go down into Emberdeep (/emberdeep) and come back up. Talk to Jory at the camp first.'
+    done: 'Down and up again, all limbs attached. Jory will be pleased.'
+  compass:
+    enabled: false
+    title: Find Your Way Home
+    hint: 'Use a compass on the lodestone in the rose, here in the Charter Hall. It will point you back to us.'
+    done: 'Now you can always find this door. We have no maps with numbers on them here.'
