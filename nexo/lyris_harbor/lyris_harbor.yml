@@ -1,0 +1,139 @@
+# Harbour Cargo decor set (Moonharbor). Decor furniture only, no plugin hooks.
+harbor_crate:
+  itemname: '<#e6d2a0>Shipping Crate'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>An iron-strapped crate stencilled with the harbour moon.</i>'
+  - ''
+  - '<#9ab4d6>Harbour decor'
+  Components:
+    item_model: 'lyris_harbor:harbor_crate'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      hitbox:
+        barriers:
+        - 0,0,0
+harbor_crate_stack:
+  itemname: '<#e6d2a0>Crate Stack'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>Two crates lashed together, waiting for a ship.</i>'
+  - ''
+  - '<#9ab4d6>Harbour decor'
+  Components:
+    item_model: 'lyris_harbor:harbor_crate_stack'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+harbor_barrel:
+  itemname: '<#e6d2a0>Cargo Barrel'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>A stout barrel with a coil of spare rope on the lid.</i>'
+  - ''
+  - '<#9ab4d6>Harbour decor'
+  Components:
+    item_model: 'lyris_harbor:harbor_barrel'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      hitbox:
+        barriers:
+        - 0,0,0
+harbor_barrel_rack:
+  itemname: '<#e6d2a0>Barrel Rack'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>A tapped barrel on chocks with a keg riding on top.</i>'
+  - ''
+  - '<#9ab4d6>Harbour decor'
+  Components:
+    item_model: 'lyris_harbor:harbor_barrel_rack'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+harbor_sacks:
+  itemname: '<#e6d2a0>Grain Sacks'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>Burlap sacks on a pallet; one has split.</i>'
+  - ''
+  - '<#9ab4d6>Harbour decor'
+  Components:
+    item_model: 'lyris_harbor:harbor_sacks'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      hitbox:
+        barriers:
+        - 0,0,0
+harbor_fish_crates:
+  itemname: '<#e6d2a0>Fish Crates'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The morning catch, packed on ice.</i>'
+  - ''
+  - '<#9ab4d6>Harbour decor'
+  Components:
+    item_model: 'lyris_harbor:harbor_fish_crates'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      hitbox:
+        barriers:
+        - 0,0,0
+harbor_bales:
+  itemname: '<#e6d2a0>Hay and Kelp Bales'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>Bound hay with a bale of dried kelp on top.</i>'
+  - ''
+  - '<#9ab4d6>Harbour decor'
+  Components:
+    item_model: 'lyris_harbor:harbor_bales'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      hitbox:
+        barriers:
+        - 0,0,0
+harbor_cargo_net:
+  itemname: '<#e6d2a0>Cargo Net'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>A crane load bundled in rope netting.</i>'
+  - ''
+  - '<#9ab4d6>Harbour decor'
+  Components:
+    item_model: 'lyris_harbor:harbor_cargo_net'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      hitbox:
+        barriers:
+        - 0,0,0
