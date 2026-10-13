@@ -4,33 +4,33 @@
  "slot": 4,
  "box": [
   135,
-  60,
-  -2336,
-  170,
+  61,
+  -2338,
+  171,
   80,
-  -2293
+  -2300
  ],
  "files": [
   {
-   "src": "spawn_e0004_hendrik_cottage_v2.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0004_hendrik_cottage_v2.nbt",
+   "src": "spawn_e0004_hendrik_cottage_v3.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0004_hendrik_cottage_v3.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0004_hendrik_cottage_v2.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0004_hendrik_cottage_v2.nbt",
+   "src": "spawn_e0004_hendrik_cottage_v3.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0004_hendrik_cottage_v3.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0004_hendrik_cottage_v2 135 60 -2336"
+  "place template minecraft:spawn_e0004_hendrik_cottage_v3 135 61 -2338"
  ],
  "checks": [
-  "152 66 -2314 minecraft:spruce_door",
-  "146 66 -2318 minecraft:campfire",
-  "143 77 -2318 minecraft:stone_bricks",
-  "145 66 -2323 minecraft:stripped_dark_oak_log"
+  "156 66 -2324 minecraft:spruce_door",
+  "162 66 -2320 minecraft:campfire",
+  "165 77 -2320 minecraft:stone_bricks",
+  "163 66 -2315 minecraft:stripped_dark_oak_log"
  ],
- "blocks": 3931,
+ "blocks": 3679,
  "wait": 12000
 }

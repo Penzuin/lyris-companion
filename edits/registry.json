@@ -46,15 +46,15 @@
   "hendrik-cottage": {
    "id": "e0004-hendrik-cottage",
    "slot": 4,
-   "ver": 2,
+   "ver": 3,
    "title": "Hendrik's cottage on the live ground (Quay West)",
    "box": [
     135,
-    60,
-    -2336,
-    170,
+    61,
+    -2338,
+    171,
     80,
-    -2293
+    -2300
    ]
   }
  }
