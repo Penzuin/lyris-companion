@@ -1,0 +1,119 @@
+{
+ "files": [
+  {
+   "src": "lyris_garden.yml",
+   "dst": "/plugins/LyrisLoom/content/items/lyris_garden.yml",
+   "sha256": "65a434b8b830001752fcc4bc2d93c8339c7dd14763e0d23f57f16d1988105d75"
+  },
+  {
+   "src": "lyris_garden__pack.mcmeta",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/pack.mcmeta",
+   "sha256": "5d4d352cbf67d2584e6af79602aa7e6b6a648d8649a13abbf69b98980ca523ba"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__items__garden_hanging_basket.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/items/garden_hanging_basket.json",
+   "sha256": "09378109ef50fb5311f8a067fdc5815aa1fb39e335215f58f607bdce226c24af"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__items__garden_rain_barrel.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/items/garden_rain_barrel.json",
+   "sha256": "887a9e94055c58e4eebf53315160797db12c2f719b4635e472c008c1c3b5a18f"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__items__garden_planter_box.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/items/garden_planter_box.json",
+   "sha256": "94bf9fc973849c74c4723e6be6273f37f1d0840d0df85eddcb3be4507f9e168d"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__items__garden_laundry_line.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/items/garden_laundry_line.json",
+   "sha256": "1adf063b05bd7653f33ca5dd648a61092b43c61eabac75e26b8e2559c06e76b0"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__models__item__garden_hanging_basket.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/models/item/garden_hanging_basket.json",
+   "sha256": "89c1c307acd97be8290b2c3e539ec8d7103898058aeb629f83fcfd196f22fcf0"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__models__item__garden_planter_box_icon.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/models/item/garden_planter_box_icon.json",
+   "sha256": "da5c9fdfe5b0822bfe17f1291801d1b8c5b0b8f870ed7e2367938c34c2f0ca0a"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__models__item__garden_rain_barrel.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/models/item/garden_rain_barrel.json",
+   "sha256": "fddd59c2f2a8d04e1305def0f32897a7bd65138ee38edb1fde3e6ea43c96a342"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__models__item__garden_hanging_basket_icon.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/models/item/garden_hanging_basket_icon.json",
+   "sha256": "2ce4d8ea1ef36f21d8dfbb928242e82599c1022bca17c6dd2a3bb65be20f240f"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__models__item__garden_rain_barrel_icon.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/models/item/garden_rain_barrel_icon.json",
+   "sha256": "4fe9447cf22bc0a9de2845361ae03b5e2b3dfc99e58ec1b9124fc202b0f1b67f"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__models__item__garden_planter_box.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/models/item/garden_planter_box.json",
+   "sha256": "d6789cfbf945c862ba643466167824bd5900830782f36ff86e5590babb68b004"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__models__item__garden_laundry_line.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/models/item/garden_laundry_line.json",
+   "sha256": "bfb5e8bb6e6eccec5f8013be3ef2440de3679b2bbbad9d49375dfa1102d4766b"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__models__item__garden_laundry_line_icon.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/models/item/garden_laundry_line_icon.json",
+   "sha256": "c01d5f7e4be19f7a81ae7962e84234595248aa758464f05b09f4f265b8214443"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__textures__item__garden_planter_box.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/textures/item/garden_planter_box.png",
+   "sha256": "ecfe7d25345d012e9fcce85c746d7eae3a9f4beaf3ffd2eb186b507355a392ee"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__textures__item__garden_rain_barrel.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/textures/item/garden_rain_barrel.png",
+   "sha256": "66cf62ee50671da2a3fdd1ff3aeb9911688f28448fb6c3cd16d2fd018733be8c"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__textures__item__garden_laundry_line.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/textures/item/garden_laundry_line.png",
+   "sha256": "1c5d75716e7db2d501a66e3497132f868430bf79b5eb1c890413a8bdec41364c"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__textures__item__garden_hanging_basket.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/textures/item/garden_hanging_basket.png",
+   "sha256": "77c7ddc71c49a588ed8299cf6bc6efbedd1559d5dc53d77f22a907048d8df23e"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__textures__furniture__garden_planter_box.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/textures/furniture/garden_planter_box.png",
+   "sha256": "02f7ee6d3df8e42b2571586b181d51e2a2068226fb8172069a6d4edd3d454971"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__textures__furniture__garden_rain_barrel.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/textures/furniture/garden_rain_barrel.png",
+   "sha256": "6615d7dce43a427aaf2ef839c76e92df720f028a6727f31f3ade9bacb280fe01"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__textures__furniture__garden_laundry_line.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/textures/furniture/garden_laundry_line.png",
+   "sha256": "ee090c4577d90f86388bdf35081a13f5b3be39bb7db34295a6e32ddf85af1e6b"
+  },
+  {
+   "src": "lyris_garden__assets__lyris_garden__textures__furniture__garden_hanging_basket.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_garden/assets/lyris_garden/textures/furniture/garden_hanging_basket.png",
+   "sha256": "18fa280be3b745fc5771b17b061771bbfebb833fece1415b4bf494c7f83dd691"
+  },
+  {
+   "src": "mh3_harbour_garden.txt",
+   "dst": "/plugins/LyrisPlacer/mh3_harbour_garden.txt",
+   "sha256": "b6c9d82064398525bdd38f3904dbb2886f1418a0f6ad5d2ea0ea33d6cd5a647f"
+  }
+ ]
+}

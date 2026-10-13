@@ -1,0 +1,67 @@
+# Harbour Garden decor set (Moonharbor backs, 2026-10-13). Decor furniture only, no plugin hooks.
+garden_hanging_basket:
+  itemname: '<#e6d2a0>Hanging Flower Basket'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>Cottage flowers and trailing ivy on an iron wall bracket.</i>'
+  - ''
+  - '<#9ab4d6>Harbour garden decor'
+  Components:
+    item_model: 'lyris_garden:garden_hanging_basket'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+garden_planter_box:
+  itemname: '<#e6d2a0>Garden Planter Box'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>Lavender and marigolds, with the trowel still in the soil.</i>'
+  - ''
+  - '<#9ab4d6>Harbour garden decor'
+  Components:
+    item_model: 'lyris_garden:garden_planter_box'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      hitbox:
+        barriers:
+        - 0,0,0
+garden_rain_barrel:
+  itemname: '<#e6d2a0>Rain Barrel'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>Catches what runs off the roof. The tap still works.</i>'
+  - ''
+  - '<#9ab4d6>Harbour garden decor'
+  Components:
+    item_model: 'lyris_garden:garden_rain_barrel'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      hitbox:
+        barriers:
+        - 0,0,0
+garden_laundry_line:
+  itemname: '<#e6d2a0>Laundry Line'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>Three blocks of washing drying in the sea wind.</i>'
+  - ''
+  - '<#9ab4d6>Harbour garden decor'
+  Components:
+    item_model: 'lyris_garden:garden_laundry_line'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      hitbox:
+        barriers:
+        - -1,0,0
+        - 1,0,0
