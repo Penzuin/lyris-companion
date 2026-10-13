@@ -1,0 +1,17 @@
+# mkscene: Town Lanterns along the streets (scenes.py, 2026-10-13)
+town_lantern world 214 64 -2343 90 UP
+town_lantern world 214 66 -2327 90 UP
+town_lantern world 208 66 -2311 270 UP
+town_lantern world 208 66 -2287 270 UP
+town_lantern world 189 64 -2278 180 UP
+town_lantern world 209 67 -2278 180 UP
+town_lantern world 225 69 -2286 0 UP
+town_lantern world 229 66 -2341 270 UP
+town_lantern world 229 67 -2325 270 UP
+town_lantern world 229 67 -2309 270 UP
+town_lantern world 236 71 -2293 90 UP
+town_lantern world 231 69 -2277 270 UP
+town_lantern world 197 67 -2340 90 UP
+town_lantern world 196 66 -2326 90 UP
+town_lantern world 197 64 -2307 180 UP
+town_lantern world 215 67 -2310 0 UP
