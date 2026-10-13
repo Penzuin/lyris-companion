@@ -72,7 +72,7 @@
     for (let i = 0; i < n; i++) {
       const m = dv.getUint16(p + 10, true), cs = dv.getUint32(p + 20, true), nl = dv.getUint16(p + 28, true), xl = dv.getUint16(p + 30, true), cl = dv.getUint16(p + 32, true), off = dv.getUint32(p + 42, true);
       const nm = new TextDecoder().decode(buf.subarray(p + 46, p + 46 + nl)); p += 46 + nl + xl + cl;
-      if (!nm.endsWith('.class') || !prefixes.some(x => nm.startsWith(x))) continue;
+      if (!nm.endsWith('.class') || !prefixes.some(x => x instanceof RegExp ? x.test(nm) : nm.startsWith(x))) continue;
       const lnl = dv.getUint16(off + 26, true), lxl = dv.getUint16(off + 28, true), d = buf.subarray(off + 30 + lnl + lxl, off + 30 + lnl + lxl + cs);
       let cls = m === 0 ? d : new Uint8Array(await new Response(new Blob([d]).stream().pipeThrough(new DecompressionStream('deflate-raw'))).arrayBuffer());
       if (skipPrivateClasses && cls.length > 9) { /* keep all; javac ignores what it doesn't need */ }
