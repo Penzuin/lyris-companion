@@ -17,7 +17,8 @@
     }
     throw new Error('panel call failed: ' + path);
   }
-  async function cmd(c) { const r = await call('command', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ command: c }) }); await sl(350); return r.status; }
+  async function cmd(c) {
+    if (/^\s*\/?(minecraft:)?reload\b/i.test(c)) throw new Error('blocked: /reload breaks this server'); const r = await call('command', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ command: c }) }); await sl(350); return r.status; }
   async function log(n = 40) { const t = await (await call('files/contents?file=/logs/latest.log')).text(); return t.split('\n').slice(-n); }
   async function write(path, body, binary) {
     const r = await call('files/write?file=' + encodeURIComponent(path), { method: 'POST', headers: { 'Content-Type': binary ? 'application/octet-stream' : 'text/plain' }, body });
@@ -54,7 +55,7 @@
         const body = await raw(sha, `edits/${id}/${f.src}`, f.binary);
         out.push(`${f.dst.split('/').pop()}: ${await write(f.dst, body, f.binary)}`);
       }
-      if (m.reload) { await cmd('reload'); await sl(9000); }
+      // never /reload: on this server it breaks plugins (owner's rule). Edits use place template, which needs no reload.
       // 2. load the chunks (edit box + its vault slot), snapshot what is there now
       await forceload(b, true);
       const vb = vaultBox(m.slot, b);
