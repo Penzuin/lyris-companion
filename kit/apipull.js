@@ -3,7 +3,7 @@
 // Usage (panel tab):  await apipull('/plugins/nexo-1.28.jar', ['com/nexomc/nexo/api/', 'com/nexomc/nexo/items/'])
 (() => {
   const H = () => ({ 'X-XSRF-TOKEN': decodeURIComponent(document.cookie.match(/XSRF-TOKEN=([^;]+)/)[1]), 'X-Requested-With': 'XMLHttpRequest', 'Accept': 'application/json' });
-  const KEEP = new Set(['Signature', 'Exceptions', 'Deprecated', 'InnerClasses', 'EnclosingMethod', 'RuntimeVisibleAnnotations',
+  const KEEP = new Set(['Signature', 'Exceptions', 'Deprecated', 'InnerClasses', 'EnclosingMethod',
                         'AnnotationDefault', 'ConstantValue', 'MethodParameters', 'Record', 'PermittedSubclasses', 'NestHost', 'NestMembers']);
   function strip(u8) {           // drop Code and debug attributes; keep everything javac reads
     const dv = new DataView(u8.buffer, u8.byteOffset, u8.byteLength); let p = 8;
