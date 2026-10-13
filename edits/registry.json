@@ -1,5 +1,5 @@
 {
- "next": 85,
+ "next": 86,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1175,6 +1175,20 @@
     294,
     97,
     -2441
+   ]
+  },
+  "mainstreet-apothecary": {
+   "id": "e0085-mainstreet-apothecary",
+   "slot": 85,
+   "ver": 1,
+   "title": "Thornwick's Apothecary (Main Street)",
+   "box": [
+    307,
+    69,
+    -2404,
+    329,
+    94,
+    -2391
    ]
   }
  }

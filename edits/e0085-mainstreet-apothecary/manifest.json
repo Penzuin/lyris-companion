@@ -1,0 +1,38 @@
+{
+ "id": "e0085-mainstreet-apothecary",
+ "title": "Thornwick's Apothecary (Main Street)",
+ "slot": 85,
+ "box": [
+  307,
+  69,
+  -2404,
+  329,
+  94,
+  -2391
+ ],
+ "files": [
+  {
+   "src": "spawn_e0085_mainstreet_apothecary_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0085_mainstreet_apothecary_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0085_mainstreet_apothecary_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0085_mainstreet_apothecary_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0085_mainstreet_apothecary_v1 307 67 -2404"
+ ],
+ "checks": [
+  "310 72 -2398 minecraft:spruce_door",
+  "309 72 -2403 minecraft:stripped_dark_oak_log",
+  "315 72 -2398 minecraft:lectern",
+  "322 73 -2401 minecraft:waxed_oxidized_copper",
+  "327 71 -2398 minecraft:water_cauldron",
+  "307 92 -2398 minecraft:waxed_oxidized_lightning_rod"
+ ],
+ "blocks": 8372,
+ "wait": 12000
+}
