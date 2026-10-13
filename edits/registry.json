@@ -18,7 +18,7 @@
   "harbor-cargo-west": {
    "id": "e0002-harbor-cargo-west",
    "slot": 2,
-   "ver": 2,
+   "ver": 3,
    "title": "Harbour cargo decor (west, x<200)",
    "box": [
     139,
@@ -32,7 +32,7 @@
   "harbor-cargo-east": {
    "id": "e0003-harbor-cargo-east",
    "slot": 3,
-   "ver": 2,
+   "ver": 3,
    "title": "Harbour cargo decor (east, x>=200)",
    "box": [
     203,

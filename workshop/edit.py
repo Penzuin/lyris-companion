@@ -58,7 +58,7 @@ class Edit:
         step = max(1, len(solid) // checks)
         chk = [f'{x} {y} {z} minecraft:{b.split("[")[0].replace("minecraft:", "")}' for (x, y, z), b in solid[::step][:checks]] + self.extra_checks
         man = {'id': eid, 'title': self.title, 'slot': slot, 'box': [x0, y0, z0, x1, y1, z1],
-               'files': [{'src': sname + '.nbt', 'dst': STRUCT_DIR + sname + '.nbt', 'binary': True}],
+               'files': [{'src': sname + '.nbt', 'dst': d_ + sname + '.nbt', 'binary': True} for d_ in (STRUCT_DIR, STRUCT_DIR.replace('/structures/', '/structure/'))],
                'run': self.pre_run + [f'place template minecraft:{sname} {x0} {y0} {z0}'] + self.extra_run,
                'checks': chk, 'blocks': len(B), 'entities': len(self.ents), **self.notes}
         json.dump(man, open(os.path.join(d, 'manifest.json'), 'w'), indent=1)

@@ -12,13 +12,18 @@
  ],
  "files": [
   {
-   "src": "spawn_e0002_harbor_cargo_west_v2.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0002_harbor_cargo_west_v2.nbt",
+   "src": "spawn_e0002_harbor_cargo_west_v3.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0002_harbor_cargo_west_v3.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0002_harbor_cargo_west_v3.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0002_harbor_cargo_west_v3.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0002_harbor_cargo_west_v2 139 64 -2432"
+  "place template minecraft:spawn_e0002_harbor_cargo_west_v3 139 64 -2432"
  ],
  "checks": [
   "139 65 -2363 minecraft:barrier",
