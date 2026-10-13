@@ -1,5 +1,5 @@
 {
- "next": 2,
+ "next": 4,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -13,6 +13,34 @@
     233,
     95,
     -2345
+   ]
+  },
+  "harbor-cargo-west": {
+   "id": "e0002-harbor-cargo-west",
+   "slot": 2,
+   "ver": 2,
+   "title": "Harbour cargo decor (west, x<200)",
+   "box": [
+    139,
+    64,
+    -2432,
+    194,
+    66,
+    -2360
+   ]
+  },
+  "harbor-cargo-east": {
+   "id": "e0003-harbor-cargo-east",
+   "slot": 3,
+   "ver": 2,
+   "title": "Harbour cargo decor (east, x>=200)",
+   "box": [
+    203,
+    63,
+    -2462,
+    263,
+    67,
+    -2373
    ]
   }
  }

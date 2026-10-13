@@ -1,0 +1,36 @@
+{
+ "id": "e0002-harbor-cargo-west",
+ "title": "Harbour cargo decor (west, x<200)",
+ "slot": 2,
+ "box": [
+  139,
+  64,
+  -2432,
+  194,
+  66,
+  -2360
+ ],
+ "files": [
+  {
+   "src": "spawn_e0002_harbor_cargo_west_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0002_harbor_cargo_west_v2.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0002_harbor_cargo_west_v2 139 64 -2432"
+ ],
+ "checks": [
+  "139 65 -2363 minecraft:barrier",
+  "139 65 -2363 minecraft:barrier",
+  "139 66 -2363 minecraft:barrier",
+  "140 65 -2363 minecraft:barrier",
+  "140 65 -2362 minecraft:barrier",
+  "140 66 -2362 minecraft:barrier",
+  "141 65 -2363 minecraft:barrier"
+ ],
+ "blocks": 48,
+ "entities": 33,
+ "undo_entities": "minecraft:kill @e[type=minecraft:item_display,tag=lyris_harbor_cargo,x=138,y=55,z=-2480,dx=57,dy=25,dz=130]",
+ "wait": 12000
+}

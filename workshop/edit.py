@@ -16,7 +16,8 @@ class Edit:
     def __init__(self, name, title=''):
         self.name, self.title = name, title or name
         self.B, self.nbt = {}, {}
-        self.extra_run, self.extra_checks = [], []
+        self.extra_run, self.extra_checks, self.pre_run, self.ents = [], [], [], []
+        self.notes = {}
     # --- drawing helpers (absolute world coordinates) ---
     def put(self, x, y, z, b, nbt_=None):
         self.B[(x, y, z)] = b
@@ -26,6 +27,8 @@ class Edit:
             for y in range(min(y0, y1), max(y0, y1) + 1):
                 for z in range(min(z0, z1), max(z0, z1) + 1): self.B[(x, y, z)] = b
     def clear(self, x0, y0, z0, x1, y1, z1): self.fill(x0, y0, z0, x1, y1, z1, 'air')
+    def entity(self, x, y, z, nbt_):
+        self.ents.append(((x, y, z), nbt_))
     def merge(self, blocks, dx=0, dy=0, dz=0):
         for (x, y, z), b in blocks.items(): self.B[(x + dx, y + dy, z + dz)] = b
     # --- publish ---
@@ -49,14 +52,15 @@ class Edit:
         # a new structure name every publish, so the server never serves a cached older copy
         ver = reg['edits'].get(self.name, {}).get('ver', 0) + 1
         sname = f'spawn_{eid.replace("-", "_")}_v{ver}'
-        nbt.write(nbt.structure(rel, block_nbt=relnbt), os.path.join(d, sname + '.nbt'))
+        relents = [((x - x0, y - y0, z - z0), e) for (x, y, z), e in self.ents]
+        nbt.write(nbt.structure(rel, block_nbt=relnbt, entities=relents), os.path.join(d, sname + '.nbt'))
         solid = [(p, b) for p, b in sorted(B.items()) if b != 'air']
         step = max(1, len(solid) // checks)
         chk = [f'{x} {y} {z} minecraft:{b.split("[")[0].replace("minecraft:", "")}' for (x, y, z), b in solid[::step][:checks]] + self.extra_checks
         man = {'id': eid, 'title': self.title, 'slot': slot, 'box': [x0, y0, z0, x1, y1, z1],
                'files': [{'src': sname + '.nbt', 'dst': STRUCT_DIR + sname + '.nbt', 'binary': True}],
-               'run': [f'place template minecraft:{sname} {x0} {y0} {z0}'] + self.extra_run,
-               'checks': chk, 'blocks': len(B)}
+               'run': self.pre_run + [f'place template minecraft:{sname} {x0} {y0} {z0}'] + self.extra_run,
+               'checks': chk, 'blocks': len(B), 'entities': len(self.ents), **self.notes}
         json.dump(man, open(os.path.join(d, 'manifest.json'), 'w'), indent=1)
         reg['edits'][self.name] = {'id': eid, 'slot': slot, 'ver': ver, 'title': self.title, 'box': man['box']}
         json.dump(reg, open(REG, 'w'), indent=1)
