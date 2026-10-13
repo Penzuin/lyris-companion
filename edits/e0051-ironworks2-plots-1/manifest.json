@@ -4,7 +4,7 @@
  "slot": 51,
  "box": [
   401,
-  96,
+  95,
   -2432,
   455,
   122,
@@ -12,25 +12,25 @@
  ],
  "files": [
   {
-   "src": "spawn_e0051_ironworks2_plots_1_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0051_ironworks2_plots_1_v1.nbt",
+   "src": "spawn_e0051_ironworks2_plots_1_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0051_ironworks2_plots_1_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0051_ironworks2_plots_1_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0051_ironworks2_plots_1_v1.nbt",
+   "src": "spawn_e0051_ironworks2_plots_1_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0051_ironworks2_plots_1_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0051_ironworks2_plots_1_v1 401 96 -2432"
+  "place template minecraft:spawn_e0051_ironworks2_plots_1_v2 401 95 -2432"
  ],
  "checks": [
   "401 97 -2351 minecraft:stone_bricks",
-  "422 97 -2351 minecraft:stone_bricks",
-  "434 106 -2367 minecraft:stone_bricks",
-  "439 104 -2352 minecraft:stone_bricks"
+  "420 98 -2351 minecraft:stone_bricks",
+  "434 107 -2378 minecraft:stone_bricks",
+  "439 106 -2364 minecraft:stone_bricks"
  ],
- "blocks": 3891,
+ "blocks": 3763,
  "wait": 15000
 }

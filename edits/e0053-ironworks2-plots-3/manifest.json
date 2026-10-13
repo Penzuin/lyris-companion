@@ -12,25 +12,25 @@
  ],
  "files": [
   {
-   "src": "spawn_e0053_ironworks2_plots_3_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0053_ironworks2_plots_3_v1.nbt",
+   "src": "spawn_e0053_ironworks2_plots_3_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0053_ironworks2_plots_3_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0053_ironworks2_plots_3_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0053_ironworks2_plots_3_v1.nbt",
+   "src": "spawn_e0053_ironworks2_plots_3_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0053_ironworks2_plots_3_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0053_ironworks2_plots_3_v1 402 91 -2343"
+  "place template minecraft:spawn_e0053_ironworks2_plots_3_v2 402 91 -2343"
  ],
  "checks": [
-  "402 91 -2309 minecraft:stone_bricks",
-  "423 99 -2337 minecraft:stone_bricks",
-  "436 97 -2313 minecraft:stone_bricks",
-  "480 101 -2333 minecraft:cobblestone"
+  "402 91 -2311 minecraft:stone_bricks",
+  "423 99 -2339 minecraft:stone_bricks",
+  "435 99 -2341 minecraft:cobblestone",
+  "488 102 -2341 minecraft:stone_bricks"
  ],
- "blocks": 8649,
+ "blocks": 8470,
  "wait": 15000
 }

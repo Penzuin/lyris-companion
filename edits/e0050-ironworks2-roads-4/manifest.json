@@ -5,32 +5,32 @@
  "box": [
   443,
   99,
-  -2364,
+  -2363,
   520,
-  121,
+  119,
   -2307
  ],
  "files": [
   {
-   "src": "spawn_e0050_ironworks2_roads_4_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0050_ironworks2_roads_4_v1.nbt",
+   "src": "spawn_e0050_ironworks2_roads_4_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0050_ironworks2_roads_4_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0050_ironworks2_roads_4_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0050_ironworks2_roads_4_v1.nbt",
+   "src": "spawn_e0050_ironworks2_roads_4_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0050_ironworks2_roads_4_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0050_ironworks2_roads_4_v1 443 99 -2364"
+  "place template minecraft:spawn_e0050_ironworks2_roads_4_v2 443 99 -2363"
  ],
  "checks": [
-  "443 99 -2328 minecraft:cobblestone",
-  "449 99 -2323 minecraft:stone_bricks",
-  "462 100 -2329 minecraft:cobblestone",
-  "489 102 -2326 minecraft:cobblestone"
+  "443 100 -2328 minecraft:stone_bricks",
+  "448 102 -2345 minecraft:mossy_cobblestone",
+  "459 100 -2330 minecraft:cobblestone",
+  "488 102 -2329 minecraft:stone_bricks"
  ],
- "blocks": 3164,
+ "blocks": 3167,
  "wait": 15000
 }
