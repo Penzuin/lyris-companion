@@ -11,4 +11,4 @@ garden_hanging_basket world 271 76 -2376 90 UP
 garden_hanging_basket world 267 76 -2400 90 UP
 garden_hanging_basket world 267 76 -2390 90 UP
 garden_hanging_basket world 260 76 -2366 90 UP
-garden_rain_barrel world 263 80 -2418 0 UP
+garden_rain_barrel world 263 69 -2416 90 UP
