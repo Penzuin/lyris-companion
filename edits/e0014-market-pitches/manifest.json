@@ -1,0 +1,36 @@
+{
+ "id": "e0014-market-pitches",
+ "title": "Market stall pitches (Landing Front, Fishers' Quay, Merchant Row)",
+ "slot": 14,
+ "box": [
+  152,
+  63,
+  -2375,
+  260,
+  65,
+  -2358
+ ],
+ "files": [
+  {
+   "src": "spawn_e0014_market_pitches_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0014_market_pitches_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0014_market_pitches_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0014_market_pitches_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0014_market_pitches_v1 152 63 -2375"
+ ],
+ "checks": [
+  "152 64 -2365 minecraft:spruce_planks",
+  "158 64 -2361 minecraft:spruce_planks",
+  "168 64 -2361 minecraft:spruce_planks",
+  "236 64 -2369 minecraft:spruce_planks"
+ ],
+ "blocks": 60,
+ "wait": 15000
+}

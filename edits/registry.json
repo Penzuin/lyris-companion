@@ -1,5 +1,5 @@
 {
- "next": 13,
+ "next": 17,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -167,6 +167,62 @@
     438,
     136,
     -2478
+   ]
+  },
+  "market-row": {
+   "id": "e0013-market-row",
+   "slot": 13,
+   "ver": 1,
+   "title": "Merchant Row: 12 building lots + Chandlers' Lane",
+   "box": [
+    178,
+    62,
+    -2354,
+    242,
+    80,
+    -2309
+   ]
+  },
+  "market-pitches": {
+   "id": "e0014-market-pitches",
+   "slot": 14,
+   "ver": 1,
+   "title": "Market stall pitches (Landing Front, Fishers' Quay, Merchant Row)",
+   "box": [
+    152,
+    63,
+    -2375,
+    260,
+    65,
+    -2358
+   ]
+  },
+  "trade-hut": {
+   "id": "e0015-trade-hut",
+   "slot": 15,
+   "ver": 1,
+   "title": "Fisherman's Hut plot",
+   "box": [
+    151,
+    65,
+    -2355,
+    164,
+    80,
+    -2345
+   ]
+  },
+  "trade-north": {
+   "id": "e0016-trade-north",
+   "slot": 16,
+   "ver": 1,
+   "title": "Shipwright's Yard + slipway, Wharf House markers",
+   "box": [
+    248,
+    57,
+    -2484,
+    300,
+    77,
+    -2389
    ]
   }
  }

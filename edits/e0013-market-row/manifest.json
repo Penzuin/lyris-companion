@@ -1,0 +1,36 @@
+{
+ "id": "e0013-market-row",
+ "title": "Merchant Row: 12 building lots + Chandlers' Lane",
+ "slot": 13,
+ "box": [
+  178,
+  62,
+  -2354,
+  242,
+  80,
+  -2309
+ ],
+ "files": [
+  {
+   "src": "spawn_e0013_market_row_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0013_market_row_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0013_market_row_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0013_market_row_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0013_market_row_v1 178 62 -2354"
+ ],
+ "checks": [
+  "178 64 -2351 minecraft:stone_bricks",
+  "199 64 -2343 minecraft:stone_bricks",
+  "210 64 -2347 minecraft:cobblestone",
+  "221 63 -2331 minecraft:stone_bricks"
+ ],
+ "blocks": 3766,
+ "wait": 15000
+}

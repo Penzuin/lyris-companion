@@ -1,0 +1,36 @@
+{
+ "id": "e0015-trade-hut",
+ "title": "Fisherman's Hut plot",
+ "slot": 15,
+ "box": [
+  151,
+  65,
+  -2355,
+  164,
+  80,
+  -2345
+ ],
+ "files": [
+  {
+   "src": "spawn_e0015_trade_hut_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0015_trade_hut_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0015_trade_hut_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0015_trade_hut_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0015_trade_hut_v1 151 65 -2355"
+ ],
+ "checks": [
+  "151 66 -2350 minecraft:stone_bricks",
+  "152 65 -2347 minecraft:mossy_stone_bricks",
+  "156 66 -2345 minecraft:cobblestone",
+  "162 65 -2346 minecraft:stone_bricks"
+ ],
+ "blocks": 577,
+ "wait": 15000
+}
