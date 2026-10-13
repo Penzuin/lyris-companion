@@ -3,7 +3,7 @@
  "title": "Southgate v2: meandering High Street + lanes (2/2)",
  "slot": 43,
  "box": [
-  319,
+  317,
   72,
   -2251,
   370,
@@ -12,25 +12,25 @@
  ],
  "files": [
   {
-   "src": "spawn_e0043_southgate2_roads_2_v2.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0043_southgate2_roads_2_v2.nbt",
+   "src": "spawn_e0043_southgate2_roads_2_v3.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0043_southgate2_roads_2_v3.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0043_southgate2_roads_2_v2.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0043_southgate2_roads_2_v2.nbt",
+   "src": "spawn_e0043_southgate2_roads_2_v3.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0043_southgate2_roads_2_v3.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0043_southgate2_roads_2_v2 319 72 -2251"
+  "place template minecraft:spawn_e0043_southgate2_roads_2_v3 317 72 -2251"
  ],
  "checks": [
-  "319 72 -2150 minecraft:cobblestone",
-  "331 74 -2159 minecraft:cobblestone",
-  "335 78 -2219 minecraft:cobblestone",
-  "352 79 -2210 minecraft:cobblestone"
+  "317 72 -2152 minecraft:cobblestone",
+  "331 74 -2177 minecraft:mossy_cobblestone",
+  "335 75 -2180 minecraft:mossy_cobblestone",
+  "352 79 -2242 minecraft:mossy_cobblestone"
  ],
- "blocks": 9700,
+ "blocks": 9861,
  "wait": 15000
 }
