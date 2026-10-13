@@ -1,5 +1,5 @@
 {
- "next": 93,
+ "next": 94,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1287,6 +1287,20 @@
     518,
     122,
     -2312
+   ]
+  },
+  "mhfix-verge": {
+   "id": "e0093-mhfix-verge",
+   "slot": 93,
+   "ver": 1,
+   "title": "Moonhill scenes fix: gaps smoothed",
+   "box": [
+    407,
+    104,
+    -2657,
+    454,
+    117,
+    -2534
    ]
   }
  }
