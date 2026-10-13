@@ -1,5 +1,5 @@
 {
- "next": 27,
+ "next": 21,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -279,90 +279,6 @@
     266,
     89,
     -2262
-   ]
-  },
-  "southgate-roads-1": {
-   "id": "e0021-southgate-roads-1",
-   "slot": 21,
-   "ver": 1,
-   "title": "Southgate: High Street + lanes (1/3)",
-   "box": [
-    228,
-    67,
-    -2265,
-    308,
-    87,
-    -2193
-   ]
-  },
-  "southgate-roads-2": {
-   "id": "e0022-southgate-roads-2",
-   "slot": 22,
-   "ver": 1,
-   "title": "Southgate: High Street + lanes (2/3)",
-   "box": [
-    222,
-    67,
-    -2192,
-    308,
-    91,
-    -2146
-   ]
-  },
-  "southgate-roads-3": {
-   "id": "e0023-southgate-roads-3",
-   "slot": 23,
-   "ver": 1,
-   "title": "Southgate: High Street + lanes (3/3)",
-   "box": [
-    309,
-    72,
-    -2251,
-    370,
-    95,
-    -2146
-   ]
-  },
-  "southgate-green": {
-   "id": "e0024-southgate-green",
-   "slot": 24,
-   "ver": 1,
-   "title": "Southgate Green + well",
-   "box": [
-    237,
-    66,
-    -2205,
-    258,
-    74,
-    -2193
-   ]
-  },
-  "southgate-homes-1": {
-   "id": "e0025-southgate-homes-1",
-   "slot": 25,
-   "ver": 1,
-   "title": "Southgate: home plots (1/2)",
-   "box": [
-    216,
-    66,
-    -2252,
-    301,
-    92,
-    -2150
-   ]
-  },
-  "southgate-homes-2": {
-   "id": "e0026-southgate-homes-2",
-   "slot": 26,
-   "ver": 1,
-   "title": "Southgate: home plots (2/2)",
-   "box": [
-    302,
-    72,
-    -2252,
-    370,
-    93,
-    -2149
    ]
   }
  }
