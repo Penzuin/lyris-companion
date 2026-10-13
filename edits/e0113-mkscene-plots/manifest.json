@@ -1,0 +1,36 @@
+{
+ "id": "e0113-mkscene-plots",
+ "title": "Market scenes: lot kerbs and hedges",
+ "slot": 113,
+ "box": [
+  152,
+  63,
+  -2354,
+  265,
+  75,
+  -2266
+ ],
+ "files": [
+  {
+   "src": "spawn_e0113_mkscene_plots_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0113_mkscene_plots_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0113_mkscene_plots_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0113_mkscene_plots_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0113_mkscene_plots_v1 152 63 -2354"
+ ],
+ "checks": [
+  "152 65 -2354 minecraft:stone_bricks",
+  "196 64 -2278 minecraft:stone_bricks",
+  "215 63 -2337 minecraft:mossy_cobblestone",
+  "232 63 -2345 minecraft:mossy_cobblestone"
+ ],
+ "blocks": 1400,
+ "wait": 15000
+}

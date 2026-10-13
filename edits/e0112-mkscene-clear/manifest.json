@@ -1,0 +1,31 @@
+{
+ "id": "e0112-mkscene-clear",
+ "title": "Market scenes: old mock-up leftovers cleared",
+ "slot": 112,
+ "box": [
+  143,
+  63,
+  -2360,
+  249,
+  76,
+  -2308
+ ],
+ "files": [
+  {
+   "src": "spawn_e0112_mkscene_clear_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0112_mkscene_clear_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0112_mkscene_clear_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0112_mkscene_clear_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0112_mkscene_clear_v1 143 63 -2360"
+ ],
+ "checks": [],
+ "blocks": 493,
+ "wait": 15000
+}

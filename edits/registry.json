@@ -1,5 +1,5 @@
 {
- "next": 112,
+ "next": 118,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1553,6 +1553,90 @@
     447,
     111,
     -2647
+   ]
+  },
+  "mkscene-clear": {
+   "id": "e0112-mkscene-clear",
+   "slot": 112,
+   "ver": 1,
+   "title": "Market scenes: old mock-up leftovers cleared",
+   "box": [
+    143,
+    63,
+    -2360,
+    249,
+    76,
+    -2308
+   ]
+  },
+  "mkscene-plots": {
+   "id": "e0113-mkscene-plots",
+   "slot": 113,
+   "ver": 1,
+   "title": "Market scenes: lot kerbs and hedges",
+   "box": [
+    152,
+    63,
+    -2354,
+    265,
+    75,
+    -2266
+   ]
+  },
+  "mkscene-roads": {
+   "id": "e0114-mkscene-roads",
+   "slot": 114,
+   "ver": 1,
+   "title": "Market scenes: Chandlers' Lane + Cooper's Row surfaces",
+   "box": [
+    178,
+    62,
+    -2347,
+    266,
+    73,
+    -2280
+   ]
+  },
+  "mkscene-verge": {
+   "id": "e0115-mkscene-verge",
+   "slot": 115,
+   "ver": 1,
+   "title": "Market scenes: verges, banks, gaps",
+   "box": [
+    140,
+    62,
+    -2366,
+    258,
+    73,
+    -2262
+   ]
+  },
+  "mkscene-trees": {
+   "id": "e0116-mkscene-trees",
+   "slot": 116,
+   "ver": 1,
+   "title": "Market scenes: trees",
+   "box": [
+    143,
+    63,
+    -2369,
+    248,
+    77,
+    -2274
+   ]
+  },
+  "mkscene-vines": {
+   "id": "e0117-mkscene-vines",
+   "slot": 117,
+   "ver": 1,
+   "title": "Market scenes: vines",
+   "box": [
+    152,
+    65,
+    -2356,
+    226,
+    69,
+    -2287
    ]
   }
  }

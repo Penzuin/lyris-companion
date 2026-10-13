@@ -1,0 +1,36 @@
+{
+ "id": "e0114-mkscene-roads",
+ "title": "Market scenes: Chandlers' Lane + Cooper's Row surfaces",
+ "slot": 114,
+ "box": [
+  178,
+  62,
+  -2347,
+  266,
+  73,
+  -2280
+ ],
+ "files": [
+  {
+   "src": "spawn_e0114_mkscene_roads_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0114_mkscene_roads_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0114_mkscene_roads_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0114_mkscene_roads_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0114_mkscene_roads_v1 178 62 -2347"
+ ],
+ "checks": [
+  "178 62 -2284 minecraft:stone_bricks",
+  "207 66 -2280 minecraft:stone_bricks",
+  "219 67 -2284 minecraft:stone_bricks",
+  "242 70 -2281 minecraft:cobblestone"
+ ],
+ "blocks": 314,
+ "wait": 15000
+}

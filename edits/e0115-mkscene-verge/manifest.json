@@ -1,0 +1,33 @@
+{
+ "id": "e0115-mkscene-verge",
+ "title": "Market scenes: verges, banks, gaps",
+ "slot": 115,
+ "box": [
+  140,
+  62,
+  -2366,
+  258,
+  73,
+  -2262
+ ],
+ "files": [
+  {
+   "src": "spawn_e0115_mkscene_verge_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0115_mkscene_verge_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0115_mkscene_verge_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0115_mkscene_verge_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0115_mkscene_verge_v1 140 62 -2366"
+ ],
+ "checks": [
+  "225 63 -2354 minecraft:mossy_cobblestone"
+ ],
+ "blocks": 545,
+ "wait": 15000
+}
