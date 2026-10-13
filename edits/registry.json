@@ -1,5 +1,5 @@
 {
- "next": 94,
+ "next": 95,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1301,6 +1301,20 @@
     454,
     117,
     -2534
+   ]
+  },
+  "mainstreet-dressmaker": {
+   "id": "e0094-mainstreet-dressmaker",
+   "slot": 94,
+   "ver": 1,
+   "title": "Polwhele's Dressmaker (Main Street)",
+   "box": [
+    307,
+    69,
+    -2387,
+    329,
+    92,
+    -2370
    ]
   }
  }

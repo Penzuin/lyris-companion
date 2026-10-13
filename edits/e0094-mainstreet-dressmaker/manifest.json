@@ -1,0 +1,44 @@
+{
+ "id": "e0094-mainstreet-dressmaker",
+ "title": "Polwhele's Dressmaker (Main Street)",
+ "slot": 94,
+ "box": [
+  307,
+  69,
+  -2387,
+  329,
+  92,
+  -2370
+ ],
+ "files": [
+  {
+   "src": "spawn_e0094_mainstreet_dressmaker_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0094_mainstreet_dressmaker_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0094_mainstreet_dressmaker_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0094_mainstreet_dressmaker_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0094_mainstreet_dressmaker_v1 307 67 -2387",
+  "minecraft:kill @e[type=minecraft:armor_stand,tag=lyris_dressmaker]",
+  "summon minecraft:armor_stand 309.5 72 -2382.5 {Tags:[\"lyris_dressmaker\"],NoBasePlate:1b,ShowArms:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,DisabledSlots:4144959,Rotation:[90f,0f],equipment:{chest:{id:\"minecraft:leather_chestplate\",count:1,components:{\"minecraft:dyed_color\":14191002}},legs:{id:\"minecraft:leather_leggings\",count:1,components:{\"minecraft:dyed_color\":15918808}},feet:{id:\"minecraft:leather_boots\",count:1,components:{\"minecraft:dyed_color\":3877408}}}}",
+  "summon minecraft:armor_stand 309.5 72 -2374.5 {Tags:[\"lyris_dressmaker\"],NoBasePlate:1b,ShowArms:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,DisabledSlots:4144959,Rotation:[90f,0f],equipment:{chest:{id:\"minecraft:leather_chestplate\",count:1,components:{\"minecraft:dyed_color\":2832999}},legs:{id:\"minecraft:leather_leggings\",count:1,components:{\"minecraft:dyed_color\":2832999}},feet:{id:\"minecraft:leather_boots\",count:1,components:{\"minecraft:dyed_color\":3877408}}}}",
+  "summon minecraft:armor_stand 309.5 77 -2382.5 {Tags:[\"lyris_dressmaker\"],NoBasePlate:1b,ShowArms:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,DisabledSlots:4144959,Rotation:[90f,0f],equipment:{chest:{id:\"minecraft:leather_chestplate\",count:1,components:{\"minecraft:dyed_color\":3050379}},legs:{id:\"minecraft:leather_leggings\",count:1,components:{\"minecraft:dyed_color\":15918808}},feet:{id:\"minecraft:leather_boots\",count:1,components:{\"minecraft:dyed_color\":3877408}}}}",
+  "summon minecraft:armor_stand 309.5 77 -2374.5 {Tags:[\"lyris_dressmaker\"],NoBasePlate:1b,ShowArms:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,DisabledSlots:4144959,Rotation:[90f,0f],equipment:{chest:{id:\"minecraft:leather_chestplate\",count:1,components:{\"minecraft:dyed_color\":9138088}},legs:{id:\"minecraft:leather_leggings\",count:1,components:{\"minecraft:dyed_color\":9138088}},feet:{id:\"minecraft:leather_boots\",count:1,components:{\"minecraft:dyed_color\":3877408}}}}",
+  "summon minecraft:armor_stand 314.5 77 -2377.5 {Tags:[\"lyris_dressmaker\"],NoBasePlate:1b,ShowArms:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,DisabledSlots:4144959,Rotation:[270f,0f],equipment:{chest:{id:\"minecraft:leather_chestplate\",count:1,components:{\"minecraft:dyed_color\":15918808}},legs:{id:\"minecraft:leather_leggings\",count:1,components:{\"minecraft:dyed_color\":15918808}},feet:{id:\"minecraft:leather_boots\",count:1,components:{\"minecraft:dyed_color\":15918808}}}}"
+ ],
+ "checks": [
+  "311 72 -2379 minecraft:spruce_door",
+  "310 72 -2386 minecraft:stripped_dark_oak_log",
+  "315 72 -2375 minecraft:lectern",
+  "322 72 -2382 minecraft:loom",
+  "328 71 -2379 minecraft:water_cauldron",
+  "315 91 -2387 minecraft:stone_brick_slab"
+ ],
+ "blocks": 9936,
+ "wait": 12000
+}
