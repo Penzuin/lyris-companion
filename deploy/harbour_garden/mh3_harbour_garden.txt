@@ -1,14 +1,14 @@
-# Harbour-facing backs garden items (2026-10-13): hanging baskets, planter boxes, rain barrels, laundry line
+# Harbour-facing backs garden items (2026-10-13): hanging baskets, planter boxes, rain barrels, laundry line (baskets flipped to 270: owner said they were backwards)
 garden_planter_box world 267 71 -2400 90 UP
 garden_planter_box world 267 71 -2393 90 UP
 garden_rain_barrel world 267 71 -2396 90 UP
 garden_laundry_line world 259 72 -2365 90 UP
 garden_planter_box world 259 72 -2360 90 UP
 garden_rain_barrel world 260 72 -2357 90 UP
-garden_hanging_basket world 267 76 -2395 90 UP
-garden_hanging_basket world 260 76 -2362 90 UP
-garden_hanging_basket world 271 76 -2376 90 UP
-garden_hanging_basket world 267 76 -2400 90 UP
-garden_hanging_basket world 267 76 -2390 90 UP
-garden_hanging_basket world 260 76 -2366 90 UP
+garden_hanging_basket world 267 76 -2395 270 UP
+garden_hanging_basket world 260 76 -2362 270 UP
+garden_hanging_basket world 271 76 -2376 270 UP
+garden_hanging_basket world 267 76 -2400 270 UP
+garden_hanging_basket world 267 76 -2390 270 UP
+garden_hanging_basket world 260 76 -2366 270 UP
 garden_rain_barrel world 263 69 -2416 90 UP
