@@ -1,8 +1,8 @@
 {
  "name": "LyrisSdkSmokeTest",
- "version": "0.0.1",
- "jar": "LyrisSdkSmokeTest-0.0.1.jar",
- "sha256": "b258b01acb08babc1830064072bc3939751c02bb9c6774c8b3d122de77573cd8",
+ "version": "0.0.2",
+ "jar": "LyrisSdkSmokeTest-0.0.2.jar",
+ "sha256": "a9ac706ad9b60d45917eaed2ff9d65655baf3826ccc99c19cbd689c6251eabf4",
  "size": 1689,
  "files": [],
  "built": "2026-10-13 09:14 UTC"
