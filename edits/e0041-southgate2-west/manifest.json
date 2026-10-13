@@ -8,29 +8,29 @@
   -2252,
   230,
   79,
-  -2149
+  -2153
  ],
  "files": [
   {
-   "src": "spawn_e0041_southgate2_west_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0041_southgate2_west_v1.nbt",
+   "src": "spawn_e0041_southgate2_west_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0041_southgate2_west_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0041_southgate2_west_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0041_southgate2_west_v1.nbt",
+   "src": "spawn_e0041_southgate2_west_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0041_southgate2_west_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0041_southgate2_west_v1 215 66 -2252"
+  "place template minecraft:spawn_e0041_southgate2_west_v2 215 66 -2252"
  ],
  "checks": [
-  "218 66 -2245 minecraft:stone_bricks",
-  "220 67 -2201 minecraft:stone_bricks",
-  "223 67 -2251 minecraft:stone_bricks",
-  "229 67 -2164 minecraft:mossy_cobblestone"
+  "218 66 -2235 minecraft:stone_bricks",
+  "222 67 -2240 minecraft:cobblestone",
+  "226 66 -2237 minecraft:cobblestone",
+  "229 68 -2240 minecraft:polished_andesite"
  ],
- "blocks": 2780,
+ "blocks": 2711,
  "wait": 15000
 }

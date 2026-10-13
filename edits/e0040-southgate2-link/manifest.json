@@ -12,18 +12,18 @@
  ],
  "files": [
   {
-   "src": "spawn_e0040_southgate2_link_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0040_southgate2_link_v1.nbt",
+   "src": "spawn_e0040_southgate2_link_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0040_southgate2_link_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0040_southgate2_link_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0040_southgate2_link_v1.nbt",
+   "src": "spawn_e0040_southgate2_link_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0040_southgate2_link_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0040_southgate2_link_v1 231 68 -2266"
+  "place template minecraft:spawn_e0040_southgate2_link_v2 231 68 -2266"
  ],
  "checks": [
   "231 68 -2265 minecraft:cobblestone",

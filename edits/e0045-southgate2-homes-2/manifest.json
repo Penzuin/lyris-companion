@@ -12,25 +12,25 @@
  ],
  "files": [
   {
-   "src": "spawn_e0045_southgate2_homes_2_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0045_southgate2_homes_2_v1.nbt",
+   "src": "spawn_e0045_southgate2_homes_2_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0045_southgate2_homes_2_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0045_southgate2_homes_2_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0045_southgate2_homes_2_v1.nbt",
+   "src": "spawn_e0045_southgate2_homes_2_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0045_southgate2_homes_2_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0045_southgate2_homes_2_v1 304 72 -2252"
+  "place template minecraft:spawn_e0045_southgate2_homes_2_v2 304 72 -2252"
  ],
  "checks": [
-  "304 72 -2155 minecraft:polished_andesite",
-  "323 78 -2221 minecraft:stone_bricks",
-  "336 78 -2199 minecraft:polished_andesite",
-  "352 75 -2170 minecraft:polished_andesite"
+  "304 72 -2154 minecraft:polished_andesite",
+  "321 77 -2245 minecraft:polished_andesite",
+  "340 79 -2232 minecraft:polished_andesite",
+  "349 79 -2235 minecraft:cobblestone"
  ],
- "blocks": 8024,
+ "blocks": 7925,
  "wait": 15000
 }

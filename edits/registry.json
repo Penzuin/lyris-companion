@@ -550,7 +550,7 @@
   "southgate2-link": {
    "id": "e0040-southgate2-link",
    "slot": 40,
-   "ver": 1,
+   "ver": 2,
    "title": "Southgate v2: High Street link",
    "box": [
     231,
@@ -564,7 +564,7 @@
   "southgate2-west": {
    "id": "e0041-southgate2-west",
    "slot": 41,
-   "ver": 1,
+   "ver": 2,
    "title": "Southgate v2: High Street west plots",
    "box": [
     215,
@@ -572,19 +572,19 @@
     -2252,
     230,
     79,
-    -2149
+    -2153
    ]
   },
   "southgate2-roads-1": {
    "id": "e0042-southgate2-roads-1",
    "slot": 42,
-   "ver": 1,
+   "ver": 2,
    "title": "Southgate v2: meandering High Street + lanes (1/2)",
    "box": [
     231,
     67,
     -2251,
-    319,
+    318,
     91,
     -2146
    ]
@@ -592,10 +592,10 @@
   "southgate2-roads-2": {
    "id": "e0043-southgate2-roads-2",
    "slot": 43,
-   "ver": 1,
+   "ver": 2,
    "title": "Southgate v2: meandering High Street + lanes (2/2)",
    "box": [
-    320,
+    319,
     72,
     -2251,
     370,
@@ -606,11 +606,11 @@
   "southgate2-homes-1": {
    "id": "e0044-southgate2-homes-1",
    "slot": 44,
-   "ver": 1,
+   "ver": 2,
    "title": "Southgate v2: home plots (1/2)",
    "box": [
     231,
-    68,
+    67,
     -2251,
     303,
     92,
@@ -620,7 +620,7 @@
   "southgate2-homes-2": {
    "id": "e0045-southgate2-homes-2",
    "slot": 45,
-   "ver": 1,
+   "ver": 2,
    "title": "Southgate v2: home plots (2/2)",
    "box": [
     304,
@@ -634,7 +634,7 @@
   "southgate2-green": {
    "id": "e0046-southgate2-green",
    "slot": 46,
-   "ver": 1,
+   "ver": 2,
    "title": "Southgate v2: Green + well",
    "box": [
     240,

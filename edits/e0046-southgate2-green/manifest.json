@@ -12,24 +12,24 @@
  ],
  "files": [
   {
-   "src": "spawn_e0046_southgate2_green_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0046_southgate2_green_v1.nbt",
+   "src": "spawn_e0046_southgate2_green_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0046_southgate2_green_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0046_southgate2_green_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0046_southgate2_green_v1.nbt",
+   "src": "spawn_e0046_southgate2_green_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0046_southgate2_green_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0046_southgate2_green_v1 240 66 -2205"
+  "place template minecraft:spawn_e0046_southgate2_green_v2 240 66 -2205"
  ],
  "checks": [
-  "240 69 -2196 minecraft:cobblestone",
-  "249 69 -2196 minecraft:cobblestone",
-  "250 68 -2197 minecraft:cobblestone",
-  "251 67 -2196 minecraft:cobblestone"
+  "240 69 -2195 minecraft:stone_bricks",
+  "249 70 -2196 minecraft:mossy_cobblestone",
+  "250 69 -2195 minecraft:cobblestone",
+  "251 68 -2196 minecraft:cobblestone"
  ],
  "blocks": 613,
  "wait": 15000
