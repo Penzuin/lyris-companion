@@ -1,0 +1,36 @@
+{
+ "id": "e0026-southgate-homes-2",
+ "title": "Southgate: home plots (2/2)",
+ "slot": 26,
+ "box": [
+  302,
+  72,
+  -2252,
+  370,
+  93,
+  -2149
+ ],
+ "files": [
+  {
+   "src": "spawn_e0026_southgate_homes_2_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0026_southgate_homes_2_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0026_southgate_homes_2_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0026_southgate_homes_2_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0026_southgate_homes_2_v1 302 72 -2252"
+ ],
+ "checks": [
+  "302 75 -2236 minecraft:cobblestone",
+  "322 76 -2215 minecraft:stone_bricks",
+  "324 74 -2180 minecraft:polished_andesite",
+  "353 76 -2173 minecraft:polished_andesite"
+ ],
+ "blocks": 12117,
+ "wait": 15000
+}
