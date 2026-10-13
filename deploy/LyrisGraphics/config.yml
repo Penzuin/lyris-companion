@@ -1,0 +1,44 @@
+# LyrisGraphics: per-player graphics settings. Nothing here changes what other players see.
+
+# How often (ticks) each player's nearby decor is re-checked, and how far the scan reaches (blocks).
+# Display entities are sent to clients out to about 160 blocks, so the scan covers that.
+interval-ticks: 20
+scan-radius: 160
+# Blocks of slack before a hidden thing comes back (stops flicker at the edge).
+hysteresis: 6
+
+# Decor = item and block displays. Things carrying one of these scoreboard tags are never touched.
+exclude-tags: [lyris_skydome, lyris_nocull]
+# Item-model prefixes that count as fine detail (ropes, rigging, small props): hidden past the "detail" slider.
+detail-prefixes:
+  - "lyris_barge:ship_rope"
+  - "lyris_barge:ship_shroud"
+  - "lyris_cranes:crane_rope"
+  - "lyris_harbor:"
+  - "lyris_emberdeep:rope_"
+# Night mist pieces (LyrisNight MistField). The mist slider keeps this % of them; wisps go below 50%.
+mist-prefix: "lyris_night:mist/"
+wisp-prefix: "lyris_night:mist/wisp"
+
+presets:
+  fancy:    {decor: 128, detail: 0,  mist: 100, animated: true}
+  balanced: {decor: 80,  detail: 32, mist: 50,  animated: true}
+  fast:     {decor: 48,  detail: 12, mist: 25,  animated: false}
+
+# First join: pick a preset from the player's own client settings.
+auto-pick:
+  enabled: true
+  fast-at-or-below-view-distance: 6
+  balanced-at-or-below-view-distance: 10
+
+# "Animated textures: off" sends a small extra pack holding the first frame of every animated Nexo texture.
+still-pack:
+  enabled: true
+  source: plugins/Nexo/pack/pack.zip
+  # The plugin hosts the pack itself on this port. It must be a port the panel gives this server
+  # (Network tab -> add allocation). 0 = not set up yet: the animated-textures toggle then does nothing.
+  port: 0
+  # Address players download from. Leave blank to use the server's own address.
+  public-host: "85.155.120.182"
+  # Or set a full URL if the pack is hosted elsewhere (overrides port/public-host for the link only).
+  public-url: ""

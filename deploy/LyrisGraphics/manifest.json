@@ -1,0 +1,15 @@
+{
+ "name": "LyrisGraphics",
+ "version": "1.0.0",
+ "jar": "LyrisGraphics-1.0.0.jar",
+ "sha256": "3e2d103bd9cc9466a073ece2e7db2ea870330c4caf79332d3c0858f25a6b79ad",
+ "size": 30184,
+ "files": [
+  {
+   "src": "config.yml",
+   "dst": "/plugins/LyrisGraphics/config.yml",
+   "binary": false
+  }
+ ],
+ "built": "2026-10-13 14:18 UTC"
+}
