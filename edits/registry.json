@@ -1,5 +1,5 @@
 {
- "next": 111,
+ "next": 112,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1539,6 +1539,20 @@
     303,
     80,
     -2332
+   ]
+  },
+  "mhwalls-walls": {
+   "id": "e0111-mhwalls-walls",
+   "slot": 111,
+   "ver": 1,
+   "title": "Joined walls",
+   "box": [
+    442,
+    111,
+    -2659,
+    447,
+    111,
+    -2647
    ]
   }
  }
