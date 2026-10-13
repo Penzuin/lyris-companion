@@ -1,5 +1,5 @@
 {
- "next": 89,
+ "next": 93,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1231,6 +1231,62 @@
     368,
     82,
     -2148
+   ]
+  },
+  "iwfix-roads": {
+   "id": "e0089-iwfix-roads",
+   "slot": 89,
+   "ver": 1,
+   "title": "Ironworks scenes fix: calmer lanes",
+   "box": [
+    410,
+    112,
+    -2417,
+    502,
+    120,
+    -2399
+   ]
+  },
+  "iwfix-verge-1": {
+   "id": "e0090-iwfix-verge-1",
+   "slot": 90,
+   "ver": 1,
+   "title": "Ironworks scenes fix: gaps smoothed (1/3)",
+   "box": [
+    330,
+    81,
+    -2415,
+    438,
+    116,
+    -2292
+   ]
+  },
+  "iwfix-verge-2": {
+   "id": "e0091-iwfix-verge-2",
+   "slot": 91,
+   "ver": 1,
+   "title": "Ironworks scenes fix: gaps smoothed (2/3)",
+   "box": [
+    439,
+    100,
+    -2406,
+    454,
+    114,
+    -2323
+   ]
+  },
+  "iwfix-verge-3": {
+   "id": "e0092-iwfix-verge-3",
+   "slot": 92,
+   "ver": 1,
+   "title": "Ironworks scenes fix: gaps smoothed (3/3)",
+   "box": [
+    456,
+    100,
+    -2405,
+    518,
+    122,
+    -2312
    ]
   }
  }

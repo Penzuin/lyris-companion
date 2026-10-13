@@ -1,0 +1,36 @@
+{
+ "id": "e0089-iwfix-roads",
+ "title": "Ironworks scenes fix: calmer lanes",
+ "slot": 89,
+ "box": [
+  410,
+  112,
+  -2417,
+  502,
+  120,
+  -2399
+ ],
+ "files": [
+  {
+   "src": "spawn_e0089_iwfix_roads_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0089_iwfix_roads_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0089_iwfix_roads_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0089_iwfix_roads_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0089_iwfix_roads_v1 410 112 -2417"
+ ],
+ "checks": [
+  "410 113 -2415 minecraft:mossy_cobblestone",
+  "433 114 -2411 minecraft:mossy_cobblestone",
+  "452 113 -2402 minecraft:cobblestone",
+  "469 118 -2402 minecraft:cobblestone"
+ ],
+ "blocks": 252,
+ "wait": 15000
+}
