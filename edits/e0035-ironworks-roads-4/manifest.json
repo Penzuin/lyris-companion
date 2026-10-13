@@ -1,0 +1,36 @@
+{
+ "id": "e0035-ironworks-roads-4",
+ "title": "Ironworks: Forge Road, Anvil Street, Mine Road, Quarry Lane (4/4)",
+ "slot": 35,
+ "box": [
+  444,
+  99,
+  -2362,
+  520,
+  117,
+  -2307
+ ],
+ "files": [
+  {
+   "src": "spawn_e0035_ironworks_roads_4_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0035_ironworks_roads_4_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0035_ironworks_roads_4_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0035_ironworks_roads_4_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0035_ironworks_roads_4_v1 444 99 -2362"
+ ],
+ "checks": [
+  "444 99 -2330 minecraft:cobblestone",
+  "449 100 -2333 minecraft:andesite",
+  "465 100 -2328 minecraft:mossy_cobblestone",
+  "490 102 -2326 minecraft:stone_bricks"
+ ],
+ "blocks": 3115,
+ "wait": 15000
+}

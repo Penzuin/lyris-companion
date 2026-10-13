@@ -1,5 +1,5 @@
 {
- "next": 32,
+ "next": 40,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -433,6 +433,118 @@
     442,
     129,
     -2543
+   ]
+  },
+  "ironworks-roads-1": {
+   "id": "e0032-ironworks-roads-1",
+   "slot": 32,
+   "ver": 1,
+   "title": "Ironworks: Forge Road, Anvil Street, Mine Road, Quarry Lane (1/4)",
+   "box": [
+    397,
+    95,
+    -2437,
+    443,
+    130,
+    -2331
+   ]
+  },
+  "ironworks-roads-2": {
+   "id": "e0033-ironworks-roads-2",
+   "slot": 33,
+   "ver": 1,
+   "title": "Ironworks: Forge Road, Anvil Street, Mine Road, Quarry Lane (2/4)",
+   "box": [
+    330,
+    81,
+    -2330,
+    443,
+    113,
+    -2291
+   ]
+  },
+  "ironworks-roads-3": {
+   "id": "e0034-ironworks-roads-3",
+   "slot": 34,
+   "ver": 1,
+   "title": "Ironworks: Forge Road, Anvil Street, Mine Road, Quarry Lane (3/4)",
+   "box": [
+    444,
+    107,
+    -2412,
+    502,
+    132,
+    -2363
+   ]
+  },
+  "ironworks-roads-4": {
+   "id": "e0035-ironworks-roads-4",
+   "slot": 35,
+   "ver": 1,
+   "title": "Ironworks: Forge Road, Anvil Street, Mine Road, Quarry Lane (4/4)",
+   "box": [
+    444,
+    99,
+    -2362,
+    520,
+    117,
+    -2307
+   ]
+  },
+  "ironworks-plots-1": {
+   "id": "e0036-ironworks-plots-1",
+   "slot": 36,
+   "ver": 1,
+   "title": "Ironworks: works + workshop plots (1/3)",
+   "box": [
+    402,
+    96,
+    -2432,
+    454,
+    118,
+    -2342
+   ]
+  },
+  "ironworks-plots-2": {
+   "id": "e0037-ironworks-plots-2",
+   "slot": 37,
+   "ver": 1,
+   "title": "Ironworks: works + workshop plots (2/3)",
+   "box": [
+    455,
+    100,
+    -2429,
+    515,
+    132,
+    -2342
+   ]
+  },
+  "ironworks-plots-3": {
+   "id": "e0038-ironworks-plots-3",
+   "slot": 38,
+   "ver": 1,
+   "title": "Ironworks: works + workshop plots (3/3)",
+   "box": [
+    402,
+    91,
+    -2341,
+    520,
+    124,
+    -2297
+   ]
+  },
+  "ironworks-adit": {
+   "id": "e0039-ironworks-adit",
+   "slot": 39,
+   "ver": 1,
+   "title": "Ironworks: the old drift (mine adit)",
+   "box": [
+    385,
+    104,
+    -2427,
+    403,
+    130,
+    -2423
    ]
   }
  }

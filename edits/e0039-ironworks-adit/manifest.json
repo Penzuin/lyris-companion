@@ -1,0 +1,36 @@
+{
+ "id": "e0039-ironworks-adit",
+ "title": "Ironworks: the old drift (mine adit)",
+ "slot": 39,
+ "box": [
+  385,
+  104,
+  -2427,
+  403,
+  130,
+  -2423
+ ],
+ "files": [
+  {
+   "src": "spawn_e0039_ironworks_adit_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0039_ironworks_adit_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0039_ironworks_adit_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0039_ironworks_adit_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0039_ironworks_adit_v1 385 104 -2427"
+ ],
+ "checks": [
+  "385 105 -2427 minecraft:cobblestone",
+  "389 105 -2425 minecraft:cobblestone",
+  "394 108 -2424 minecraft:cobblestone",
+  "400 111 -2426 minecraft:cobblestone"
+ ],
+ "blocks": 319,
+ "wait": 15000
+}
