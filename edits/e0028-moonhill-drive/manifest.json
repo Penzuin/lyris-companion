@@ -1,0 +1,36 @@
+{
+ "id": "e0028-moonhill-drive",
+ "title": "Moonhill Drive",
+ "slot": 28,
+ "box": [
+  395,
+  101,
+  -2657,
+  446,
+  129,
+  -2531
+ ],
+ "files": [
+  {
+   "src": "spawn_e0028_moonhill_drive_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0028_moonhill_drive_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0028_moonhill_drive_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0028_moonhill_drive_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0028_moonhill_drive_v1 395 101 -2657"
+ ],
+ "checks": [
+  "411 112 -2548 minecraft:cobblestone",
+  "416 116 -2539 minecraft:stone_bricks",
+  "420 109 -2601 minecraft:stone_bricks",
+  "424 109 -2626 minecraft:cobblestone"
+ ],
+ "blocks": 4769,
+ "wait": 15000
+}

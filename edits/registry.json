@@ -1,5 +1,5 @@
 {
- "next": 28,
+ "next": 32,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -377,6 +377,62 @@
     258,
     74,
     -2193
+   ]
+  },
+  "moonhill-drive": {
+   "id": "e0028-moonhill-drive",
+   "slot": 28,
+   "ver": 1,
+   "title": "Moonhill Drive",
+   "box": [
+    395,
+    101,
+    -2657,
+    446,
+    129,
+    -2531
+   ]
+  },
+  "moonhill-belvedere": {
+   "id": "e0029-moonhill-belvedere",
+   "slot": 29,
+   "ver": 1,
+   "title": "Moonhill: the Belvedere",
+   "box": [
+    442,
+    108,
+    -2663,
+    458,
+    122,
+    -2644
+   ]
+  },
+  "moonhill-estates-1": {
+   "id": "e0030-moonhill-estates-1",
+   "slot": 30,
+   "ver": 1,
+   "title": "Moonhill: estate plots (1/2)",
+   "box": [
+    401,
+    97,
+    -2659,
+    462,
+    133,
+    -2596
+   ]
+  },
+  "moonhill-estates-2": {
+   "id": "e0031-moonhill-estates-2",
+   "slot": 31,
+   "ver": 1,
+   "title": "Moonhill: estate plots (2/2)",
+   "box": [
+    393,
+    97,
+    -2595,
+    442,
+    129,
+    -2543
    ]
   }
  }

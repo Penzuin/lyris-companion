@@ -1,0 +1,36 @@
+{
+ "id": "e0030-moonhill-estates-1",
+ "title": "Moonhill: estate plots (1/2)",
+ "slot": 30,
+ "box": [
+  401,
+  97,
+  -2659,
+  462,
+  133,
+  -2596
+ ],
+ "files": [
+  {
+   "src": "spawn_e0030_moonhill_estates_1_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0030_moonhill_estates_1_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0030_moonhill_estates_1_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0030_moonhill_estates_1_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0030_moonhill_estates_1_v1 401 97 -2659"
+ ],
+ "checks": [
+  "403 101 -2630 minecraft:stone_bricks",
+  "413 101 -2654 minecraft:stone",
+  "418 103 -2654 minecraft:stone",
+  "422 106 -2641 minecraft:stone"
+ ],
+ "blocks": 7534,
+ "wait": 15000
+}

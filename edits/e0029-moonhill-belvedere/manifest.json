@@ -1,0 +1,36 @@
+{
+ "id": "e0029-moonhill-belvedere",
+ "title": "Moonhill: the Belvedere",
+ "slot": 29,
+ "box": [
+  442,
+  108,
+  -2663,
+  458,
+  122,
+  -2644
+ ],
+ "files": [
+  {
+   "src": "spawn_e0029_moonhill_belvedere_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0029_moonhill_belvedere_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0029_moonhill_belvedere_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0029_moonhill_belvedere_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0029_moonhill_belvedere_v1 442 108 -2663"
+ ],
+ "checks": [
+  "442 108 -2654 minecraft:cobblestone",
+  "445 110 -2657 minecraft:andesite",
+  "447 110 -2652 minecraft:polished_andesite",
+  "450 110 -2657 minecraft:polished_andesite"
+ ],
+ "blocks": 692,
+ "wait": 15000
+}
