@@ -12,24 +12,24 @@
  ],
  "files": [
   {
-   "src": "spawn_e0009_town5_rise_v2.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0009_town5_rise_v2.nbt",
+   "src": "spawn_e0009_town5_rise_v3.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0009_town5_rise_v3.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0009_town5_rise_v2.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0009_town5_rise_v2.nbt",
+   "src": "spawn_e0009_town5_rise_v3.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0009_town5_rise_v3.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0009_town5_rise_v2 305 74 -2410"
+  "place template minecraft:spawn_e0009_town5_rise_v3 305 74 -2410"
  ],
  "checks": [
   "305 75 -2410 minecraft:stone_bricks",
-  "316 76 -2368 minecraft:grass_block",
-  "320 76 -2365 minecraft:gravel",
-  "327 80 -2337 minecraft:dirt_path"
+  "316 76 -2371 minecraft:grass_block",
+  "320 76 -2375 minecraft:gravel",
+  "326 80 -2337 minecraft:gravel"
  ],
  "blocks": 1768,
  "wait": 15000

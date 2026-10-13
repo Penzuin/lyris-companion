@@ -12,25 +12,25 @@
  ],
  "files": [
   {
-   "src": "spawn_e0007_town5_core_v2.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0007_town5_core_v2.nbt",
+   "src": "spawn_e0007_town5_core_v3.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0007_town5_core_v3.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0007_town5_core_v2.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0007_town5_core_v2.nbt",
+   "src": "spawn_e0007_town5_core_v3.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0007_town5_core_v3.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0007_town5_core_v2 258 62 -2471"
+  "place template minecraft:spawn_e0007_town5_core_v3 258 62 -2471"
  ],
  "checks": [
   "258 63 -2428 minecraft:stone_bricks",
-  "280 70 -2422 minecraft:stone_bricks",
-  "291 66 -2448 minecraft:stone",
-  "300 70 -2439 minecraft:stone_bricks"
+  "277 70 -2429 minecraft:grass_block",
+  "289 70 -2399 minecraft:grass_block",
+  "302 73 -2401 minecraft:grass_block"
  ],
- "blocks": 12685,
+ "blocks": 13499,
  "wait": 15000
 }

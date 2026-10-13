@@ -3,34 +3,34 @@
  "title": "Pier Town roads: Starward Road (2/3)",
  "slot": 11,
  "box": [
-  367,
-  88,
-  -2495,
-  398,
-  121,
-  -2467
+  295,
+  64,
+  -2477,
+  370,
+  98,
+  -2441
  ],
  "files": [
   {
-   "src": "spawn_e0011_town5_star_2_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0011_town5_star_2_v1.nbt",
+   "src": "spawn_e0011_town5_star_2_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0011_town5_star_2_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0011_town5_star_2_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0011_town5_star_2_v1.nbt",
+   "src": "spawn_e0011_town5_star_2_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0011_town5_star_2_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0011_town5_star_2_v1 367 88 -2495"
+  "place template minecraft:spawn_e0011_town5_star_2_v2 295 64 -2477"
  ],
  "checks": [
-  "367 88 -2475 minecraft:grass_block",
-  "379 94 -2475 minecraft:cobblestone",
-  "386 101 -2477 minecraft:stone_bricks",
-  "392 106 -2479 minecraft:stone_bricks"
+  "295 64 -2452 minecraft:grass_block",
+  "299 66 -2447 minecraft:stone",
+  "310 69 -2461 minecraft:dirt_path",
+  "334 75 -2466 minecraft:grass_block"
  ],
- "blocks": 1736,
+ "blocks": 1927,
  "wait": 15000
 }

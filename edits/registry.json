@@ -88,7 +88,7 @@
   "town5-core": {
    "id": "e0007-town5-core",
    "slot": 7,
-   "ver": 2,
+   "ver": 3,
    "title": "Pier Town core: Gate Steps, Ysara's Way, Moonwell Square, amenity plots",
    "box": [
     258,
@@ -116,7 +116,7 @@
   "town5-rise": {
    "id": "e0009-town5-rise",
    "slot": 9,
-   "ver": 2,
+   "ver": 3,
    "title": "Pier Town roads: Rise Lane",
    "box": [
     305,
@@ -130,43 +130,43 @@
   "town5-star-1": {
    "id": "e0010-town5-star-1",
    "slot": 10,
-   "ver": 1,
+   "ver": 2,
    "title": "Pier Town roads: Starward Road (1/3)",
    "box": [
-    305,
-    70,
-    -2475,
-    366,
-    98,
-    -2435
+    330,
+    77,
+    -2532,
+    373,
+    106,
+    -2478
    ]
   },
   "town5-star-2": {
    "id": "e0011-town5-star-2",
    "slot": 11,
-   "ver": 1,
+   "ver": 2,
    "title": "Pier Town roads: Starward Road (2/3)",
    "box": [
-    367,
-    88,
-    -2495,
-    398,
-    121,
-    -2467
+    295,
+    64,
+    -2477,
+    370,
+    98,
+    -2441
    ]
   },
   "town5-star-3": {
    "id": "e0012-town5-star-3",
    "slot": 12,
-   "ver": 1,
+   "ver": 2,
    "title": "Pier Town roads: Starward Road (3/3)",
    "box": [
-    399,
-    72,
+    374,
+    89,
     -2532,
-    455,
-    140,
-    -2477
+    438,
+    136,
+    -2478
    ]
   }
  }
