@@ -1,0 +1,31 @@
+{
+ "id": "e0098-iwvines-vines-1",
+ "title": "Vines on tall walls (1/2)",
+ "slot": 98,
+ "box": [
+  404,
+  103,
+  -2431,
+  490,
+  124,
+  -2351
+ ],
+ "files": [
+  {
+   "src": "spawn_e0098_iwvines_vines_1_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0098_iwvines_vines_1_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0098_iwvines_vines_1_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0098_iwvines_vines_1_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0098_iwvines_vines_1_v1 404 103 -2431"
+ ],
+ "checks": [],
+ "blocks": 69,
+ "wait": 15000
+}
