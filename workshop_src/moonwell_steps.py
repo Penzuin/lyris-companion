@@ -1,6 +1,6 @@
 # Moonwell Square: replace the straight full-width steps (x294-296) with a crescent of shallow half-steps that
 # curves round the Moonwell (centre on the pier axis z -2423), flanked by planted grass banks with a dry-stone kerb.
-# Walk level = 70 + 0.5*k, k = ceil(x - 293.5 + o(dz)), clamped 0..6. o(dz) bows every contour round the well.
+# Walk level = 71 + 0.5*k (plaza blocks sit at y70, the east terrace at y73), k = ceil(x - 293.5 + o(dz)), clamped 0..6. o(dz) bows every contour round the well.
 import sys, math, json
 sys.path.insert(0, '/home/claude/lyris-companion/workshop')
 import edit as W
@@ -21,7 +21,7 @@ def level(x, z):
     dz = z - ZC
     w = 0.0 if abs(dz) <= 8 or abs(dz) >= 15 else wob(z)
     k = max(0, min(6, math.ceil(x - 293.5 + off(dz) + w - 1e-9)))
-    return 70.0 + 0.5 * k, k
+    return 71.0 + 0.5 * k, k
 
 e = W.Edit('moonwell-steps', 'Moonwell Square: crescent steps round the Moonwell, planted banks')
 plants = 0
@@ -32,14 +32,14 @@ for z in range(Z0, Z1 + 1):
         if math.hypot(x - WELL[0], z - WELL[1]) <= 4.6: continue        # never touch the Moonwell rings
         if k == 0:
             if x >= 294:                                                  # old step cells that become plaza
-                for y in range(70, 77): e.put(x, y, z, 'air')
-                e.put(x, 69, z, 'polished_andesite' if h01(x, z, 1) < 0.5 else 'cobblestone')
+                for y in range(71, 78): e.put(x, y, z, 'air')
+                e.put(x, 70, z, 'polished_andesite' if h01(x, z, 1) < 0.5 else 'cobblestone')
             continue
         paved = dz <= 6 or dz >= 15          # the crescent, and the front-row walks at both ends
         if not paved: lvl = math.ceil(lvl)                                # banks are whole-block grass terraces
         whole = int(math.floor(lvl)); half = (lvl - whole) > 0.25
-        for y in range(69, 77): e.put(x, y, z, 'air')
-        for y in range(69, whole): e.put(x, y, z, 'stone' if y < whole - 2 else ('stone_bricks' if paved else 'dirt'))
+        for y in range(70, 78): e.put(x, y, z, 'air')
+        for y in range(70, whole): e.put(x, y, z, 'stone' if y < whole - 2 else ('stone_bricks' if paved else 'dirt'))
         if paved:
             if half: e.put(x, whole, z, 'stone_brick_slab[type=bottom]')                 # half rows: stone brick
             else:
@@ -50,7 +50,7 @@ for z in range(Z0, Z1 + 1):
             sy = whole - 1
             # front of each bank: a low dry-stone kerb where it meets the plaza
             plaza_next = level(x - 1, z)[1] == 0 or math.hypot(x - 1 - WELL[0], z - WELL[1]) <= 4.6
-            if whole == 71 and plaza_next:
+            if whole == 72 and plaza_next:
                 e.put(x, sy, z, 'mossy_cobblestone' if h01(x, z, 3) < 0.35 else 'cobblestone'); continue
             e.put(x, sy, z, 'grass_block')
             # planting in drifts on the banks (not on the strip right beside the steps, not at the very top edge)
