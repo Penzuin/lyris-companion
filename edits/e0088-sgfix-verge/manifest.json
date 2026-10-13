@@ -12,20 +12,20 @@
  ],
  "files": [
   {
-   "src": "spawn_e0088_sgfix_verge_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0088_sgfix_verge_v1.nbt",
+   "src": "spawn_e0088_sgfix_verge_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0088_sgfix_verge_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0088_sgfix_verge_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0088_sgfix_verge_v1.nbt",
+   "src": "spawn_e0088_sgfix_verge_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0088_sgfix_verge_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0088_sgfix_verge_v1 218 67 -2243"
+  "place template minecraft:spawn_e0088_sgfix_verge_v2 218 67 -2243"
  ],
  "checks": [],
- "blocks": 226,
+ "blocks": 220,
  "wait": 15000
 }
