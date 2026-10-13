@@ -1,0 +1,24 @@
+# iwscene: Town Lanterns along the streets (scenes.py, 2026-10-13)
+town_lantern world 334 83 -2310 270 UP
+town_lantern world 347 86 -2302 0 UP
+town_lantern world 361 86 -2291 180 UP
+town_lantern world 377 86 -2301 0 UP
+town_lantern world 391 88 -2307 90 UP
+town_lantern world 395 92 -2324 270 UP
+town_lantern world 409 98 -2333 0 UP
+town_lantern world 426 100 -2332 0 UP
+town_lantern world 441 100 -2323 180 UP
+town_lantern world 455 102 -2333 0 UP
+town_lantern world 473 102 -2325 180 UP
+town_lantern world 491 103 -2330 0 UP
+town_lantern world 507 103 -2325 180 UP
+town_lantern world 444 101 -2333 270 UP
+town_lantern world 447 105 -2350 270 UP
+town_lantern world 451 109 -2364 90 UP
+town_lantern world 445 112 -2382 270 UP
+town_lantern world 451 113 -2397 90 UP
+town_lantern world 457 116 -2404 0 UP
+town_lantern world 472 120 -2406 0 UP
+town_lantern world 486 119 -2398 180 UP
+town_lantern world 442 115 -2410 0 UP
+town_lantern world 424 114 -2410 180 UP
