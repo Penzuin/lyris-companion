@@ -4,34 +4,34 @@
  "slot": 295,
  "box": [
   290,
-  69,
+  70,
   -2440,
   299,
-  76,
+  77,
   -2407
  ],
  "files": [
   {
-   "src": "spawn_e0095_moonwell_steps_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0095_moonwell_steps_v1.nbt",
+   "src": "spawn_e0095_moonwell_steps_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0095_moonwell_steps_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0095_moonwell_steps_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0095_moonwell_steps_v1.nbt",
+   "src": "spawn_e0095_moonwell_steps_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0095_moonwell_steps_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0095_moonwell_steps_v1 290 69 -2440"
+  "place template minecraft:spawn_e0095_moonwell_steps_v2 290 70 -2440"
  ],
  "checks": [
-  "290 69 -2432 minecraft:dirt",
-  "294 69 -2412 minecraft:stone",
-  "295 71 -2417 minecraft:polished_andesite",
-  "296 73 -2414 minecraft:fern",
-  "298 69 -2435 minecraft:stone",
-  "298 73 -2410 minecraft:cornflower"
+  "290 70 -2432 minecraft:dirt",
+  "294 70 -2412 minecraft:stone",
+  "295 72 -2417 minecraft:polished_andesite",
+  "296 74 -2414 minecraft:fern",
+  "298 70 -2435 minecraft:stone",
+  "298 74 -2410 minecraft:cornflower"
  ],
  "blocks": 1992,
  "entities": 0,
