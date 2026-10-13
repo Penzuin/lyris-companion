@@ -1,0 +1,36 @@
+{
+ "id": "e0043-southgate2-roads-2",
+ "title": "Southgate v2: meandering High Street + lanes (2/2)",
+ "slot": 43,
+ "box": [
+  320,
+  72,
+  -2251,
+  370,
+  95,
+  -2146
+ ],
+ "files": [
+  {
+   "src": "spawn_e0043_southgate2_roads_2_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0043_southgate2_roads_2_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0043_southgate2_roads_2_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0043_southgate2_roads_2_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0043_southgate2_roads_2_v1 320 72 -2251"
+ ],
+ "checks": [
+  "320 74 -2180 minecraft:cobblestone",
+  "331 78 -2238 minecraft:mossy_cobblestone",
+  "340 78 -2207 minecraft:cobblestone",
+  "354 74 -2148 minecraft:cobblestone"
+ ],
+ "blocks": 9465,
+ "wait": 15000
+}

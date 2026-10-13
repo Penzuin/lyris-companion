@@ -1,0 +1,36 @@
+{
+ "id": "e0040-southgate2-link",
+ "title": "Southgate v2: High Street link",
+ "slot": 40,
+ "box": [
+  231,
+  68,
+  -2266,
+  235,
+  70,
+  -2252
+ ],
+ "files": [
+  {
+   "src": "spawn_e0040_southgate2_link_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0040_southgate2_link_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0040_southgate2_link_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0040_southgate2_link_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0040_southgate2_link_v1 231 68 -2266"
+ ],
+ "checks": [
+  "231 68 -2265 minecraft:cobblestone",
+  "232 68 -2257 minecraft:andesite",
+  "233 68 -2257 minecraft:andesite",
+  "234 68 -2256 minecraft:mossy_cobblestone"
+ ],
+ "blocks": 114,
+ "wait": 15000
+}
