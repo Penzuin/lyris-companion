@@ -34,6 +34,20 @@
     const ni = dv.getUint16(p); p += 2; const ifs = []; for (let i = 0; i < ni; i++) { ifs.push(dv.getUint16(p)); p += 2; }
     const body = [u16(access), null, null, u16(ni)];
     const T = use(thisC), S = use(superC); body[1] = u16(T); body[2] = u16(S); for (const x of ifs) body.push(u16(use(x)));
+    function ev(get, set) {              // element_value -> remapped bytes
+      let q = get(); const tag = String.fromCharCode(u8[q]); q++; const out = [new Uint8Array([u8[q - 1]])];
+      if ('BCDFIJSZs'.includes(tag)) { out.push(u16(use(dv.getUint16(q)))); q += 2; }
+      else if (tag === 'e') { out.push(u16(use(dv.getUint16(q))), u16(use(dv.getUint16(q + 2)))); q += 4; }
+      else if (tag === 'c') { out.push(u16(use(dv.getUint16(q)))); q += 2; }
+      else if (tag === '@') { set(q); out.push(...ann(get, set)); q = get(); }
+      else if (tag === '[') { const c = dv.getUint16(q); q += 2; out.push(u16(c)); for (let k = 0; k < c; k++) { set(q); out.push(...ev(get, set)); q = get(); } }
+      set(q); return out;
+    }
+    function ann(get, set) {             // annotation -> remapped bytes
+      let q = get(); const out = [u16(use(dv.getUint16(q)))]; const c = dv.getUint16(q + 2); q += 4; out.push(u16(c));
+      for (let k = 0; k < c; k++) { out.push(u16(use(dv.getUint16(q)))); q += 2; set(q); out.push(...ev(get, set)); q = get(); }
+      set(q); return out;
+    }
     const attrs = (skip) => {
       const cnt = dv.getUint16(p); p += 2; const kept = [];
       for (let i = 0; i < cnt; i++) {
@@ -46,6 +60,12 @@
         else if (nm === 'EnclosingMethod') parts = [u16(use(g(0))), u16(use(g(2)))];
         else if (nm === 'InnerClasses') { const c = g(0); parts = [u16(c)]; for (let k = 0; k < c; k++) { const o = 2 + 8 * k; parts.push(u16(use(g(o))), u16(use(g(o + 2))), u16(use(g(o + 4))), u16(g(o + 6))); } }
         else if (nm === 'MethodParameters') { const c = u8[a]; parts = [new Uint8Array([c])]; for (let k = 0; k < c; k++) parts.push(u16(use(g(1 + 4 * k))), u16(g(3 + 4 * k))); }
+        else if (nm === 'AnnotationDefault') { let q = a; parts = ev(() => q, v => q = v); }
+        else if (nm === 'RuntimeVisibleAnnotations') {   // keep annotations except Kotlin's bulky @Metadata
+          let q = a; const c = dv.getUint16(q); q += 2; const keptA = [];
+          for (let k = 0; k < c; k++) { const tn = utf(dv.getUint16(q)); const r = ann(() => q, v => q = v); if (tn !== 'Lkotlin/Metadata;') keptA.push(r); }
+          parts = [u16(keptA.length), ...keptA.flat()];
+        }
         if (!parts) continue;
         const L = parts.reduce((s, x) => s + x.length, 0); kept.push([u16(use(dv.getUint16(a - 6))), u32(L), ...parts]);
       }
