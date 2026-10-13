@@ -1,5 +1,5 @@
 {
- "next": 97,
+ "next": 98,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1343,6 +1343,20 @@
     284,
     98,
     -2369
+   ]
+  },
+  "sgvines-vines": {
+   "id": "e0097-sgvines-vines",
+   "slot": 97,
+   "ver": 1,
+   "title": "Vines on tall walls",
+   "box": [
+    221,
+    67,
+    -2248,
+    344,
+    75,
+    -2160
    ]
   }
  }
