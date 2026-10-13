@@ -1,0 +1,36 @@
+{
+ "id": "e0022-southgate-west",
+ "title": "Southgate: High Street west plots",
+ "slot": 22,
+ "box": [
+  216,
+  66,
+  -2252,
+  230,
+  79,
+  -2153
+ ],
+ "files": [
+  {
+   "src": "spawn_e0022_southgate_west_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0022_southgate_west_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0022_southgate_west_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0022_southgate_west_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0022_southgate_west_v1 216 66 -2252"
+ ],
+ "checks": [
+  "220 66 -2245 minecraft:stone_bricks",
+  "220 67 -2232 minecraft:stone_bricks",
+  "222 67 -2232 minecraft:stone_bricks",
+  "224 67 -2240 minecraft:stone_bricks"
+ ],
+ "blocks": 2336,
+ "wait": 15000
+}
