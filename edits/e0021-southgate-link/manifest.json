@@ -1,0 +1,36 @@
+{
+ "id": "e0021-southgate-link",
+ "title": "Southgate: High Street link from Cooper's Row",
+ "slot": 21,
+ "box": [
+  216,
+  68,
+  -2265,
+  370,
+  92,
+  -2252
+ ],
+ "files": [
+  {
+   "src": "spawn_e0021_southgate_link_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0021_southgate_link_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0021_southgate_link_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0021_southgate_link_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0021_southgate_link_v1 216 68 -2265"
+ ],
+ "checks": [
+  "231 68 -2265 minecraft:mossy_cobblestone",
+  "232 68 -2258 minecraft:cobblestone",
+  "233 68 -2259 minecraft:andesite",
+  "234 68 -2261 minecraft:mossy_cobblestone"
+ ],
+ "blocks": 174,
+ "wait": 15000
+}
