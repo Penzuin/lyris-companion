@@ -87,6 +87,41 @@
       if (box) await forceload(box, false);
       return res;
     },
+    // ---- plugin deploys (sdk/build.py --deploy) ----------------------------------------------------------------
+    // Uploads deploy/<name>/<jar> from the drop branch, checks its sha256 on the server, moves the old jar(s) of the
+    // same plugin to /plugins/_old/ (one jar per plugin), and uploads any extra files. The jar loads at the next restart.
+    async deploy(sha, name) {
+      const t0 = Date.now(), out = [];
+      const m = JSON.parse(await raw(sha, `deploy/${name}/manifest.json`));
+      const buf = await raw(sha, `deploy/${name}/${m.jar}`, true);
+      const hex = b => [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join('');
+      if (hex(await crypto.subtle.digest('SHA-256', buf)) !== m.sha256) throw new Error('jar from GitHub does not match the build hash');
+      const list = (await (await call('files/list?directory=' + encodeURIComponent('/plugins'))).json()).data.map(f => f.attributes).filter(f => f.is_file);
+      const base = n => n.toLowerCase().replace(/\.jar$/, '').replace(/[-_ ]?v?\d+(\.\d+)*([-.][a-z0-9]+)*$/, '');
+      const olds = list.filter(f => f.name.endsWith('.jar') && f.name !== m.jar && base(f.name) === m.name.toLowerCase());
+      out.push(`${m.name} ${m.version}: ${await write('/plugins/' + m.jar, buf, true)}`);
+      // read it back and compare
+      const r = await (await call('files/download?file=' + encodeURIComponent('/plugins/' + m.jar))).json();
+      const back = await (await fetch(r.attributes.url)).arrayBuffer();
+      if (hex(await crypto.subtle.digest('SHA-256', back)) !== m.sha256) throw new Error('uploaded jar hash mismatch, check /plugins/' + m.jar);
+      out.push('hash ok');
+      for (const o of olds) {
+        await call('files/create-folder', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ root: '/plugins', name: '_old' }) });
+        const st = new Date().toISOString().slice(0, 16).replace(/[-:T]/g, '');
+        const rr = await call('files/rename', { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ root: '/plugins', files: [{ from: o.name, to: `_old/${o.name}.${st}` }] }) });
+        out.push(`old ${o.name} -> _old/ (${rr.status})`); await sl(900);
+      }
+      for (const f of (m.files || [])) out.push(`${f.dst.split('/').pop()}: ${await write(f.dst, await raw(sha, `deploy/${name}/${f.src}`, f.binary), f.binary)}`);
+      out.push(`done in ${Math.round((Date.now() - t0) / 1000)}s. Loads at the next restart (ask the owner; claim server:restart).`);
+      return out.join(' | ');
+    },
+    // who is online (for picking a restart moment)
+    async online() { await cmd('list'); await sl(1200); return (await log(6)).filter(l => /players online|online:/i.test(l)).slice(-2); },
+    // after a restart: this plugin's enable line and any errors that mention it
+    async check(name) {
+      const L = await log(4000);
+      return L.filter(l => l.toLowerCase().includes(name.toLowerCase()) && /Enabling|Disabling|ERROR|WARN|Exception|Could not load|Error occurred/i.test(l)).slice(-15);
+    },
     // read the live blocks in a box straight from the region files -> compact JSON (palette + run-length data, order y,z,x)
     async read(box) {
       await cmd('save-all flush'); await sl(5000);
