@@ -1,0 +1,38 @@
+{
+ "id": "e0101-bright-cask",
+ "title": "The Bright Cask (tavern, Moonwell Square)",
+ "slot": 101,
+ "box": [
+  304,
+  70,
+  -2433,
+  320,
+  96,
+  -2414
+ ],
+ "files": [
+  {
+   "src": "spawn_e0101_bright_cask_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0101_bright_cask_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0101_bright_cask_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0101_bright_cask_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0101_bright_cask_v1 304 70 -2433"
+ ],
+ "checks": [
+  "308 75 -2423 minecraft:dark_oak_door",
+  "313 75 -2428 minecraft:campfire",
+  "307 75 -2425 minecraft:stone_bricks",
+  "306 81 -2425 minecraft:stripped_dark_oak_log",
+  "318 77 -2423 minecraft:barrel",
+  "313 93 -2423 minecraft:deepslate_tiles"
+ ],
+ "blocks": 6577,
+ "wait": 15000
+}

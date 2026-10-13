@@ -1,5 +1,5 @@
 {
- "next": 101,
+ "next": 102,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1399,6 +1399,20 @@
     456,
     120,
     -2542
+   ]
+  },
+  "bright-cask": {
+   "id": "e0101-bright-cask",
+   "slot": 101,
+   "ver": 1,
+   "title": "The Bright Cask (tavern, Moonwell Square)",
+   "box": [
+    304,
+    70,
+    -2433,
+    320,
+    96,
+    -2414
    ]
   }
  }
