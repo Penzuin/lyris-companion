@@ -1,0 +1,195 @@
+{
+ "name": "LyrisCranes",
+ "version": "2.0.0",
+ "jar": "LyrisCranes-2.0.0.jar",
+ "sha256": "6c01bd56c017ef8b05bded6bc32cf076e7c22e90b30a3a86f0ec9fe0e32334e0",
+ "size": 36353,
+ "files": [
+  {
+   "src": "models__crane_hook.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/models/item/crane_hook.json",
+   "binary": false
+  },
+  {
+   "src": "textures__crane_hook.png",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/textures/item/crane_hook.png",
+   "binary": true
+  },
+  {
+   "src": "items__crane_hook.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/items/crane_hook.json",
+   "binary": false
+  },
+  {
+   "src": "models__crane_jib_arm.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/models/item/crane_jib_arm.json",
+   "binary": false
+  },
+  {
+   "src": "textures__crane_jib_arm.png",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/textures/item/crane_jib_arm.png",
+   "binary": true
+  },
+  {
+   "src": "items__crane_jib_arm.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/items/crane_jib_arm.json",
+   "binary": false
+  },
+  {
+   "src": "models__crane_jib_mast.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/models/item/crane_jib_mast.json",
+   "binary": false
+  },
+  {
+   "src": "textures__crane_jib_mast.png",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/textures/item/crane_jib_mast.png",
+   "binary": true
+  },
+  {
+   "src": "items__crane_jib_mast.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/items/crane_jib_mast.json",
+   "binary": false
+  },
+  {
+   "src": "models__crane_rope.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/models/item/crane_rope.json",
+   "binary": false
+  },
+  {
+   "src": "textures__crane_rope.png",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/textures/item/crane_rope.png",
+   "binary": true
+  },
+  {
+   "src": "items__crane_rope.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/items/crane_rope.json",
+   "binary": false
+  },
+  {
+   "src": "models__crane_st_boom.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/models/item/crane_st_boom.json",
+   "binary": false
+  },
+  {
+   "src": "textures__crane_st_boom.png",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/textures/item/crane_st_boom.png",
+   "binary": true
+  },
+  {
+   "src": "items__crane_st_boom.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/items/crane_st_boom.json",
+   "binary": false
+  },
+  {
+   "src": "models__crane_st_cab.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/models/item/crane_st_cab.json",
+   "binary": false
+  },
+  {
+   "src": "textures__crane_st_cab.png",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/textures/item/crane_st_cab.png",
+   "binary": true
+  },
+  {
+   "src": "items__crane_st_cab.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/items/crane_st_cab.json",
+   "binary": false
+  },
+  {
+   "src": "models__crane_st_roof.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/models/item/crane_st_roof.json",
+   "binary": false
+  },
+  {
+   "src": "textures__crane_st_roof.png",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/textures/item/crane_st_roof.png",
+   "binary": true
+  },
+  {
+   "src": "items__crane_st_roof.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/items/crane_st_roof.json",
+   "binary": false
+  },
+  {
+   "src": "models__crane_st_tip.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/models/item/crane_st_tip.json",
+   "binary": false
+  },
+  {
+   "src": "textures__crane_st_tip.png",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/textures/item/crane_st_tip.png",
+   "binary": true
+  },
+  {
+   "src": "items__crane_st_tip.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/items/crane_st_tip.json",
+   "binary": false
+  },
+  {
+   "src": "models__crane_tw_frame.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/models/item/crane_tw_frame.json",
+   "binary": false
+  },
+  {
+   "src": "textures__crane_tw_frame.png",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/textures/item/crane_tw_frame.png",
+   "binary": true
+  },
+  {
+   "src": "items__crane_tw_frame.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/items/crane_tw_frame.json",
+   "binary": false
+  },
+  {
+   "src": "models__crane_tw_head.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/models/item/crane_tw_head.json",
+   "binary": false
+  },
+  {
+   "src": "textures__crane_tw_head.png",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/textures/item/crane_tw_head.png",
+   "binary": true
+  },
+  {
+   "src": "items__crane_tw_head.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/items/crane_tw_head.json",
+   "binary": false
+  },
+  {
+   "src": "models__crane_tw_mast.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/models/item/crane_tw_mast.json",
+   "binary": false
+  },
+  {
+   "src": "textures__crane_tw_mast.png",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/textures/item/crane_tw_mast.png",
+   "binary": true
+  },
+  {
+   "src": "items__crane_tw_mast.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/items/crane_tw_mast.json",
+   "binary": false
+  },
+  {
+   "src": "models__crane_tw_wheel.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/models/item/crane_tw_wheel.json",
+   "binary": false
+  },
+  {
+   "src": "textures__crane_tw_wheel.png",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/textures/item/crane_tw_wheel.png",
+   "binary": true
+  },
+  {
+   "src": "items__crane_tw_wheel.json",
+   "dst": "/plugins/Nexo/pack/external_packs/lyris_cranes/assets/lyris_cranes/items/crane_tw_wheel.json",
+   "binary": false
+  },
+  {
+   "src": "config.yml",
+   "dst": "/plugins/LyrisCranes/config.yml",
+   "binary": false
+  }
+ ],
+ "built": "2026-10-13 12:11 UTC"
+}
