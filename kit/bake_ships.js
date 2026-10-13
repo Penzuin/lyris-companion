@@ -10,7 +10,7 @@
   const H = () => ({ 'X-XSRF-TOKEN': decodeURIComponent(document.cookie.match(/XSRF-TOKEN=([^;]+)/)[1]), 'X-Requested-With': 'XMLHttpRequest' });
   const get = async p => { const r = await fetch(API + 'files/contents?file=' + encodeURIComponent(p)); if (!r.ok) throw new Error(r.status + ' ' + p); return r.text(); };
   const put = async (p, body) => (await fetch(API + 'files/write?file=' + encodeURIComponent(p), { method: 'POST', headers: { ...H(), 'Content-Type': 'text/plain' }, body })).status;
-  const f = a => a.split(',').map(Number);
+  const f = a => a.split(',').map(x => parseFloat(x));
   const isRig = m => /rope|shroud|_stay_/.test(m);
   // quaternion helpers [x,y,z,w]
   const qmul = (a, b) => [a[3]*b[0]+a[0]*b[3]+a[1]*b[2]-a[2]*b[1], a[3]*b[1]-a[0]*b[2]+a[1]*b[3]+a[2]*b[0], a[3]*b[2]+a[0]*b[1]-a[1]*b[0]+a[2]*b[3], a[3]*b[3]-a[0]*b[0]-a[1]*b[1]-a[2]*b[2]];
