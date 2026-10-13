@@ -1,5 +1,5 @@
 {
- "next": 4,
+ "next": 5,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -41,6 +41,20 @@
     263,
     67,
     -2373
+   ]
+  },
+  "hendrik-cottage": {
+   "id": "e0004-hendrik-cottage",
+   "slot": 4,
+   "ver": 2,
+   "title": "Hendrik's cottage on the live ground (Quay West)",
+   "box": [
+    135,
+    60,
+    -2336,
+    170,
+    80,
+    -2293
    ]
   }
  }

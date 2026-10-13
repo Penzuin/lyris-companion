@@ -1,0 +1,36 @@
+{
+ "id": "e0004-hendrik-cottage",
+ "title": "Hendrik's cottage on the live ground (Quay West)",
+ "slot": 4,
+ "box": [
+  135,
+  60,
+  -2336,
+  170,
+  80,
+  -2293
+ ],
+ "files": [
+  {
+   "src": "spawn_e0004_hendrik_cottage_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0004_hendrik_cottage_v2.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0004_hendrik_cottage_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0004_hendrik_cottage_v2.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0004_hendrik_cottage_v2 135 60 -2336"
+ ],
+ "checks": [
+  "152 66 -2314 minecraft:spruce_door",
+  "146 66 -2318 minecraft:campfire",
+  "143 77 -2318 minecraft:stone_bricks",
+  "145 66 -2323 minecraft:stripped_dark_oak_log"
+ ],
+ "blocks": 3931,
+ "wait": 12000
+}
