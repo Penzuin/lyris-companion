@@ -24,7 +24,7 @@
  ],
  "run": [
   "place template minecraft:spawn_e0096_mainstreet_hatter_v1 269 70 -2384",
-  "data merge block 281 75 -2378 {front_text:{messages:['\"\"','\"The Hatter\"','\"hats & caps\"','\"\"']},back_text:{messages:['\"\"','\"The Hatter\"','\"hats & caps\"','\"\"']},is_waxed:1b}"
+  "data merge block 281 75 -2378 {front_text:{messages:[\"\",\"The Hatter\",\"hats & caps\",\"\"]},back_text:{messages:[\"\",\"The Hatter\",\"hats & caps\",\"\"]},is_waxed:1b}"
  ],
  "checks": [
   "280 71 -2377 minecraft:spruce_door",
