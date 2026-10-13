@@ -1,5 +1,5 @@
 {
- "next": 86,
+ "next": 89,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1189,6 +1189,48 @@
     329,
     94,
     -2391
+   ]
+  },
+  "sgfix-roads": {
+   "id": "e0086-sgfix-roads",
+   "slot": 86,
+   "ver": 1,
+   "title": "Southgate scenes fix: calmer lanes",
+   "box": [
+    232,
+    67,
+    -2251,
+    369,
+    80,
+    -2148
+   ]
+  },
+  "sgfix-green": {
+   "id": "e0087-sgfix-green",
+   "slot": 87,
+   "ver": 1,
+   "title": "Southgate scenes fix: Green kerb",
+   "box": [
+    240,
+    70,
+    -2202,
+    261,
+    70,
+    -2191
+   ]
+  },
+  "sgfix-verge": {
+   "id": "e0088-sgfix-verge",
+   "slot": 88,
+   "ver": 1,
+   "title": "Southgate scenes fix: gaps smoothed",
+   "box": [
+    218,
+    67,
+    -2243,
+    368,
+    82,
+    -2148
    ]
   }
  }

@@ -1,0 +1,31 @@
+{
+ "id": "e0088-sgfix-verge",
+ "title": "Southgate scenes fix: gaps smoothed",
+ "slot": 88,
+ "box": [
+  218,
+  67,
+  -2243,
+  368,
+  82,
+  -2148
+ ],
+ "files": [
+  {
+   "src": "spawn_e0088_sgfix_verge_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0088_sgfix_verge_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0088_sgfix_verge_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0088_sgfix_verge_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0088_sgfix_verge_v1 218 67 -2243"
+ ],
+ "checks": [],
+ "blocks": 226,
+ "wait": 15000
+}

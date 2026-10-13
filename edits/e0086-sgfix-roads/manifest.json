@@ -1,0 +1,36 @@
+{
+ "id": "e0086-sgfix-roads",
+ "title": "Southgate scenes fix: calmer lanes",
+ "slot": 86,
+ "box": [
+  232,
+  67,
+  -2251,
+  369,
+  80,
+  -2148
+ ],
+ "files": [
+  {
+   "src": "spawn_e0086_sgfix_roads_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0086_sgfix_roads_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0086_sgfix_roads_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0086_sgfix_roads_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0086_sgfix_roads_v1 232 67 -2251"
+ ],
+ "checks": [
+  "232 68 -2207 minecraft:cobblestone",
+  "276 71 -2176 minecraft:mossy_cobblestone",
+  "306 75 -2242 minecraft:mossy_cobblestone",
+  "333 75 -2182 minecraft:mossy_cobblestone"
+ ],
+ "blocks": 2072,
+ "wait": 15000
+}
