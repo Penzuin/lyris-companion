@@ -4,7 +4,7 @@
  "slot": 6,
  "box": [
   236,
-  60,
+  61,
   -2478,
   299,
   82,
@@ -12,18 +12,18 @@
  ],
  "files": [
   {
-   "src": "spawn_e0006_quay_inland_east_v1.nbt",
-   "dst": "/world/generated/minecraft/structures/spawn_e0006_quay_inland_east_v1.nbt",
+   "src": "spawn_e0006_quay_inland_east_v2.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0006_quay_inland_east_v2.nbt",
    "binary": true
   },
   {
-   "src": "spawn_e0006_quay_inland_east_v1.nbt",
-   "dst": "/world/generated/minecraft/structure/spawn_e0006_quay_inland_east_v1.nbt",
+   "src": "spawn_e0006_quay_inland_east_v2.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0006_quay_inland_east_v2.nbt",
    "binary": true
   }
  ],
  "run": [
-  "place template minecraft:spawn_e0006_quay_inland_east_v1 236 60 -2478"
+  "place template minecraft:spawn_e0006_quay_inland_east_v2 236 61 -2478"
  ],
  "checks": [
   "236 64 -2364 minecraft:stone",
@@ -31,6 +31,6 @@
   "261 64 -2373 minecraft:cobblestone",
   "272 64 -2439 minecraft:cobblestone"
  ],
- "blocks": 1832,
+ "blocks": 1816,
  "wait": 15000
 }

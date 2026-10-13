@@ -74,11 +74,11 @@
   "quay-inland-east": {
    "id": "e0006-quay-inland-east",
    "slot": 6,
-   "ver": 1,
+   "ver": 2,
    "title": "Harbour quay widened inland (east quay and north walk)",
    "box": [
     236,
-    60,
+    61,
     -2478,
     299,
     82,
