@@ -1,0 +1,31 @@
+{
+ "id": "e0059-sgscene-green",
+ "title": "Southgate scenes: the Green",
+ "slot": 59,
+ "box": [
+  240,
+  70,
+  -2202,
+  261,
+  78,
+  -2191
+ ],
+ "files": [
+  {
+   "src": "spawn_e0059_sgscene_green_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0059_sgscene_green_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0059_sgscene_green_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0059_sgscene_green_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0059_sgscene_green_v1 240 70 -2202"
+ ],
+ "checks": [],
+ "blocks": 260,
+ "wait": 15000
+}

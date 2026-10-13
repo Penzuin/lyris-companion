@@ -1,5 +1,5 @@
 {
- "next": 55,
+ "next": 62,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -755,6 +755,104 @@
     403,
     130,
     -2423
+   ]
+  },
+  "sgscene-plots": {
+   "id": "e0055-sgscene-plots",
+   "slot": 55,
+   "ver": 1,
+   "title": "Southgate scenes: plot hedges, fences, plinths",
+   "box": [
+    218,
+    67,
+    -2251,
+    367,
+    82,
+    -2151
+   ]
+  },
+  "sgscene-roads": {
+   "id": "e0056-sgscene-roads",
+   "slot": 56,
+   "ver": 1,
+   "title": "Southgate scenes: road surfaces",
+   "box": [
+    229,
+    67,
+    -2266,
+    369,
+    80,
+    -2146
+   ]
+  },
+  "sgscene-verge-1": {
+   "id": "e0057-sgscene-verge-1",
+   "slot": 57,
+   "ver": 1,
+   "title": "Southgate scenes: verges, mossy banks (1/2)",
+   "box": [
+    215,
+    65,
+    -2266,
+    292,
+    76,
+    -2146
+   ]
+  },
+  "sgscene-verge-2": {
+   "id": "e0058-sgscene-verge-2",
+   "slot": 58,
+   "ver": 1,
+   "title": "Southgate scenes: verges, mossy banks (2/2)",
+   "box": [
+    293,
+    72,
+    -2252,
+    370,
+    84,
+    -2146
+   ]
+  },
+  "sgscene-green": {
+   "id": "e0059-sgscene-green",
+   "slot": 59,
+   "ver": 1,
+   "title": "Southgate scenes: the Green",
+   "box": [
+    240,
+    70,
+    -2202,
+    261,
+    78,
+    -2191
+   ]
+  },
+  "sgscene-trees-1": {
+   "id": "e0060-sgscene-trees-1",
+   "slot": 60,
+   "ver": 1,
+   "title": "Southgate scenes: street trees (1/2)",
+   "box": [
+    225,
+    67,
+    -2254,
+    288,
+    81,
+    -2144
+   ]
+  },
+  "sgscene-trees-2": {
+   "id": "e0061-sgscene-trees-2",
+   "slot": 61,
+   "ver": 1,
+   "title": "Southgate scenes: street trees (2/2)",
+   "box": [
+    289,
+    71,
+    -2246,
+    369,
+    88,
+    -2144
    ]
   }
  }

@@ -1,0 +1,31 @@
+{
+ "id": "e0058-sgscene-verge-2",
+ "title": "Southgate scenes: verges, mossy banks (2/2)",
+ "slot": 58,
+ "box": [
+  293,
+  72,
+  -2252,
+  370,
+  84,
+  -2146
+ ],
+ "files": [
+  {
+   "src": "spawn_e0058_sgscene_verge_2_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0058_sgscene_verge_2_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0058_sgscene_verge_2_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0058_sgscene_verge_2_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0058_sgscene_verge_2_v1 293 72 -2252"
+ ],
+ "checks": [],
+ "blocks": 775,
+ "wait": 15000
+}

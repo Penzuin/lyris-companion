@@ -1,0 +1,36 @@
+{
+ "id": "e0055-sgscene-plots",
+ "title": "Southgate scenes: plot hedges, fences, plinths",
+ "slot": 55,
+ "box": [
+  218,
+  67,
+  -2251,
+  367,
+  82,
+  -2151
+ ],
+ "files": [
+  {
+   "src": "spawn_e0055_sgscene_plots_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0055_sgscene_plots_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0055_sgscene_plots_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0055_sgscene_plots_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0055_sgscene_plots_v1 218 67 -2251"
+ ],
+ "checks": [
+  "218 67 -2221 minecraft:stone_bricks",
+  "256 71 -2250 minecraft:stone_bricks",
+  "299 75 -2221 minecraft:stone_bricks",
+  "335 78 -2200 minecraft:mossy_cobblestone"
+ ],
+ "blocks": 4961,
+ "wait": 15000
+}

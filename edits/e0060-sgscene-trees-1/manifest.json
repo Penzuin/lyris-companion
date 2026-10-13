@@ -1,0 +1,31 @@
+{
+ "id": "e0060-sgscene-trees-1",
+ "title": "Southgate scenes: street trees (1/2)",
+ "slot": 60,
+ "box": [
+  225,
+  67,
+  -2254,
+  288,
+  81,
+  -2144
+ ],
+ "files": [
+  {
+   "src": "spawn_e0060_sgscene_trees_1_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0060_sgscene_trees_1_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0060_sgscene_trees_1_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0060_sgscene_trees_1_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0060_sgscene_trees_1_v1 225 67 -2254"
+ ],
+ "checks": [],
+ "blocks": 1628,
+ "wait": 15000
+}

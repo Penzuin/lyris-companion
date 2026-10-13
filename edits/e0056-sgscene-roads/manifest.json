@@ -1,0 +1,36 @@
+{
+ "id": "e0056-sgscene-roads",
+ "title": "Southgate scenes: road surfaces",
+ "slot": 56,
+ "box": [
+  229,
+  67,
+  -2266,
+  369,
+  80,
+  -2146
+ ],
+ "files": [
+  {
+   "src": "spawn_e0056_sgscene_roads_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0056_sgscene_roads_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0056_sgscene_roads_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0056_sgscene_roads_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0056_sgscene_roads_v1 229 67 -2266"
+ ],
+ "checks": [
+  "229 67 -2208 minecraft:stone_bricks",
+  "234 67 -2227 minecraft:mossy_cobblestone",
+  "268 71 -2179 minecraft:mossy_cobblestone",
+  "312 75 -2209 minecraft:mossy_cobblestone"
+ ],
+ "blocks": 4258,
+ "wait": 15000
+}
