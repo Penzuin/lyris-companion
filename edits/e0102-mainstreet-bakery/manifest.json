@@ -1,0 +1,38 @@
+{
+ "id": "e0102-mainstreet-bakery",
+ "title": "Main Street: Bakery",
+ "slot": 102,
+ "box": [
+  267,
+  70,
+  -2405,
+  283,
+  100,
+  -2388
+ ],
+ "files": [
+  {
+   "src": "spawn_e0102_mainstreet_bakery_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0102_mainstreet_bakery_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0102_mainstreet_bakery_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0102_mainstreet_bakery_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0102_mainstreet_bakery_v1 267 70 -2405"
+ ],
+ "checks": [
+  "267 86 -2404 minecraft:dark_oak_slab",
+  "269 87 -2390 minecraft:dark_oak_planks",
+  "272 86 -2395 minecraft:spruce_planks",
+  "275 88 -2391 minecraft:deepslate_tile_stairs",
+  "278 72 -2393 minecraft:glass_pane",
+  "280 76 -2398 minecraft:spruce_planks"
+ ],
+ "blocks": 4163,
+ "entities": 0
+}

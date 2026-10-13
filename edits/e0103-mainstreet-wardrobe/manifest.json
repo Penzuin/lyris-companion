@@ -1,0 +1,38 @@
+{
+ "id": "e0103-mainstreet-wardrobe",
+ "title": "Main Street: The Wardrobe",
+ "slot": 103,
+ "box": [
+  260,
+  71,
+  -2370,
+  281,
+  99,
+  -2353
+ ],
+ "files": [
+  {
+   "src": "spawn_e0103_mainstreet_wardrobe_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0103_mainstreet_wardrobe_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0103_mainstreet_wardrobe_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0103_mainstreet_wardrobe_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0103_mainstreet_wardrobe_v1 260 71 -2370"
+ ],
+ "checks": [
+  "260 82 -2370 minecraft:spruce_slab",
+  "263 82 -2364 minecraft:spruce_planks",
+  "267 72 -2356 minecraft:stripped_spruce_log",
+  "270 85 -2359 minecraft:deepslate_tiles",
+  "273 84 -2366 minecraft:deepslate_tile_stairs",
+  "275 91 -2355 minecraft:deepslate_tile_stairs"
+ ],
+ "blocks": 3520,
+ "entities": 0
+}

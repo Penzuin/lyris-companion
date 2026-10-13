@@ -1,0 +1,38 @@
+{
+ "id": "e0109-mainstreet-moongate",
+ "title": "Main Street: Moon Gate",
+ "slot": 109,
+ "box": [
+  282,
+  70,
+  -2406,
+  306,
+  102,
+  -2401
+ ],
+ "files": [
+  {
+   "src": "spawn_e0109_mainstreet_moongate_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0109_mainstreet_moongate_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0109_mainstreet_moongate_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0109_mainstreet_moongate_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0109_mainstreet_moongate_v1 282 70 -2406"
+ ],
+ "checks": [
+  "282 71 -2404 minecraft:polished_andesite",
+  "285 80 -2402 minecraft:stone_brick_stairs",
+  "288 90 -2402 minecraft:deepslate_tile_stairs",
+  "294 92 -2402 minecraft:calcite",
+  "300 82 -2403 minecraft:stone_bricks",
+  "303 96 -2404 minecraft:deepslate_tiles"
+ ],
+ "blocks": 1504,
+ "entities": 0
+}

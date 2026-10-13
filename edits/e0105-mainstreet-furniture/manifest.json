@@ -1,0 +1,38 @@
+{
+ "id": "e0105-mainstreet-furniture",
+ "title": "Main Street: Furniture Store",
+ "slot": 105,
+ "box": [
+  260,
+  71,
+  -2341,
+  283,
+  98,
+  -2325
+ ],
+ "files": [
+  {
+   "src": "spawn_e0105_mainstreet_furniture_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0105_mainstreet_furniture_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0105_mainstreet_furniture_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0105_mainstreet_furniture_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0105_mainstreet_furniture_v1 260 71 -2341"
+ ],
+ "checks": [
+  "260 83 -2341 minecraft:dark_oak_stairs",
+  "264 87 -2333 minecraft:cobblestone",
+  "268 90 -2327 minecraft:deepslate_tiles",
+  "271 98 -2326 minecraft:deepslate_tile_slab",
+  "275 73 -2327 minecraft:cobblestone",
+  "278 86 -2331 minecraft:deepslate_tile_stairs"
+ ],
+ "blocks": 4277,
+ "entities": 0
+}

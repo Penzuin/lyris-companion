@@ -1,0 +1,38 @@
+{
+ "id": "e0107-mainstreet-petshop",
+ "title": "Main Street: Pet Shop",
+ "slot": 107,
+ "box": [
+  304,
+  71,
+  -2356,
+  329,
+  92,
+  -2342
+ ],
+ "files": [
+  {
+   "src": "spawn_e0107_mainstreet_petshop_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0107_mainstreet_petshop_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0107_mainstreet_petshop_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0107_mainstreet_petshop_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0107_mainstreet_petshop_v1 304 71 -2356"
+ ],
+ "checks": [
+  "304 92 -2349 minecraft:dark_oak_stairs",
+  "308 72 -2350 minecraft:polished_andesite",
+  "310 76 -2354 minecraft:dark_oak_log",
+  "312 92 -2349 minecraft:dark_oak_slab",
+  "315 79 -2354 minecraft:packed_mud",
+  "317 77 -2348 minecraft:dark_oak_log"
+ ],
+ "blocks": 1830,
+ "entities": 0
+}

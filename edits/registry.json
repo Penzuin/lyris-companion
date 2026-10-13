@@ -1,5 +1,5 @@
 {
- "next": 102,
+ "next": 111,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1413,6 +1413,132 @@
     320,
     96,
     -2414
+   ]
+  },
+  "mainstreet-bakery": {
+   "id": "e0102-mainstreet-bakery",
+   "slot": 102,
+   "ver": 1,
+   "title": "Main Street: Bakery",
+   "box": [
+    267,
+    70,
+    -2405,
+    283,
+    100,
+    -2388
+   ]
+  },
+  "mainstreet-wardrobe": {
+   "id": "e0103-mainstreet-wardrobe",
+   "slot": 103,
+   "ver": 1,
+   "title": "Main Street: The Wardrobe",
+   "box": [
+    260,
+    71,
+    -2370,
+    281,
+    99,
+    -2353
+   ]
+  },
+  "mainstreet-painter": {
+   "id": "e0104-mainstreet-painter",
+   "slot": 104,
+   "ver": 1,
+   "title": "Main Street: Painter's Studio",
+   "box": [
+    265,
+    71,
+    -2352,
+    283,
+    91,
+    -2340
+   ]
+  },
+  "mainstreet-furniture": {
+   "id": "e0105-mainstreet-furniture",
+   "slot": 105,
+   "ver": 1,
+   "title": "Main Street: Furniture Store",
+   "box": [
+    260,
+    71,
+    -2341,
+    283,
+    98,
+    -2325
+   ]
+  },
+  "mainstreet-toolskinner": {
+   "id": "e0106-mainstreet-toolskinner",
+   "slot": 106,
+   "ver": 1,
+   "title": "Main Street: Tool Skinner",
+   "box": [
+    305,
+    71,
+    -2370,
+    319,
+    89,
+    -2358
+   ]
+  },
+  "mainstreet-petshop": {
+   "id": "e0107-mainstreet-petshop",
+   "slot": 107,
+   "ver": 1,
+   "title": "Main Street: Pet Shop",
+   "box": [
+    304,
+    71,
+    -2356,
+    329,
+    92,
+    -2342
+   ]
+  },
+  "mainstreet-seasonal": {
+   "id": "e0108-mainstreet-seasonal",
+   "slot": 108,
+   "ver": 1,
+   "title": "Main Street: Seasonal Shop",
+   "box": [
+    308,
+    71,
+    -2341,
+    320,
+    96,
+    -2329
+   ]
+  },
+  "mainstreet-moongate": {
+   "id": "e0109-mainstreet-moongate",
+   "slot": 109,
+   "ver": 1,
+   "title": "Main Street: Moon Gate",
+   "box": [
+    282,
+    70,
+    -2406,
+    306,
+    102,
+    -2401
+   ]
+  },
+  "mainstreet-median": {
+   "id": "e0110-mainstreet-median",
+   "slot": 110,
+   "ver": 1,
+   "title": "Main Street: Median: cherries, benches, Sweet Kiosk",
+   "box": [
+    285,
+    71,
+    -2399,
+    303,
+    80,
+    -2332
    ]
   }
  }

@@ -1,0 +1,38 @@
+{
+ "id": "e0108-mainstreet-seasonal",
+ "title": "Main Street: Seasonal Shop",
+ "slot": 108,
+ "box": [
+  308,
+  71,
+  -2341,
+  320,
+  96,
+  -2329
+ ],
+ "files": [
+  {
+   "src": "spawn_e0108_mainstreet_seasonal_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0108_mainstreet_seasonal_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0108_mainstreet_seasonal_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0108_mainstreet_seasonal_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0108_mainstreet_seasonal_v1 308 71 -2341"
+ ],
+ "checks": [
+  "308 71 -2341 minecraft:tuff_bricks",
+  "311 71 -2341 minecraft:tuff_bricks",
+  "312 91 -2335 minecraft:waxed_oxidized_cut_copper_slab",
+  "314 78 -2331 minecraft:waxed_oxidized_cut_copper",
+  "316 71 -2337 minecraft:polished_tuff",
+  "317 81 -2332 minecraft:tuff_bricks"
+ ],
+ "blocks": 691,
+ "entities": 0
+}

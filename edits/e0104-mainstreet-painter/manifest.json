@@ -1,0 +1,38 @@
+{
+ "id": "e0104-mainstreet-painter",
+ "title": "Main Street: Painter's Studio",
+ "slot": 104,
+ "box": [
+  265,
+  71,
+  -2352,
+  283,
+  91,
+  -2340
+ ],
+ "files": [
+  {
+   "src": "spawn_e0104_mainstreet_painter_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0104_mainstreet_painter_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0104_mainstreet_painter_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0104_mainstreet_painter_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0104_mainstreet_painter_v1 265 71 -2352"
+ ],
+ "checks": [
+  "265 91 -2346 minecraft:spruce_stairs",
+  "269 71 -2350 minecraft:dark_oak_log",
+  "271 80 -2350 minecraft:stripped_spruce_log",
+  "274 77 -2343 minecraft:spruce_planks",
+  "277 76 -2343 minecraft:dark_oak_log",
+  "279 81 -2351 minecraft:spruce_trapdoor"
+ ],
+ "blocks": 1827,
+ "entities": 0
+}

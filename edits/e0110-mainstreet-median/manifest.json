@@ -1,0 +1,38 @@
+{
+ "id": "e0110-mainstreet-median",
+ "title": "Main Street: Median: cherries, benches, Sweet Kiosk",
+ "slot": 110,
+ "box": [
+  285,
+  71,
+  -2399,
+  303,
+  80,
+  -2332
+ ],
+ "files": [
+  {
+   "src": "spawn_e0110_mainstreet_median_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0110_mainstreet_median_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0110_mainstreet_median_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0110_mainstreet_median_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0110_mainstreet_median_v1 285 71 -2399"
+ ],
+ "checks": [
+  "285 71 -2397 minecraft:flowering_azalea",
+  "293 71 -2395 minecraft:pink_petals",
+  "293 78 -2345 minecraft:cherry_leaves",
+  "294 77 -2371 minecraft:cherry_planks",
+  "295 72 -2355 minecraft:spruce_stairs",
+  "296 75 -2372 minecraft:birch_stairs"
+ ],
+ "blocks": 656,
+ "entities": 0
+}

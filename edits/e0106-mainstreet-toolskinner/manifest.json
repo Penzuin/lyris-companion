@@ -1,0 +1,38 @@
+{
+ "id": "e0106-mainstreet-toolskinner",
+ "title": "Main Street: Tool Skinner",
+ "slot": 106,
+ "box": [
+  305,
+  71,
+  -2370,
+  319,
+  89,
+  -2358
+ ],
+ "files": [
+  {
+   "src": "spawn_e0106_mainstreet_toolskinner_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0106_mainstreet_toolskinner_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0106_mainstreet_toolskinner_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0106_mainstreet_toolskinner_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0106_mainstreet_toolskinner_v1 305 71 -2370"
+ ],
+ "checks": [
+  "305 89 -2364 minecraft:dark_oak_stairs",
+  "309 71 -2367 minecraft:dark_oak_log",
+  "310 81 -2369 minecraft:deepslate_tile_slab",
+  "312 81 -2363 minecraft:spruce_planks",
+  "314 81 -2364 minecraft:spruce_planks",
+  "316 75 -2366 minecraft:cobblestone"
+ ],
+ "blocks": 1112,
+ "entities": 0
+}
