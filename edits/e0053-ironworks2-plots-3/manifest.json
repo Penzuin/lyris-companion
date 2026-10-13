@@ -1,0 +1,36 @@
+{
+ "id": "e0053-ironworks2-plots-3",
+ "title": "Ironworks: works + workshop plots (3/3)",
+ "slot": 53,
+ "box": [
+  402,
+  91,
+  -2343,
+  520,
+  124,
+  -2297
+ ],
+ "files": [
+  {
+   "src": "spawn_e0053_ironworks2_plots_3_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0053_ironworks2_plots_3_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0053_ironworks2_plots_3_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0053_ironworks2_plots_3_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0053_ironworks2_plots_3_v1 402 91 -2343"
+ ],
+ "checks": [
+  "402 91 -2309 minecraft:stone_bricks",
+  "423 99 -2337 minecraft:stone_bricks",
+  "436 97 -2313 minecraft:stone_bricks",
+  "480 101 -2333 minecraft:cobblestone"
+ ],
+ "blocks": 8649,
+ "wait": 15000
+}
