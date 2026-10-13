@@ -1,0 +1,36 @@
+{
+ "id": "e0064-iwscene-plots-3",
+ "title": "Ironworks scenes: yard walls and gates (3/3)",
+ "slot": 64,
+ "box": [
+  402,
+  95,
+  -2341,
+  514,
+  104,
+  -2306
+ ],
+ "files": [
+  {
+   "src": "spawn_e0064_iwscene_plots_3_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0064_iwscene_plots_3_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0064_iwscene_plots_3_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0064_iwscene_plots_3_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0064_iwscene_plots_3_v1 402 95 -2341"
+ ],
+ "checks": [
+  "402 95 -2322 minecraft:stone_bricks",
+  "425 99 -2334 minecraft:stone_bricks",
+  "469 101 -2324 minecraft:stone_bricks",
+  "490 102 -2312 minecraft:cobblestone"
+ ],
+ "blocks": 959,
+ "wait": 15000
+}

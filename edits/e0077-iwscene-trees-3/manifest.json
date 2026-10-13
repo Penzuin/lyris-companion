@@ -1,0 +1,31 @@
+{
+ "id": "e0077-iwscene-trees-3",
+ "title": "Ironworks scenes: trees (3/3)",
+ "slot": 77,
+ "box": [
+  443,
+  101,
+  -2408,
+  501,
+  125,
+  -2322
+ ],
+ "files": [
+  {
+   "src": "spawn_e0077_iwscene_trees_3_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0077_iwscene_trees_3_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0077_iwscene_trees_3_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0077_iwscene_trees_3_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0077_iwscene_trees_3_v1 443 101 -2408"
+ ],
+ "checks": [],
+ "blocks": 473,
+ "wait": 15000
+}

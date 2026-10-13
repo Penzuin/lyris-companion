@@ -1,0 +1,31 @@
+{
+ "id": "e0071-iwscene-verge-2",
+ "title": "Ironworks scenes: verges and banks (2/5)",
+ "slot": 71,
+ "box": [
+  333,
+  81,
+  -2335,
+  421,
+  100,
+  -2324
+ ],
+ "files": [
+  {
+   "src": "spawn_e0071_iwscene_verge_2_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0071_iwscene_verge_2_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0071_iwscene_verge_2_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0071_iwscene_verge_2_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0071_iwscene_verge_2_v1 333 81 -2335"
+ ],
+ "checks": [],
+ "blocks": 59,
+ "wait": 15000
+}

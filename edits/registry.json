@@ -1,5 +1,5 @@
 {
- "next": 62,
+ "next": 79,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -853,6 +853,244 @@
     369,
     88,
     -2144
+   ]
+  },
+  "iwscene-plots-1": {
+   "id": "e0062-iwscene-plots-1",
+   "slot": 62,
+   "ver": 1,
+   "title": "Ironworks scenes: yard walls and gates (1/3)",
+   "box": [
+    402,
+    96,
+    -2431,
+    454,
+    115,
+    -2342
+   ]
+  },
+  "iwscene-plots-2": {
+   "id": "e0063-iwscene-plots-2",
+   "slot": 63,
+   "ver": 1,
+   "title": "Ironworks scenes: yard walls and gates (2/3)",
+   "box": [
+    455,
+    100,
+    -2426,
+    514,
+    121,
+    -2342
+   ]
+  },
+  "iwscene-plots-3": {
+   "id": "e0064-iwscene-plots-3",
+   "slot": 64,
+   "ver": 1,
+   "title": "Ironworks scenes: yard walls and gates (3/3)",
+   "box": [
+    402,
+    95,
+    -2341,
+    514,
+    104,
+    -2306
+   ]
+  },
+  "iwscene-roads-1": {
+   "id": "e0065-iwscene-roads-1",
+   "slot": 65,
+   "ver": 1,
+   "title": "Ironworks scenes: road surfaces (1/5)",
+   "box": [
+    400,
+    93,
+    -2418,
+    418,
+    114,
+    -2330
+   ]
+  },
+  "iwscene-roads-2": {
+   "id": "e0066-iwscene-roads-2",
+   "slot": 66,
+   "ver": 1,
+   "title": "Ironworks scenes: road surfaces (2/5)",
+   "box": [
+    333,
+    81,
+    -2329,
+    418,
+    98,
+    -2319
+   ]
+  },
+  "iwscene-roads-3": {
+   "id": "e0067-iwscene-roads-3",
+   "slot": 67,
+   "ver": 1,
+   "title": "Ironworks scenes: road surfaces (3/5)",
+   "box": [
+    419,
+    97,
+    -2415,
+    443,
+    114,
+    -2324
+   ]
+  },
+  "iwscene-roads-4": {
+   "id": "e0068-iwscene-roads-4",
+   "slot": 68,
+   "ver": 1,
+   "title": "Ironworks scenes: road surfaces (4/5)",
+   "box": [
+    330,
+    81,
+    -2318,
+    397,
+    90,
+    -2292
+   ]
+  },
+  "iwscene-roads-5": {
+   "id": "e0069-iwscene-roads-5",
+   "slot": 69,
+   "ver": 1,
+   "title": "Ironworks scenes: road surfaces (5/5)",
+   "box": [
+    444,
+    99,
+    -2407,
+    518,
+    120,
+    -2323
+   ]
+  },
+  "iwscene-verge-1": {
+   "id": "e0070-iwscene-verge-1",
+   "slot": 70,
+   "ver": 1,
+   "title": "Ironworks scenes: verges and banks (1/5)",
+   "box": [
+    396,
+    95,
+    -2427,
+    421,
+    119,
+    -2336
+   ]
+  },
+  "iwscene-verge-2": {
+   "id": "e0071-iwscene-verge-2",
+   "slot": 71,
+   "ver": 1,
+   "title": "Ironworks scenes: verges and banks (2/5)",
+   "box": [
+    333,
+    81,
+    -2335,
+    421,
+    100,
+    -2324
+   ]
+  },
+  "iwscene-verge-3": {
+   "id": "e0072-iwscene-verge-3",
+   "slot": 72,
+   "ver": 1,
+   "title": "Ironworks scenes: verges and banks (3/5)",
+   "box": [
+    422,
+    98,
+    -2429,
+    442,
+    118,
+    -2324
+   ]
+  },
+  "iwscene-verge-4": {
+   "id": "e0073-iwscene-verge-4",
+   "slot": 73,
+   "ver": 1,
+   "title": "Ironworks scenes: verges and banks (4/5)",
+   "box": [
+    330,
+    81,
+    -2323,
+    441,
+    100,
+    -2290
+   ]
+  },
+  "iwscene-verge-5": {
+   "id": "e0074-iwscene-verge-5",
+   "slot": 74,
+   "ver": 1,
+   "title": "Ironworks scenes: verges and banks (5/5)",
+   "box": [
+    443,
+    98,
+    -2420,
+    520,
+    124,
+    -2309
+   ]
+  },
+  "iwscene-trees-1": {
+   "id": "e0075-iwscene-trees-1",
+   "slot": 75,
+   "ver": 1,
+   "title": "Ironworks scenes: trees (1/3)",
+   "box": [
+    403,
+    95,
+    -2412,
+    442,
+    121,
+    -2333
+   ]
+  },
+  "iwscene-trees-2": {
+   "id": "e0076-iwscene-trees-2",
+   "slot": 76,
+   "ver": 1,
+   "title": "Ironworks scenes: trees (2/3)",
+   "box": [
+    346,
+    84,
+    -2332,
+    440,
+    106,
+    -2294
+   ]
+  },
+  "iwscene-trees-3": {
+   "id": "e0077-iwscene-trees-3",
+   "slot": 77,
+   "ver": 1,
+   "title": "Ironworks scenes: trees (3/3)",
+   "box": [
+    443,
+    101,
+    -2408,
+    501,
+    125,
+    -2322
+   ]
+  },
+  "iwscene-props": {
+   "id": "e0078-iwscene-props",
+   "slot": 78,
+   "ver": 1,
+   "title": "Ironworks scenes: work props",
+   "box": [
+    405,
+    97,
+    -2418,
+    502,
+    121,
+    -2323
    ]
   }
  }

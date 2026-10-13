@@ -1,0 +1,36 @@
+{
+ "id": "e0069-iwscene-roads-5",
+ "title": "Ironworks scenes: road surfaces (5/5)",
+ "slot": 69,
+ "box": [
+  444,
+  99,
+  -2407,
+  518,
+  120,
+  -2323
+ ],
+ "files": [
+  {
+   "src": "spawn_e0069_iwscene_roads_5_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0069_iwscene_roads_5_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0069_iwscene_roads_5_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0069_iwscene_roads_5_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0069_iwscene_roads_5_v1 444 99 -2407"
+ ],
+ "checks": [
+  "444 102 -2326 minecraft:andesite",
+  "448 106 -2356 minecraft:mossy_cobblestone",
+  "451 113 -2403 minecraft:cobblestone",
+  "481 101 -2328 minecraft:andesite"
+ ],
+ "blocks": 1147,
+ "wait": 15000
+}

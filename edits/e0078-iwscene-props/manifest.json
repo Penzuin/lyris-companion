@@ -1,0 +1,33 @@
+{
+ "id": "e0078-iwscene-props",
+ "title": "Ironworks scenes: work props",
+ "slot": 78,
+ "box": [
+  405,
+  97,
+  -2418,
+  502,
+  121,
+  -2323
+ ],
+ "files": [
+  {
+   "src": "spawn_e0078_iwscene_props_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0078_iwscene_props_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0078_iwscene_props_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0078_iwscene_props_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0078_iwscene_props_v1 405 97 -2418"
+ ],
+ "checks": [
+  "417 115 -2417 minecraft:cobblestone"
+ ],
+ "blocks": 19,
+ "wait": 15000
+}
