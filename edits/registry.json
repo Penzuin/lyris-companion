@@ -1,0 +1,19 @@
+{
+ "next": 2,
+ "edits": {
+  "test-marker": {
+   "id": "e0001-test-marker",
+   "slot": 1,
+   "ver": 1,
+   "title": "Test marker above spawn",
+   "box": [
+    231,
+    95,
+    -2347,
+    233,
+    95,
+    -2345
+   ]
+  }
+ }
+}
