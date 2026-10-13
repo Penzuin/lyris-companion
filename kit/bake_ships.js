@@ -39,7 +39,7 @@
     // which pieces can merge: same ship + spawn pos, lyris_barge model without parent, same rotation+scale at all 4 steps
     const models = {};
     for (const m of new Set(parts.filter(p => p.model.startsWith('lyris_barge:')).map(p => p.model)))
-      models[m] = JSON.parse(await get(SRC + 'models/item/' + m.split(':')[1] + '.json'));
+      models[m] = JSON.parse((window._mcache = window._mcache || {})[m] || (window._mcache[m] = await get(SRC + 'models/item/' + m.split(':')[1] + '.json')));
     const groups = new Map(); const single = [];
     for (const p of parts) {
       const mj = models[p.model];
