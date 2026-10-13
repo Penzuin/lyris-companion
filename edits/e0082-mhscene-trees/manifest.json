@@ -1,0 +1,31 @@
+{
+ "id": "e0082-mhscene-trees",
+ "title": "Moonhill scenes: cypresses and oaks",
+ "slot": 82,
+ "box": [
+  408,
+  109,
+  -2649,
+  438,
+  124,
+  -2539
+ ],
+ "files": [
+  {
+   "src": "spawn_e0082_mhscene_trees_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0082_mhscene_trees_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0082_mhscene_trees_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0082_mhscene_trees_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0082_mhscene_trees_v1 408 109 -2649"
+ ],
+ "checks": [],
+ "blocks": 389,
+ "wait": 15000
+}

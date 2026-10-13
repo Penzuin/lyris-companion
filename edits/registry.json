@@ -1,5 +1,5 @@
 {
- "next": 79,
+ "next": 84,
  "edits": {
   "test-marker": {
    "id": "e0001-test-marker",
@@ -1091,6 +1091,76 @@
     502,
     121,
     -2323
+   ]
+  },
+  "mhscene-plots": {
+   "id": "e0079-mhscene-plots",
+   "slot": 79,
+   "ver": 1,
+   "title": "Moonhill scenes: estate hedges and walls",
+   "box": [
+    393,
+    104,
+    -2655,
+    456,
+    118,
+    -2543
+   ]
+  },
+  "mhscene-roads": {
+   "id": "e0080-mhscene-roads",
+   "slot": 80,
+   "ver": 1,
+   "title": "Moonhill scenes: drive surface",
+   "box": [
+    411,
+    109,
+    -2650,
+    444,
+    118,
+    -2531
+   ]
+  },
+  "mhscene-verge": {
+   "id": "e0081-mhscene-verge",
+   "slot": 81,
+   "ver": 1,
+   "title": "Moonhill scenes: verges and banks",
+   "box": [
+    398,
+    103,
+    -2659,
+    459,
+    124,
+    -2525
+   ]
+  },
+  "mhscene-trees": {
+   "id": "e0082-mhscene-trees",
+   "slot": 82,
+   "ver": 1,
+   "title": "Moonhill scenes: cypresses and oaks",
+   "box": [
+    408,
+    109,
+    -2649,
+    438,
+    124,
+    -2539
+   ]
+  },
+  "mhscene-belvedere": {
+   "id": "e0083-mhscene-belvedere",
+   "slot": 83,
+   "ver": 1,
+   "title": "Moonhill scenes: Belvedere benches",
+   "box": [
+    445,
+    111,
+    -2654,
+    449,
+    111,
+    -2650
    ]
   }
  }

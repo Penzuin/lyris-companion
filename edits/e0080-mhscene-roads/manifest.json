@@ -1,0 +1,36 @@
+{
+ "id": "e0080-mhscene-roads",
+ "title": "Moonhill scenes: drive surface",
+ "slot": 80,
+ "box": [
+  411,
+  109,
+  -2650,
+  444,
+  118,
+  -2531
+ ],
+ "files": [
+  {
+   "src": "spawn_e0080_mhscene_roads_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0080_mhscene_roads_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0080_mhscene_roads_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0080_mhscene_roads_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0080_mhscene_roads_v1 411 109 -2650"
+ ],
+ "checks": [
+  "411 114 -2544 minecraft:stone_bricks",
+  "417 111 -2585 minecraft:stone_bricks",
+  "420 111 -2586 minecraft:stone_bricks",
+  "426 109 -2622 minecraft:stone_bricks"
+ ],
+ "blocks": 768,
+ "wait": 15000
+}

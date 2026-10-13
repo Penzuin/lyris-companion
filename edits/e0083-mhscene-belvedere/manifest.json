@@ -1,0 +1,31 @@
+{
+ "id": "e0083-mhscene-belvedere",
+ "title": "Moonhill scenes: Belvedere benches",
+ "slot": 83,
+ "box": [
+  445,
+  111,
+  -2654,
+  449,
+  111,
+  -2650
+ ],
+ "files": [
+  {
+   "src": "spawn_e0083_mhscene_belvedere_v1.nbt",
+   "dst": "/world/generated/minecraft/structures/spawn_e0083_mhscene_belvedere_v1.nbt",
+   "binary": true
+  },
+  {
+   "src": "spawn_e0083_mhscene_belvedere_v1.nbt",
+   "dst": "/world/generated/minecraft/structure/spawn_e0083_mhscene_belvedere_v1.nbt",
+   "binary": true
+  }
+ ],
+ "run": [
+  "place template minecraft:spawn_e0083_mhscene_belvedere_v1 445 111 -2654"
+ ],
+ "checks": [],
+ "blocks": 6,
+ "wait": 15000
+}
