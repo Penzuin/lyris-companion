@@ -1,6 +1,8 @@
 // Lyris Spawn Workshop: the browser half. Loaded into the panel tab with:
 //   eval(await (await fetch('https://raw.githubusercontent.com/Penzuin/lyris-companion/<sha>/kit/kit.js')).text())
 // Then: await kit.apply('<sha>', '<edit id>'), kit.undo('<edit id>'), kit.read([x0,y0,z0,x1,y1,z1]).
+// Many edits at once (token-cheap): kit.batch(sha, [ids], 'k') -> wait with ONE Bash sleep -> kit.job('k').
+// Lamps/props: await kit.placer(sha, 'list.txt', [x0,z0,x1,z1]).
 (() => {
   const REPO = 'https://raw.githubusercontent.com/Penzuin/lyris-companion/';
   const SID = '07638c3c', API = `/api/client/servers/${SID}/`;
@@ -169,6 +171,63 @@
       for (const v of grid) { if (v === prev) cnt++; else { rle.push(cnt, prev); prev = v; cnt = 1; } }
       rle.push(cnt, prev);
       return JSON.stringify({ box, palette: pal, rle });
+    },
+    // compare the live blocks of an edit's box with its before.json ('before') or expected.json ('expected').
+    // Benign drift is ignored: air/cave_air, grass<->dirt, dirt_path->dirt, and '?' cells.
+    async probe(sha, id, which = 'expected') {
+      const man = JSON.parse(await raw(sha, `edits/${id}/manifest.json`));
+      const ref = JSON.parse(await raw(sha, `edits/${id}/${which}.json`));
+      const exp = which === 'before' ? JSON.parse(await raw(sha, `edits/${id}/expected.json`)) : null;
+      const r = JSON.parse(await kit.read(man.box));
+      const [x0, y0, z0, x1, y1, z1] = r.box, nx = x1 - x0 + 1, nz = z1 - z0 + 1;
+      const pal = r.palette.map(p => p.replace('minecraft:', '').split('[')[0]);
+      const flat = new Int32Array(nx * (y1 - y0 + 1) * nz); let i = 0;
+      for (let k = 0; k < r.rle.length; k += 2) { flat.fill(r.rle[k + 1], i, i + r.rle[k]); i += r.rle[k]; }
+      const eq = (a, b) => a === b || b === '?' || (a === 'air' && b === 'cave_air') || (a === 'cave_air' && b === 'air') ||
+        (a === 'dirt' && (b === 'grass_block' || b === 'dirt_path')) || (a === 'grass_block' && b === 'dirt');
+      let n = 0, bad = 0, done = 0; const samp = [];
+      for (const key in ref) {
+        const [x, y, z] = key.split(',').map(Number), live = pal[flat[((y - y0) * nz + (z - z0)) * nx + (x - x0)]]; n++;
+        if (eq(live, ref[key])) continue;
+        if (exp && eq(live, exp[key])) { done++; continue; }
+        bad++; if (samp.length < 6) samp.push(key + ':' + ref[key] + '->' + live);
+      }
+      return `${id} ${which}: ${n} cells, ${bad} differ` + (exp ? `, ${done} already done` : '') + (samp.length ? ' e.g. ' + samp.join(' ') : '');
+    },
+    // the whole safe apply as ONE background job: probe every edit against before.json, stop if the world drifted,
+    // apply them in order, then verify against expected.json. Start it, then wait (one sleep) and read kit.job(key).
+    batch(sha, ids, key = 'job', opts = {}) {
+      const J = kit.jobs[key] = { state: 'running', lines: [], t0: Date.now() };
+      const say = s => J.lines.push(s);
+      (async () => {
+        try {
+          if (!opts.skipProbe) {
+            for (const id of ids) say(await kit.probe(sha, id, 'before'));
+            if (J.lines.some(l => !/ 0 differ/.test(l))) { J.state = 'stopped: live world changed since the read'; return; }
+          }
+          for (const id of ids) say(await kit.apply(sha, id));
+          for (const id of ids) say(await kit.probe(sha, id, 'expected'));
+          J.state = J.lines.some(l => / expected: .* [1-9]\d* differ/.test(l)) ? 'done with differences' : 'done';
+        } catch (e) { J.state = 'error: ' + e; }
+      })();
+      return `${key} started: ${ids.length} edits`;
+    },
+    jobs: {},
+    // short status of a background job (keeps tool output small): state, minutes, and only lines that need attention
+    job(key = 'job', all = false) {
+      const J = kit.jobs[key]; if (!J) return 'no job ' + key;
+      const mins = ((Date.now() - J.t0) / 60000).toFixed(1);
+      const lines = all ? J.lines : J.lines.filter(l => !/ 0 differ| checks passed|no checks/.test(l));
+      return `${key}: ${J.state} after ${mins} min, ${J.lines.length} steps` + (lines.length ? '\n' + lines.join('\n') : '');
+    },
+    // upload a LyrisPlacer list from the drop branch (placer/<file>) and run it with the box forceloaded
+    async placer(sha, file, box) {
+      const body = await raw(sha, 'placer/' + file);
+      await write('/plugins/LyrisPlacer/' + file, body, false);
+      if (box) { await cmd(`forceload add ${box[0]} ${box[1]} ${box[2]} ${box[3]}`); await sl(12000); }
+      await cmd('lyrisplace run ' + file); await sl(4000);
+      if (box) await cmd(`forceload remove ${box[0]} ${box[1]} ${box[2]} ${box[3]}`);
+      return (await log(80)).filter(l => l.includes('LyrisPlacer run ' + file)).slice(-1)[0] || 'no result line yet';
     },
   };
   // minimal NBT reader (big-endian, uncompressed)
