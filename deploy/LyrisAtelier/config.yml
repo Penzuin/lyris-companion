@@ -83,6 +83,13 @@ places:
     aisle:    [312.5, 72.0, -2377.5, 0]
     dais:     [316.5, 72.5, -2378.5, 90]
     bench:    [312.5, 72.5, -2374.5, 0]
+    # the furniture stations, placed 2026-10-14 (placer list spawn-drop placer/atelier_furniture.txt)
+    st-book:     [315.5, 72.0, -2374.5, 180]
+    st-drapery:  [315.0, 72.0, -2383.5, 0]
+    st-trims:    [317.5, 72.0, -2383.5, 0]
+    st-sketch:   [314.5, 77.0, -2377.5, 270]
+    st-cutting:  [323.0, 72.0, -2378.5, 0]
+    st-sewing:   [323.0, 72.0, -2381.5, 0]
 
 # Garment items. The base item gives the vanilla protection and the dye; the look comes from the equipment
 # assets in the lyris_atelier pack.
