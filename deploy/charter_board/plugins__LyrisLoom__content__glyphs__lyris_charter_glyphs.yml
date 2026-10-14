@@ -1,0 +1,313 @@
+# Charter Board notice menus (LyrisCharter). One background per quest and state. Chars U+ED00..
+lyris_charter_cask_new:
+  texture: lyris_charter:gui/bg_cask_new
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED00"
+lyris_charter_cask_ready:
+  texture: lyris_charter:gui/bg_cask_ready
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED01"
+lyris_charter_cask_sealed:
+  texture: lyris_charter:gui/bg_cask_sealed
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED02"
+lyris_charter_cask_taken:
+  texture: lyris_charter:gui/bg_cask_taken
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED03"
+lyris_charter_claim_locked:
+  texture: lyris_charter:gui/bg_claim_locked
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED04"
+lyris_charter_claim_new:
+  texture: lyris_charter:gui/bg_claim_new
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED05"
+lyris_charter_claim_ready:
+  texture: lyris_charter:gui/bg_claim_ready
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED06"
+lyris_charter_claim_sealed:
+  texture: lyris_charter:gui/bg_claim_sealed
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED07"
+lyris_charter_claim_taken:
+  texture: lyris_charter:gui/bg_claim_taken
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED08"
+lyris_charter_coin_new:
+  texture: lyris_charter:gui/bg_coin_new
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED09"
+lyris_charter_coin_ready:
+  texture: lyris_charter:gui/bg_coin_ready
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED0A"
+lyris_charter_coin_sealed:
+  texture: lyris_charter:gui/bg_coin_sealed
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED0B"
+lyris_charter_coin_taken:
+  texture: lyris_charter:gui/bg_coin_taken
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED0C"
+lyris_charter_compass_locked:
+  texture: lyris_charter:gui/bg_compass_locked
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED0D"
+lyris_charter_compass_new:
+  texture: lyris_charter:gui/bg_compass_new
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED0E"
+lyris_charter_compass_ready:
+  texture: lyris_charter:gui/bg_compass_ready
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED0F"
+lyris_charter_compass_sealed:
+  texture: lyris_charter:gui/bg_compass_sealed
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED10"
+lyris_charter_compass_taken:
+  texture: lyris_charter:gui/bg_compass_taken
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED11"
+lyris_charter_cook_new:
+  texture: lyris_charter:gui/bg_cook_new
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED12"
+lyris_charter_cook_ready:
+  texture: lyris_charter:gui/bg_cook_ready
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED13"
+lyris_charter_cook_sealed:
+  texture: lyris_charter:gui/bg_cook_sealed
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED14"
+lyris_charter_cook_taken:
+  texture: lyris_charter:gui/bg_cook_taken
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED15"
+lyris_charter_fish_new:
+  texture: lyris_charter:gui/bg_fish_new
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED16"
+lyris_charter_fish_ready:
+  texture: lyris_charter:gui/bg_fish_ready
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED17"
+lyris_charter_fish_sealed:
+  texture: lyris_charter:gui/bg_fish_sealed
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED18"
+lyris_charter_fish_taken:
+  texture: lyris_charter:gui/bg_fish_taken
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED19"
+lyris_charter_lantern_new:
+  texture: lyris_charter:gui/bg_lantern_new
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED1A"
+lyris_charter_lantern_ready:
+  texture: lyris_charter:gui/bg_lantern_ready
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED1B"
+lyris_charter_lantern_sealed:
+  texture: lyris_charter:gui/bg_lantern_sealed
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED1C"
+lyris_charter_lantern_taken:
+  texture: lyris_charter:gui/bg_lantern_taken
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED1D"
+lyris_charter_pier_new:
+  texture: lyris_charter:gui/bg_pier_new
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED1E"
+lyris_charter_pier_ready:
+  texture: lyris_charter:gui/bg_pier_ready
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED1F"
+lyris_charter_pier_sealed:
+  texture: lyris_charter:gui/bg_pier_sealed
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED20"
+lyris_charter_pier_taken:
+  texture: lyris_charter:gui/bg_pier_taken
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED21"
+lyris_charter_seed_locked:
+  texture: lyris_charter:gui/bg_seed_locked
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED22"
+lyris_charter_seed_new:
+  texture: lyris_charter:gui/bg_seed_new
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED23"
+lyris_charter_seed_ready:
+  texture: lyris_charter:gui/bg_seed_ready
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED24"
+lyris_charter_seed_sealed:
+  texture: lyris_charter:gui/bg_seed_sealed
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED25"
+lyris_charter_seed_taken:
+  texture: lyris_charter:gui/bg_seed_taken
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED26"
+lyris_charter_shaft_locked:
+  texture: lyris_charter:gui/bg_shaft_locked
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED27"
+lyris_charter_shaft_new:
+  texture: lyris_charter:gui/bg_shaft_new
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED28"
+lyris_charter_shaft_ready:
+  texture: lyris_charter:gui/bg_shaft_ready
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED29"
+lyris_charter_shaft_sealed:
+  texture: lyris_charter:gui/bg_shaft_sealed
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED2A"
+lyris_charter_shaft_taken:
+  texture: lyris_charter:gui/bg_shaft_taken
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED2B"
+lyris_charter_sky_new:
+  texture: lyris_charter:gui/bg_sky_new
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED2C"
+lyris_charter_sky_ready:
+  texture: lyris_charter:gui/bg_sky_ready
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED2D"
+lyris_charter_sky_sealed:
+  texture: lyris_charter:gui/bg_sky_sealed
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED2E"
+lyris_charter_sky_taken:
+  texture: lyris_charter:gui/bg_sky_taken
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED2F"
+lyris_charter_store_new:
+  texture: lyris_charter:gui/bg_store_new
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED30"
+lyris_charter_store_ready:
+  texture: lyris_charter:gui/bg_store_ready
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED31"
+lyris_charter_store_sealed:
+  texture: lyris_charter:gui/bg_store_sealed
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED32"
+lyris_charter_store_taken:
+  texture: lyris_charter:gui/bg_store_taken
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.charter
+  char: "\uED33"

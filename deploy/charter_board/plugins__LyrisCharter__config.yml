@@ -1,0 +1,47 @@
+# LyrisCharter: the Settler's Charter, Moonharbor's tutorial at the Charter House.
+world: world
+
+# The Lamp Charter lectern. Right-clicking it unsigned signs the Charter (signed players read it as normal).
+lectern: [269, 71, -2432]
+# The lodestone at the heart of the compass rose. Task "compass" needs a compass bound here.
+lodestone: [271, 70, -2434]
+compass-any-lodestone: false
+
+# Edric Penhallow, Keeper of the Register: a mannequin at the Charter desk.
+edric:
+  location: [270.5, 71.0, -2430.5]
+  yaw: -90.0
+  skin: 'lyris_charter:entity/edric_penhallow'
+  name: '<#e6d2a0>Edric Penhallow'
+  title: '<gray>Keeper of the Register'
+  talk-range: 8
+
+# What signing hands over (Nexo / LyrisLoom ids).
+signing-gifts:
+  hand_lantern: 1
+  lamp_oil: 2
+
+rewards:
+  copper-per-task: 15                # paid through Vault (LyrisCoins), in copper
+  # The Freeholder title, hat and announcement wait until the Charter has more pages (owner, 2026-10-13).
+  freeholder-enabled: false
+  freeholder-copper: 50
+  freeholder-item: freeholder_hat
+  freeholder-permission: lyris.title.freeholder
+  broadcast: true
+
+emberdeep-world: lyris_emberdeep
+
+# The Charter Board: a plank stand against the Charter Hall's west wall. location = the floor point on the wall face,
+# centred under the stand; yaw = the way it faces (-90 = east, into the hall). Quests live in quests.yml.
+board:
+  location: [266.0, 71.0, -2432.5]
+  yaw: -90.0
+  face-out: 0.234          # board face distance from the wall (stand model z 3.5 at scale 1.5)
+  face-y: 1.43             # board face centre height above the floor
+  face-u: -0.05            # board face centre offset to the viewer's right
+  view-range: 14           # players this close see their notices
+  max-taken: 3
+night-start: 13000
+night-end: 23000
+

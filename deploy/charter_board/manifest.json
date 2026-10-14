@@ -1,0 +1,1074 @@
+{
+ "files": [
+  {
+   "src": "plugins__LyrisCharter-1.1.0.jar",
+   "dst": "/plugins/LyrisCharter-1.1.0.jar",
+   "sha256": "aa61b822c89841dac0b1437f6f84e045f700810c0af5a4b17d52d9ce867afdd6"
+  },
+  {
+   "src": "plugins__LyrisCharter__config.yml",
+   "dst": "/plugins/LyrisCharter/config.yml",
+   "sha256": "621e43c2181c5c7b73dc9ccb438704ff91367f17574753596bdce7b836b62fff"
+  },
+  {
+   "src": "plugins__LyrisCharter__quests.yml",
+   "dst": "/plugins/LyrisCharter/quests.yml",
+   "sha256": "5ab1827ad0d2be000c4b8757de9ccedef6c5ab20337d2756cb076fc8c95dc36a"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__glyphs__lyris_charter_glyphs.yml",
+   "dst": "/plugins/LyrisLoom/content/glyphs/lyris_charter_glyphs.yml",
+   "sha256": "42a9558b15e73af361f7bcd9db7511d837fbb3ebecd0d3f55cd73025b8bbd820"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__pack.mcmeta",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/pack.mcmeta",
+   "sha256": "47605dc5f2b59c12889768c47a988535e8336ca01cfd68b4c512446c307bcdf0"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__board__stand.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/board/stand.json",
+   "sha256": "24436b5c10f27ef43f82778d256f2b3bc62b5c0a21f2b90102ea1b1444939306"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__icon_compass.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/icon_compass.json",
+   "sha256": "10ae9d1ab4a220579cbda76feec617380852b791c28c3e8e803fbcdaf9413faf"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__icon_pick.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/icon_pick.json",
+   "sha256": "beec399f74d769187e58e34081f33d2562f91b0de29a91b39332afebad30e76e"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__icon_pot.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/icon_pot.json",
+   "sha256": "160883e50e2a97162d52aa6541590d519fc637d542e299d7b4f7a3fabc7b6cb2"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__icon_mug.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/icon_mug.json",
+   "sha256": "04ae9b3d383ebfbeab90c6ee8f33f9de4ca1d6f55775f804ab801e470df014d9"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__icon_seed.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/icon_seed.json",
+   "sha256": "dd26c9577192a22c5e38c97d89c96a9a6d46da9ab12845d86d66d705e246b609"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__icon_fish.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/icon_fish.json",
+   "sha256": "27cd6ffc07c2b45956a7f5eb455e80901d9b9f3adeda3981d20dfe3e85a73787"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__icon_flag.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/icon_flag.json",
+   "sha256": "ba36fd4bafdb00c90dc09b7e543f20259c0a9ee9d812f6a7c93f9356a822ae00"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__coin.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/coin.json",
+   "sha256": "7d07d5a54306bb4061ea8f7a6b33c3876132e7f4f89dd6b12c14cddf37b5de43"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__blank.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/blank.json",
+   "sha256": "19d2f8033de524e3b0a27f99b3b57fdc063194d21fa1846753176ba7b2db87da"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__icon_lantern.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/icon_lantern.json",
+   "sha256": "5d29ed5667c42d6876ee7cd057ea09b78643fe2cbbdac9ebd46d0599f355cbe5"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__icon_candle.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/icon_candle.json",
+   "sha256": "de47d232ab0275a2030d2b82ce0bc89b20007aabb45c4ffb4fb4c877e4ff4dcd"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__icon_anchor.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/icon_anchor.json",
+   "sha256": "2f6f356cf5a5ee6d39601ba77b24779c5304796d2a586a21e845a6cba5b10be3"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__icon_coin.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/icon_coin.json",
+   "sha256": "733f7f01df0d45aa7e3b9b45cbd78d75a3e27af87bdf36f198ef6804e066d92e"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__gui__icon_star.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/gui/icon_star.json",
+   "sha256": "5953a588c1700dc1bd775776f46939c22a18d35f35d825501d847fefe6b94960"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__pick_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/pick_dim.json",
+   "sha256": "fb63b0b3872886702d3f26d9974194d1d7e6f8d47c6fd41da8054986bd7c7019"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__seal.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/seal.json",
+   "sha256": "242f5a3af26d817a8e77ccd64df97094bf85e121eff867567cf5c206788b6696"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__paper_tall_grey.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/paper_tall_grey.json",
+   "sha256": "285763733f747aeadf16559ce847a775b91c547b5adb9d9eb6db94ddf68d67e0"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__pin_red.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/pin_red.json",
+   "sha256": "2d1a7e421e7a96c85f42c27b015258ba3f1841c143be534d450812bace575308"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__fish.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/fish.json",
+   "sha256": "8460e5e3229afc97eed278872fe1637b562f3be816dad326405f6608c631d5ea"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__mug.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/mug.json",
+   "sha256": "caa6b7eccf9e780c8ca98913020c64ac5dca13f21ee91e92e0f5a24cd70be1cc"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__paper_wide_grey.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/paper_wide_grey.json",
+   "sha256": "ce65e6b6fb77b009ce6cd5f5faba70e9323a8ecd2feec0cda074b73f7c5e7901"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__pick.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/pick.json",
+   "sha256": "a1478b0a5e449741eff2570dc9bd3c1c2d31543e9d139721a51eaaa46eb7fcf6"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__star.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/star.json",
+   "sha256": "e1547c6e6ae8c8efd66c95007909ca35d1f7fc68bfb46b0ffa6b44575d8874ce"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__flag.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/flag.json",
+   "sha256": "9af089bb3660671fc3bbe2287aeb2c824b1d49d5eb14c8d111a8f07a9ba963d7"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__pot.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/pot.json",
+   "sha256": "e664419f84c00f9abcfe7ad9eadd3c7bd10870eb2498e8a96116f45f6035f927"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__pot_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/pot_dim.json",
+   "sha256": "0c48b918a1c8b931f37cd7a7e43423b2b2615dd7e986a0a4b7337dca2d6caa93"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__coin_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/coin_dim.json",
+   "sha256": "4a73338956e087eb29bd33e75c2216c7b7f80210ce8a4908a272923ff504858a"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__candle.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/candle.json",
+   "sha256": "a77ca2c369f223f14bbad9f73c4d5c180d200d3ea85b2c92ccbb49b442f6e593"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__anchor.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/anchor.json",
+   "sha256": "6d1bc74a4a6bcac9bc9b4e71a60a250225346368419d741d0db6426a302ca1cf"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__paper_wide.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/paper_wide.json",
+   "sha256": "f72eae8d66eb1c6647839e2c6d6d0e9a6820b6450d9255456a1c848c8892e635"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__lantern_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/lantern_dim.json",
+   "sha256": "a69a7fabafdb454080dc0936f6a083f781292de5ddb0025e9928c2a71ca90b7a"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__lantern.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/lantern.json",
+   "sha256": "21d180ed6076c550edf0ee9a845cb53fafa745c2ca4c1a61d4683bd89b672a27"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__paper_square_grey.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/paper_square_grey.json",
+   "sha256": "7d5e7d24cf1d681fa779c88e3da39ebad0ff9bcaba874202eacc9d99ff93a099"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__candle_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/candle_dim.json",
+   "sha256": "b1754f32c09376189c48fc046fba22e3f16e51878014d79efddcda8522ff0876"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__coin.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/coin.json",
+   "sha256": "9a5e531682714d56bfe6d71677544f78341b967ae7d103e36a31d5a79500d477"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__anchor_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/anchor_dim.json",
+   "sha256": "443ecc6021f8f7dcb8d5b483637aef45c60d73f89c1b28a76bfa2f3313ed8d3b"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__seed_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/seed_dim.json",
+   "sha256": "77ff38721dda49f7df49bef5062969047cad2686202a61f38c9ee05b4312c8d9"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__paper_square.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/paper_square.json",
+   "sha256": "d4792639dc5064ad0e83d21f7d22ba40f50494fa76fd8acecdfc2b32542b9908"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__pin_black.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/pin_black.json",
+   "sha256": "0f5837038724c9438b9934b170c50aa6c3cfafd556a0a5c22eaab60bf00a6b24"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__mug_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/mug_dim.json",
+   "sha256": "56fd0dbe268d1be5b2f51cf7a5af7aae458a77308297e33d7ffbb251bc0b485f"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__compass.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/compass.json",
+   "sha256": "d702769cbafba3506872abc1005c33219cfcba3cb875b7f6a14646dd9c975fbe"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__paper_small_grey.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/paper_small_grey.json",
+   "sha256": "b912e2dda59fa0df12ad179ba048e0137ab0e436d78a5a97a0f5e3c5d62c4935"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__fish_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/fish_dim.json",
+   "sha256": "ffcec668702e692d0e3a75fc6e442183ba1c93389c216d93133ab28039fbb3cf"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__paper_small.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/paper_small.json",
+   "sha256": "33cf8cd77cf6c858d5df2007145850b66f375f0944125acdc81e084c4784b1fb"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__pin_brass.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/pin_brass.json",
+   "sha256": "b1a62a8d26372e89db02e64194c41133af53a8f57c01426ab9d9806e0599d313"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__star_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/star_dim.json",
+   "sha256": "f3318c7d23b34b208474ca24ebc8f4a1d345b34c57a8a3d0f6457a43ad99e629"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__seed.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/seed.json",
+   "sha256": "ddeec3bb511bdc6a24d20a50597847cf827f00b7d6bd5dd258b95cf16b40afac"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__compass_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/compass_dim.json",
+   "sha256": "2d03ae1f85590e93ca2c4494f878b23a18c3d2e259206d248ffdaafe9e522d8a"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__pin_grey.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/pin_grey.json",
+   "sha256": "ac01ad2dad0393fa42de29d91aaed2b92c2859700c9cab30da9bedb415cb82aa"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__flag_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/flag_dim.json",
+   "sha256": "c05a0b3f7c477a697f51ca9aa773260f9718c1ba0d9261ac688b97a8ca6a8ff0"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__items__notice__paper_tall.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/items/notice/paper_tall.json",
+   "sha256": "a0e6db5dda9e7195cde70ba9dc31441769d9a5103728572445be6e73ba699a79"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__board__stand.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/board/stand.json",
+   "sha256": "c043b19a3f0af13fb52954d48f8d214803c325c21e02bb787a91060d7b7188b8"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__icon_compass.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/icon_compass.json",
+   "sha256": "6f27d4e9d94176cd44a4416adc8c93ca65daa71e88a32a15cc4c301ebd7547be"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__icon_pick.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/icon_pick.json",
+   "sha256": "a21bb0807174603f38cd560bed208f563cc83c18e3f8144647b651365cb3d896"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__icon_pot.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/icon_pot.json",
+   "sha256": "4598beef8f843053e85d6d15a737da3edca7047d4b050366de3875b19c8c6fea"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__icon_mug.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/icon_mug.json",
+   "sha256": "ae26edbb09118e093e2145d0a9b78906134095223a0bbfefbcf24c501b46d0e5"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__icon_seed.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/icon_seed.json",
+   "sha256": "01a610e27ccbab7aa16db5630eb7c2ceecc62a95e8ac6de6223034ae2cf5c118"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__icon_fish.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/icon_fish.json",
+   "sha256": "f676afc482389390c087ed375fe231c10476b5e14d49e94805ab426a745e9b9e"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__icon_flag.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/icon_flag.json",
+   "sha256": "8c25e440debf7d607a4bf5253437fa66aad21d611308405ecb41c29fd0928b63"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__coin.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/coin.json",
+   "sha256": "820b828b40097d28b4df11a5d48b0c724d7d5107752855f772d58698ebfb908c"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__blank.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/blank.json",
+   "sha256": "7a887b282108291987e839407f44b583d28406482be5ac05eee0135e613983ca"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__icon_lantern.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/icon_lantern.json",
+   "sha256": "7db4efa7248fb55ec11bf3013329ddb35e04a54af52ef46dc1564141bfbf4eaf"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__icon_candle.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/icon_candle.json",
+   "sha256": "076dfe8ecfc3d133a78e84fe8765e91e1b4aa28d50d50ec528fafa3637e33623"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__icon_anchor.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/icon_anchor.json",
+   "sha256": "59f2d4e41c118198bac975ff1f8531eebc2f269eecdd4ca618c9fb7a9398b27c"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__icon_coin.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/icon_coin.json",
+   "sha256": "e9ad954316c6d89ec0cfb8adc59d8934890965871688759043351401b45a521d"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__gui__icon_star.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/gui/icon_star.json",
+   "sha256": "5578d71a1ec54e677f922308e94a5be3c9b500c53028e0b254290798980f29f0"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__pick_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/pick_dim.json",
+   "sha256": "ac8d2b445790f8f9dde66c30508e3cf216ae5c691398cd74fa42b2488275d41a"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__seal.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/seal.json",
+   "sha256": "264229215ef62b4d5e0beaf788555c54efe3ead8a436265cb9c9ae8a4d4beb42"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__paper_tall_grey.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/paper_tall_grey.json",
+   "sha256": "59639c6a9006c09ddc4f70575632823929c26a6c330e874a83545b120da4aaeb"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__pin_red.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/pin_red.json",
+   "sha256": "fbbed55de867d65285bd5ae81153cb234f7bb953da7ace44ee654022f2bbcc0b"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__fish.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/fish.json",
+   "sha256": "6301d023130b27300a542368329d964241ecf7216a547bdb73ea33d79d7c5fbc"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__mug.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/mug.json",
+   "sha256": "fc74531e956b7ffaf05c2b6fa536fee84e93e3e03fe8b3da44f40c45027d5963"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__paper_wide_grey.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/paper_wide_grey.json",
+   "sha256": "dbff4b61b0d8c175f893eae20fd061accdcb905ee892372a9a7eda82301f5575"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__pick.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/pick.json",
+   "sha256": "54c03def3efadee37f477b807567e4c99f378acc7f01edc944224256760805e4"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__star.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/star.json",
+   "sha256": "360571c11770cad31aec7e7f0f90e910bc8c3fbd55998fedf54e036581c5aac5"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__flag.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/flag.json",
+   "sha256": "669f61d52e9659452f133130c6487864640bc5b58b1f48432cecacc212454dfd"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__pot.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/pot.json",
+   "sha256": "bed379600c07cca68aac30091da1fe45c907713a3157099c64cd9a341308c25b"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__pot_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/pot_dim.json",
+   "sha256": "a453960ce78b3464cf14a0cb2f0c44727055975c11b460e12d1c08e72a2890ac"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__coin_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/coin_dim.json",
+   "sha256": "4c5b22ff31fd2a381552ec736872e53e8d2569483c0653b295cfa114a5521ac2"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__candle.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/candle.json",
+   "sha256": "f83af2f0643d3083d46c85e9fb879cdce661da5164d9f2619edd35ea536994f3"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__anchor.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/anchor.json",
+   "sha256": "3420d4f225a37f18fb79533bc1820ca840097fa2889eaa7c284ef87b4fd46bdb"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__paper_wide.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/paper_wide.json",
+   "sha256": "5255e7b9617c0b735ad5f635101343634e1f57395fa0ddcce822399da3e8521e"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__lantern_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/lantern_dim.json",
+   "sha256": "6d56291cb9fbfe7aa9ccf940a49ccb60538e64270ca7e908eea56af58810aba3"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__lantern.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/lantern.json",
+   "sha256": "34a5cfa58ac1efff7647f43f3f638e2723da2b7f6a5db5bbdabb7079a1231a14"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__paper_square_grey.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/paper_square_grey.json",
+   "sha256": "88abfe2f7468aa6fb805c658ef9bf3a28919b27065fb32059a70890b7670706e"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__candle_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/candle_dim.json",
+   "sha256": "e9c10838fe9e92b0bf314fcdc27f0352900fca1eb5f372094914c6efd1b79452"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__coin.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/coin.json",
+   "sha256": "2b9a18c15364b37dbe80bd4e72173997207abefc3e45ee40bb47cccdc2126fb2"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__anchor_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/anchor_dim.json",
+   "sha256": "66a88531b88a5055779332ee7d3c5c4226048aaa4de0d1b1706774f8d12efc84"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__seed_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/seed_dim.json",
+   "sha256": "8ad69019368623929a95133ab6aef69b020bbef0512f21465292e97a8aa71c63"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__paper_square.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/paper_square.json",
+   "sha256": "74d0ee4be603b8bb9d9870d4d029d390ce48650adef13b0bb9b782bb0d687ee7"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__pin_black.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/pin_black.json",
+   "sha256": "0405602871e3a92c3ad84ae8ae90de78af22212c76350c8ad09c310abd07186d"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__mug_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/mug_dim.json",
+   "sha256": "1679dbb453c1b9bbb857db4a180816193a836fa25737b6e0d6ef7aa9f07a6ce0"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__compass.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/compass.json",
+   "sha256": "44a3c25c9c94e8e4b0f616c9d383810d22ba58350c5d824207b585cb7872a920"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__paper_small_grey.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/paper_small_grey.json",
+   "sha256": "61bfe0e8c5cee00477fc5d628289cf0881b56131e87db6e062d0d6c069de216f"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__fish_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/fish_dim.json",
+   "sha256": "2d1f791b0755794d6b8b3e3177da6903f94cadd30596715035bc4d59afc2b403"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__paper_small.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/paper_small.json",
+   "sha256": "78d7cb46f95cd6fe8dca0a8527706ad3cc9d0109ee3054ffc746755acc4e4001"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__pin_brass.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/pin_brass.json",
+   "sha256": "8fff6440dfd02fa8f965947a624d87e3820ca28ef6f4a61777338e7681d23166"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__star_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/star_dim.json",
+   "sha256": "810bce7080d2680f4d0063ac2ab8dd64fa7e0414b1940d5e7fce01e623f40167"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__seed.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/seed.json",
+   "sha256": "fcda9c76f0bcbd24ac662cdd29e21f9d09f5a66bad9303fcb225e3d0cb5250f5"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__compass_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/compass_dim.json",
+   "sha256": "e47b1a30ed558982f778e8e508bd85c102bf53383b1815701cace2e17c774700"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__pin_grey.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/pin_grey.json",
+   "sha256": "c9716278983f9497c0b536e16e0c65aa6f547d3c41104d8d352cb967e66eb873"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__flag_dim.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/flag_dim.json",
+   "sha256": "a1319312df913d134fa1568b5aea942bff55e83205ee02a31fb127f9e0536079"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__models__item__notice__paper_tall.json",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/models/item/notice/paper_tall.json",
+   "sha256": "80bbc26943b0948325a2e05019517a26a2913bbbbd2635aaeb85e4e6d834f993"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_lantern_new.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_lantern_new.png",
+   "sha256": "58090ba69e0f92f0a8a0bfab789067b89a053883102d38cb098f12608a64a2c0"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_coin_ready.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_coin_ready.png",
+   "sha256": "8f86e09e02eed60b63e56287fe30d3be8965f703146597ae705e711977850bfa"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_lantern_taken.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_lantern_taken.png",
+   "sha256": "1883fd940ae9108a90cf211349f42411f30158eec61bbd09fec8d695d33c712a"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_compass_taken.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_compass_taken.png",
+   "sha256": "1d023f1a7d9d74c7fe7747a29aebaef1739f00fe2c94e9488e0c06e4c814a806"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_cask_sealed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_cask_sealed.png",
+   "sha256": "94ee5f8dc5b59080a0ec3f916a6796f4478cb923e71e048405ee7f973256c0ac"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_compass_ready.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_compass_ready.png",
+   "sha256": "1e6a1e103402309da956aa2c940f704d3dfddf649edf82c0aa8a395c72e5d11a"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_coin_sealed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_coin_sealed.png",
+   "sha256": "ba66492150471173bcbc46fcb0b9109b864b0c28e077942cc0deab1a0bfb6726"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_coin_new.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_coin_new.png",
+   "sha256": "e9a009ed2584aa4420b18a67047dcb56560292d859ed5faab7aa223b68d273b6"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_fish_sealed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_fish_sealed.png",
+   "sha256": "7996699dbb5fbc0d822e28244210cbd801c3ba28fa0208fcc576d70d0037c55a"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_seed_taken.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_seed_taken.png",
+   "sha256": "66328a62df73431a98ba95ef6d69e3e3b7134131a268b389a28c1f4259ac65c1"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_coin_taken.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_coin_taken.png",
+   "sha256": "476723243a8a1ab294a7e3cc202a88cea0d03d23677e520638ff9b58c0692b52"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_lantern_ready.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_lantern_ready.png",
+   "sha256": "63e10eeaabd38a695ffe8bf96cc00f61dc9864ac4f3a42cd7455a053645934c3"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_sky_sealed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_sky_sealed.png",
+   "sha256": "cb76a2f3b9a33f93ba1e0cdf6700c075f2a7ab267c5b956df35fff3c12c20e81"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_cook_taken.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_cook_taken.png",
+   "sha256": "92d2c6f6e319927bdd0e32e680202ab036db2075c74f8e0a5cca1ae8c17d765a"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_seed_sealed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_seed_sealed.png",
+   "sha256": "8f37786f2508b6ba244376c0d6c00e13c6690d7806b3ff95197a030155a25b52"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_pier_sealed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_pier_sealed.png",
+   "sha256": "73c88536a5bad88289380bd86df5bd5d7ef122d3f41803e9d97c284fd3a108e4"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_claim_taken.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_claim_taken.png",
+   "sha256": "cb389ac41491bfd7e55b4706d8e9183753fbe1313057bd43ac829dc23dbb1fef"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_lantern_sealed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_lantern_sealed.png",
+   "sha256": "f7011b1afb409b093a4734c206835bac1f905d90517ee530fcab3f783a7ced5a"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_sky_taken.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_sky_taken.png",
+   "sha256": "31a3bf7d4a4b90787e2829b53e03831daee5539675435384f69aed83e1e6249e"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_shaft_locked.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_shaft_locked.png",
+   "sha256": "27897b3812cef47235565e1af0edd7c1024c3fd1580030eb4e2cb98ff700fb9c"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_shaft_taken.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_shaft_taken.png",
+   "sha256": "6009a41d5c04d17c79934a9ebd9649432c2b22c22ac8fad9193c9bf411e57546"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_store_new.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_store_new.png",
+   "sha256": "7b45e9f5fdbe70664f74486e11dd9c70e90bf096fec19c026d9e89466a0b1ee5"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_claim_sealed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_claim_sealed.png",
+   "sha256": "6be32a564f28a3726caca22211ea1a751a61807e57b56a98997dfc37652b67c2"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_shaft_sealed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_shaft_sealed.png",
+   "sha256": "0da61cee8d2cf4eb11fa67c574d34f2e0a9f928f44ec4472936e8b015f63a966"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_cook_sealed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_cook_sealed.png",
+   "sha256": "809a13b8ba6f5daf4f2241e35ad55449dfb95a08deefada229f3b71548c18fcb"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_claim_new.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_claim_new.png",
+   "sha256": "6def036453ab78884994681f767960c57bcf50ff094adc86aae5b94a59b63af3"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_cask_new.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_cask_new.png",
+   "sha256": "4876de986a58ab8851c91d50065d9cdd38ba414ed3030a521aa05ac59a214609"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_shaft_new.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_shaft_new.png",
+   "sha256": "0096da5d17014b7d158e7e2a350f20c7393aba52bda0cd17585713b321b90acb"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_sky_new.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_sky_new.png",
+   "sha256": "779b7d7a0153bc8c6b9c025feb16616bf449f5e45e560eaf8f55c8d49fb2ae99"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_pier_new.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_pier_new.png",
+   "sha256": "5873c18a07cc1b67364627ddfb96b7bf138e8d9ba6b8b028df7ab2187737d12e"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_store_ready.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_store_ready.png",
+   "sha256": "0e56fe6f1c3aecfcb5c25ca8439f6e74f1827472797efe006343c68326f3d11e"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_cask_taken.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_cask_taken.png",
+   "sha256": "1a18bdf280cc5d052b5217babb15e41bad0201f57b8daf805f36041c80f9df0c"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_compass_locked.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_compass_locked.png",
+   "sha256": "fad10c4fbfaf500a35354ae2056e25d83c6b2534385e9fd28b616db14291d3bc"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_compass_new.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_compass_new.png",
+   "sha256": "ea00d9202ea2a78a7a83c7bec2a112a653720c8cd79f07bff75312aae6fbacd1"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_claim_ready.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_claim_ready.png",
+   "sha256": "37c80c840bd0d9c694cdf0a509933ae07bb09d83ccfbe59fa8f8cb09b0121314"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_fish_ready.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_fish_ready.png",
+   "sha256": "073b8de06a0a194e5119d2a15af8345959c926fe8b81eeae05a4aaba7564858b"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_compass_sealed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_compass_sealed.png",
+   "sha256": "85f9ca86fa6a6aea3c28cee37c7c6935f5e2b4c13617c2b8e8e37c6c54be7c0b"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_store_taken.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_store_taken.png",
+   "sha256": "277d84a7493b11ef3ca1d050659b8cf299b4ebf66f3a4e89754955f350733309"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_pier_taken.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_pier_taken.png",
+   "sha256": "0990780fb86f492155bf858e307d9f73bb67f8b2cceaeae4770fd7181c0dd8d1"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_fish_new.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_fish_new.png",
+   "sha256": "f4d82f345d11e2c11378379763391c7e185c30d444399fc38a825b24f2226353"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_seed_new.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_seed_new.png",
+   "sha256": "213470725494fd9a1052e2c300dc31997877983c664184fdbe1314401780613d"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_seed_ready.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_seed_ready.png",
+   "sha256": "d2fde6852a9845160bbeb643ecfdf859e3fe11c1db64a34d6adfb6eebd01d94c"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_store_sealed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_store_sealed.png",
+   "sha256": "2370d6706cdc2b88c22e810d958b6372042bcef9b4008307daa3a80d7a890781"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_fish_taken.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_fish_taken.png",
+   "sha256": "e44e49147bd9aff9f2ab1efed97b37fabd528ab4842347bf8037afbf2c4964cc"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_pier_ready.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_pier_ready.png",
+   "sha256": "4412976cc56da7281a873bb4869a0d7f080b3eeb1218ac678434ea40b5f64c50"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_claim_locked.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_claim_locked.png",
+   "sha256": "916c97dbde3216189beceafc9bf7b201dd14afd802b842ae1d18777d70c8ff1c"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_cook_ready.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_cook_ready.png",
+   "sha256": "49fd91a4a13874ce113f62b970a426ad231eff55046589206ce019bc937741b5"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_shaft_ready.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_shaft_ready.png",
+   "sha256": "4e32ef0283e9c55aba724049e30422eb2754f2a3085c106db4bfba1c90e43acb"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_cask_ready.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_cask_ready.png",
+   "sha256": "160c32c9adec2d57b26541d99cd2e73a493d258804100f0c3db0e0eb9ac13d9c"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_cook_new.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_cook_new.png",
+   "sha256": "600b6b37c878046ef3bcc07d4f4ecb6a68a2f97d27e7a38a21c208669930adf4"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_seed_locked.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_seed_locked.png",
+   "sha256": "d692a97722168340e895162204587eb90efe0a604e4cd8d72606871595e5d209"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__gui__bg_sky_ready.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/gui/bg_sky_ready.png",
+   "sha256": "e0517e04ac5bdfb133a849505cfa77eeda87a00cf60c97a9ca1748c17b24a274"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__board__stand_tex.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/board/stand_tex.png",
+   "sha256": "532ae86d81cfc8f1ac856fda30b14a5dff250b035ff2e974769902eb902e5882"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__icon_pick.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/icon_pick.png",
+   "sha256": "cc9216f35f539c4d7a4541cf3bb72062f509cf0413598a0d67b9b4dc93275961"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__icon_mug.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/icon_mug.png",
+   "sha256": "76f1dba90b7637ca5988e81f2b42da73edcb06b76a8b8285d1dacd5780ccd1d8"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__icon_seed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/icon_seed.png",
+   "sha256": "a7a63974eecb73eff3c137adf7d000add514a95d1b11c966f81d3f90d4f5fb6b"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__icon_candle.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/icon_candle.png",
+   "sha256": "14ee990fb65a42cfe8518796ee0aaaf619cabb2966a3f6e4fcaa64a257b15f7c"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__blank.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/blank.png",
+   "sha256": "a901afae7bdb66678f08a39b32f8a46da9864c8a64fabc0e77a7f12b93df12ba"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__icon_compass.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/icon_compass.png",
+   "sha256": "c56a1edafd2c7742fb46899316ca41a20a6510bac300f79356c80ee7e5061aa2"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__icon_flag.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/icon_flag.png",
+   "sha256": "b86005965c2f2fdf56f69361ce67d8c2f0abe7c13ea5a6551e590596436abfa6"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__icon_fish.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/icon_fish.png",
+   "sha256": "0bd68052dd3a5da913b5acb99a70e834571c77942ccfcd34f35b25eda10e75d7"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__icon_pot.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/icon_pot.png",
+   "sha256": "0792a802ce2d4f17061e9a685ae9f8fd236e3d280b193ab1a77bed6db71d9ade"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__icon_coin.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/icon_coin.png",
+   "sha256": "bce4a8dab728fcf86608678e9eab2ab1a084a2fccd8f036224351abcccf4c1bd"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__icon_lantern.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/icon_lantern.png",
+   "sha256": "cf6240e84487d8e4ece9ddf21dcad4ed1d9c00643be918aa47d45d0faa5dcd34"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__icon_star.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/icon_star.png",
+   "sha256": "2d6ddd029e5dd79c430bd3d4f0a3260b20f0466f2dbabff223def39eae6c67a6"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__icon_anchor.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/icon_anchor.png",
+   "sha256": "c4e91978cf38338281be4e4ea51faff2afc5a2bd278ae14fd388a55505f22c14"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__gui__coin.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/gui/coin.png",
+   "sha256": "bce4a8dab728fcf86608678e9eab2ab1a084a2fccd8f036224351abcccf4c1bd"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__paper_tall_grey.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/paper_tall_grey.png",
+   "sha256": "8347cbe49853fbe5f9a8d30f53f33f2ec1fa6a93352fa06425cb89b546e8f4fb"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__pick_dim.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/pick_dim.png",
+   "sha256": "6a6b31b7a7565673faf31205b5d6e397ad264a7a294bff05b7f1650bacb9ac97"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__mug_dim.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/mug_dim.png",
+   "sha256": "25c7cedf4932fdb6dd254d76caf4030ef31b57e5e3ad3863d11661080bb655bc"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__flag_dim.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/flag_dim.png",
+   "sha256": "378a7ef1d5594a130689795d3bde0da740f3292390396b056f90e597422e977c"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__paper_wide.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/paper_wide.png",
+   "sha256": "6dd58c63910c1efb69afc5b1bd1df0b0837f2890e1152476857a39bd51cb06f6"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__mug.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/mug.png",
+   "sha256": "76f1dba90b7637ca5988e81f2b42da73edcb06b76a8b8285d1dacd5780ccd1d8"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__paper_tall.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/paper_tall.png",
+   "sha256": "bb6accc30bfdfce195083f3b9b570130c40bb0772f2820330d61d238ee2947b7"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__paper_small_grey.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/paper_small_grey.png",
+   "sha256": "e5bc37d266b9f960b4e0016d388bcf4148486ce5d06bba4a166af858bcd4f233"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__seal.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/seal.png",
+   "sha256": "149e6c6185b813503c5808cbf569a9835f11d43b4fd06738c0abfa8a24d98d40"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__pin_grey.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/pin_grey.png",
+   "sha256": "754e14a789a63eeec2f239288a5351116363002fa6602604f4743ac01542d274"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__candle.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/candle.png",
+   "sha256": "14ee990fb65a42cfe8518796ee0aaaf619cabb2966a3f6e4fcaa64a257b15f7c"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__paper_square.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/paper_square.png",
+   "sha256": "a318f1e537ef8d59b204fb212565907a32736d845e916e6f7e1308545226dc16"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__compass.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/compass.png",
+   "sha256": "c56a1edafd2c7742fb46899316ca41a20a6510bac300f79356c80ee7e5061aa2"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__star.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/star.png",
+   "sha256": "2d6ddd029e5dd79c430bd3d4f0a3260b20f0466f2dbabff223def39eae6c67a6"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__lantern.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/lantern.png",
+   "sha256": "cf6240e84487d8e4ece9ddf21dcad4ed1d9c00643be918aa47d45d0faa5dcd34"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__seed_dim.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/seed_dim.png",
+   "sha256": "819153f03b717ad56cdec0fb83a324c7b1b793e36b58908f58479e915d1b2a5d"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__paper_wide_grey.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/paper_wide_grey.png",
+   "sha256": "4323ad2ffbbf489f9391ed60955037b74649d035350cb8122e64a9584538e228"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__paper_square_grey.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/paper_square_grey.png",
+   "sha256": "14f060b8d62ac91702e135c41cc0c74ed255c1eee8b8f4bcba5ce370b8691e5f"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__pin_black.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/pin_black.png",
+   "sha256": "515afa99c9184edd55660e80981125c7db21721c45e98b71d42ffd4012b3ccf4"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__coin_dim.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/coin_dim.png",
+   "sha256": "35922ace49bee3179d72e007df6caafc7bb8e288f95abfa4ef20422319ade3a7"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__pot_dim.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/pot_dim.png",
+   "sha256": "d99e47e9bacaaf75810ec6c5c9bd7bc4779fb6d7b4e1d1f83e2e89e6eb267818"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__pin_red.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/pin_red.png",
+   "sha256": "7f2c31e2843d3f84a0476d9a50ae2230e82f034deb9ca80ad6f9a43bc7f423b8"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__pick.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/pick.png",
+   "sha256": "cc9216f35f539c4d7a4541cf3bb72062f509cf0413598a0d67b9b4dc93275961"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__candle_dim.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/candle_dim.png",
+   "sha256": "81fc8ecbc19d83b116f5f8d42e7cc908b776b879dd7ae316e4f750710a58fe53"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__lantern_dim.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/lantern_dim.png",
+   "sha256": "43962020a8c2d784b0ae54e31179c0b6c60d5cb466ff8700a2f56f12893398b4"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__paper_small.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/paper_small.png",
+   "sha256": "709e43d49f3e0c5affcff1cd23f9da1600c637e5d2dd9db4019cf66f1937e3a0"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__anchor_dim.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/anchor_dim.png",
+   "sha256": "eeea5f66095e8a8c8b2ff1a46318542538b835a2dcaa2f9a44ddac79b7c7d32b"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__star_dim.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/star_dim.png",
+   "sha256": "4782532c314202abe7ab7e54e43c781e4a1e8eb8b41af2c593e5b34881d6e33c"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__pin_brass.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/pin_brass.png",
+   "sha256": "244feb775e8113f45e3dcda2041f698aba0519e7bf2169731f171ac5cb4d969d"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__flag.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/flag.png",
+   "sha256": "b86005965c2f2fdf56f69361ce67d8c2f0abe7c13ea5a6551e590596436abfa6"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__anchor.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/anchor.png",
+   "sha256": "c4e91978cf38338281be4e4ea51faff2afc5a2bd278ae14fd388a55505f22c14"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__seed.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/seed.png",
+   "sha256": "a7a63974eecb73eff3c137adf7d000add514a95d1b11c966f81d3f90d4f5fb6b"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__pot.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/pot.png",
+   "sha256": "0792a802ce2d4f17061e9a685ae9f8fd236e3d280b193ab1a77bed6db71d9ade"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__coin.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/coin.png",
+   "sha256": "bce4a8dab728fcf86608678e9eab2ab1a084a2fccd8f036224351abcccf4c1bd"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__fish_dim.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/fish_dim.png",
+   "sha256": "bbcbf468e9d6448020cc3143b3214fe090834059e3ad46cbf04bf5f8244d8869"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__compass_dim.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/compass_dim.png",
+   "sha256": "3d4768619054cc4d34bf3c8cbfd2fc71297454b1d72a587cfbc8b6823bf19d69"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__item__notice__fish.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/item/notice/fish.png",
+   "sha256": "0bd68052dd3a5da913b5acb99a70e834571c77942ccfcd34f35b25eda10e75d7"
+  },
+  {
+   "src": "plugins__LyrisLoom__content__pack__external_packs__lyris_charter__assets__lyris_charter__textures__entity__edric_penhallow.png",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_charter/assets/lyris_charter/textures/entity/edric_penhallow.png",
+   "sha256": "cc16cbb9ebbf175f08b48c0b8722b125ed21885d4ee136b877099c0cef800f40"
+  }
+ ]
+}

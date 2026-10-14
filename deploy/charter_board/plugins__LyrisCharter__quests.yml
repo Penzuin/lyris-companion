@@ -1,0 +1,130 @@
+# The Charter Board: the Settler's Charter quests (one-time tutorial work, ~12). The board shows a player the first 6
+# they haven't handed in, in this order; a quest with `requires` shows greyed out until that one is handed in.
+#
+#   title    notice + menu title (keep it to ~3 words)       icon   notice icon (art/notice_icons.py)
+#   story    1-2 lines in Edric's voice (menu page)          goal   the to-do line (menu page + action bar)
+#   where    where to do it (menu page)                      reward copper paid on hand-in
+#   done     Edric's line on hand-in                         type   how the plugin notices it's done (+ params)
+#   dummy    true = placeholder until the real list is written (owner, 2026-10-13: "put some dummies in for now")
+quests:
+  lantern:
+    title: Fill Your Lantern
+    icon: lantern
+    story: The mist cannot pass a lit lamp. Keep yours fed.
+    goal: Fill your lantern with lamp oil
+    where: Lantern in one hand, oil in the other. More oil from the Lamp Seller at dusk.
+    reward: 15
+    done: Your lantern is fed. Keep it so, and the mist keeps its distance.
+    type: lantern
+  coin:
+    title: First Coin
+    icon: coin
+    story: Every settler needs a coin in the bag before the road.
+    goal: Sell anything at a market stall
+    where: The Farmer, the Fishmonger or the General Merchant.
+    reward: 15
+    done: Your first coin in the Reach. Mind the bag.
+    type: coin
+  fish:
+    title: Off the Pier
+    icon: fish
+    story: The bay feeds the lamps, they say. Let it feed you too.
+    goal: Catch any fish
+    where: The Lantern Pier is right outside the Charter House.
+    reward: 15
+    done: A fish! Now you'll never go hungry by the sea.
+    type: fish
+  seed:
+    title: A Patch of Ground
+    icon: seed
+    story: A charter is only paper until something of yours grows.
+    goal: Plant a seed in tilled earth
+    where: Seeds from the Farmer's Stall. Mind the season on the packet.
+    reward: 15
+    done: Something of yours is growing. That is how charters start.
+    type: seed
+    requires: coin
+  cook:
+    title: Something Warm
+    icon: pot
+    story: The first rule of the road, after the lamp, is warm food.
+    goal: Cook any dish
+    where: A pot, oven or skillet. A burnt dish still counts.
+    reward: 15
+    done: We have all eaten Charred Mess. Yours smells better.
+    type: cook
+  claim:
+    title: Stake a Claim
+    icon: flag
+    story: 'That is what this Charter is for: ground of your own.'
+    goal: Claim your first piece of land
+    where: Anywhere out in the Reach.
+    reward: 25
+    done: Your claim is in the Register. The next settler will see your light from the road.
+    type: claim
+    requires: seed
+  sky:
+    title: Read the Sky
+    icon: star
+    story: We keep no maps with numbers. The stars guide us.
+    goal: Look up through a spyglass at night
+    where: Anywhere under the open sky. A spyglass is copper and an amethyst shard.
+    reward: 15
+    done: You looked up. Most folk never do, and most folk get lost.
+    type: sky
+  compass:
+    title: Find Your Way Home
+    icon: compass
+    story: A compass bound to our rose always leads back here.
+    goal: Use a compass on our lodestone
+    where: The compass rose in the floor of the Charter Hall.
+    reward: 15
+    done: Now you can always find this door.
+    type: compass
+    requires: sky
+  shaft:
+    title: Down the Shaft
+    icon: pick
+    story: The fallen star is still warm, deep underground.
+    goal: Go down into Emberdeep and back up
+    where: Talk to Jory Flint at the camp, then /emberdeep.
+    reward: 25
+    done: Down and up again, all limbs attached. Jory will be pleased.
+    type: shaft
+    requires: lantern
+  cask:
+    title: A Chair at the Cask
+    icon: mug
+    story: Leave a chair for the stranger, the Charter says.
+    goal: Visit the Bright Cask
+    where: Up Main Street from the Pier.
+    reward: 10
+    done: 'Placeholder: the real quest comes later.'
+    type: visit
+    at: [312, 71, -2424]
+    radius: 7
+    dummy: true
+  store:
+    title: Tallow and Twine
+    icon: candle
+    story: Wicks, rope and a good word. Every settler shops here.
+    goal: Visit Tallow & Twine, the general store
+    where: Beside the Charter House.
+    reward: 10
+    done: 'Placeholder: the real quest comes later.'
+    type: visit
+    at: [270, 69, -2418]
+    radius: 6
+    dummy: true
+  pier:
+    title: The Lantern Pier
+    icon: anchor
+    story: Every settler arrived at the end of this pier.
+    goal: Walk to the end of the Lantern Pier
+    where: Out past the harbour lamps.
+    reward: 10
+    done: 'Placeholder: the real quest comes later.'
+    type: visit
+    at: [221, 65, -2421]
+    radius: 8
+    dummy: true
