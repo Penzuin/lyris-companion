@@ -1,9 +1,9 @@
 {
  "name": "LyrisLoom",
- "version": "1.0.0",
- "jar": "LyrisLoom-1.0.0.jar",
- "sha256": "b36e99de734e839e38bd162019e7416edd9c03ddadb2e47d450dd368c07f1bf1",
- "size": 141699,
+ "version": "1.1.0",
+ "jar": "LyrisLoom-1.1.0.jar",
+ "sha256": "f9f7143216ceac3297416998d9879d2aaedc7846fb9861cdad8372b4f4db86a6",
+ "size": 191319,
  "files": [],
- "built": "2026-10-14 00:57 UTC"
+ "built": "2026-10-14 05:03 UTC"
 }
