@@ -1,0 +1,7 @@
+# Polwhele's workroom furniture (LyrisAtelier 2.1, 2026-10-14): the six dressmaking stations. Owner: "Yes, place them".
+atelier_order_desk world 315 72 -2375 180 UP
+atelier_cloth_rack world 314 72 -2384 0 UP
+atelier_trim_cabinet world 317 72 -2384 0 UP
+atelier_dress_form world 314 77 -2378 -90 UP
+atelier_cutting_table world 322 72 -2379 0 UP
+atelier_sewing_machine world 322 72 -2382 0 UP
