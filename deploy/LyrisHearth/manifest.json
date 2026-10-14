@@ -1,0 +1,15 @@
+{
+ "name": "LyrisHearth",
+ "version": "1.0.1",
+ "jar": "LyrisHearth-1.0.1.jar",
+ "sha256": "3fa8cfc38d46e100fcfc8eac06f201a613f8cb5c20c1fe9627bba2ed65e56da3",
+ "size": 59510,
+ "files": [
+  {
+   "src": "config.yml",
+   "dst": "/plugins/LyrisHearth/config.yml",
+   "binary": false
+  }
+ ],
+ "built": "2026-10-14 01:07 UTC"
+}
