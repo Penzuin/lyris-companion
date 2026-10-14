@@ -1,0 +1,20 @@
+{
+ "name": "LyrisAngling",
+ "version": "1.0.0",
+ "jar": "LyrisAngling-1.0.0.jar",
+ "sha256": "b0c64ae21d2c9ba5880a67f90958449ffc177bbcc2dd03fa8c1f01535a92c5be",
+ "size": 56426,
+ "files": [
+  {
+   "src": "lyris_angling.yml",
+   "dst": "/plugins/LyrisLoom/content/items/lyris_angling.yml",
+   "binary": false
+  },
+  {
+   "src": "lyris_angling.zip",
+   "dst": "/plugins/LyrisLoom/content/pack/external_packs/lyris_angling.zip",
+   "binary": true
+  }
+ ],
+ "built": "2026-10-14 01:07 UTC"
+}
