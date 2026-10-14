@@ -2,7 +2,7 @@
  "name": "LyrisAtelier",
  "version": "2.1.0",
  "jar": "LyrisAtelier-2.1.0.jar",
- "sha256": "fef167bfcefdf461f8fc174af9046441f751f1b9c7a1f773d85cf9019eb7323d",
+ "sha256": "4d22a86708e8d6c37ac794d5760d09402f121cd2bf22e7e3d214ea71dcbf1a61",
  "size": 174067,
  "files": [
   {
@@ -26,5 +26,5 @@
    "binary": false
   }
  ],
- "built": "2026-10-14 04:28 UTC"
+ "built": "2026-10-14 04:29 UTC"
 }
