@@ -1,0 +1,73 @@
+# LyrisAtelier menu backgrounds (chars U+EBC0..U+EBCF reserved for the atelier menus).
+lyris_atelier_hub:
+  texture: lyris_atelier:gui/bg_hub
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.atelier
+  char: ""
+lyris_atelier_orders:
+  texture: lyris_atelier:gui/bg_orders
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.atelier
+  char: ""
+lyris_atelier_fit:
+  texture: lyris_atelier:gui/bg_fit
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.atelier
+  char: ""
+lyris_atelier_sketch:
+  texture: lyris_atelier:gui/bg_sketch
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.atelier
+  char: ""
+lyris_atelier_drapery:
+  texture: lyris_atelier:gui/bg_drapery
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.atelier
+  char: ""
+lyris_atelier_cut:
+  texture: lyris_atelier:gui/bg_cut
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.atelier
+  char: ""
+lyris_atelier_sew:
+  texture: lyris_atelier:gui/bg_sew
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.atelier
+  char: ""
+lyris_atelier_trim:
+  texture: lyris_atelier:gui/bg_trim
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.atelier
+  char: ""
+lyris_atelier_result:
+  texture: lyris_atelier:gui/bg_result
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.atelier
+  char: ""
+lyris_atelier_book:
+  texture: lyris_atelier:gui/bg_book
+  ascent: 43
+  height: 162
+  permission: lyris.glyph.atelier
+  char: ""
+lyris_atelier_alcove_front:
+  texture: lyris_atelier:gui/alcove_front
+  ascent: 39
+  height: 150
+  permission: lyris.glyph.atelier
+  char: ""
+lyris_atelier_alcove_back:
+  texture: lyris_atelier:gui/alcove_back
+  ascent: 39
+  height: 150
+  permission: lyris.glyph.atelier
+  char: ""

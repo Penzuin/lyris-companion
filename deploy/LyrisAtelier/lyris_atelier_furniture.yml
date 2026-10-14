@@ -1,0 +1,114 @@
+# Polwhele's workroom furniture (LyrisAtelier 2.1). Each piece is a dressmaking station: right-click opens its step.
+# Models: atelier/art/furniture.py (front faces south, 2-wide pieces extend to +x). Pack: lyris_atelier.zip.
+atelier_order_desk:
+  itemname: '<#e8b4bc>Order Desk'
+  material: PAPER
+  lore:
+  - '<gray><i>The Order Book, a quill, and the bell</i>'
+  - '<gray><i>that calls the next client in.</i>'
+  - ''
+  - '<#e48797>Dressmaking · the workroom guide'
+  Components:
+    item_model: 'lyris_atelier:furniture/atelier_order_desk'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: false
+      hitbox:
+        barriers:
+        - 0,0,0
+atelier_dress_form:
+  itemname: '<#e8b4bc>Dress Form'
+  material: PAPER
+  lore:
+  - '<gray><i>Calico on a tripod, with the tape still round its neck.</i>'
+  - ''
+  - '<#e48797>Dressmaking · design and trims'
+  Components:
+    item_model: 'lyris_atelier:furniture/atelier_dress_form'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+atelier_cloth_rack:
+  itemname: '<#e8b4bc>Cloth Rack'
+  material: PAPER
+  lore:
+  - '<gray><i>Rolls of cloth from Chenoweth & Son,</i>'
+  - '<gray><i>sold by the yard.</i>'
+  - ''
+  - '<#e48797>Dressmaking · cloth and trims'
+  Components:
+    item_model: 'lyris_atelier:furniture/atelier_cloth_rack'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 1,0,0
+        - 0,1,0
+        - 1,1,0
+atelier_trim_cabinet:
+  itemname: '<#e8b4bc>Trim Cabinet'
+  material: PAPER
+  lore:
+  - '<gray><i>Ribbon, lace, buttons and seed pearls.</i>'
+  - ''
+  - '<#e48797>Dressmaking · cloth and trims'
+  Components:
+    item_model: 'lyris_atelier:furniture/atelier_trim_cabinet'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: false
+      hitbox:
+        barriers:
+        - 0,0,0
+atelier_cutting_table:
+  itemname: '<#e8b4bc>Cutting Table'
+  material: PAPER
+  lore:
+  - '<gray><i>Lay the pattern with the grain, then cut.</i>'
+  - ''
+  - '<#e48797>Dressmaking · cutting'
+  Components:
+    item_model: 'lyris_atelier:furniture/atelier_cutting_table'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 1,0,0
+atelier_sewing_machine:
+  itemname: '<#e8b4bc>Sewing Machine'
+  material: PAPER
+  lore:
+  - '<gray><i>A treadle machine, black and gold,</i>'
+  - '<gray><i>older than the shop.</i>'
+  - ''
+  - '<#e48797>Dressmaking · sewing'
+  Components:
+    item_model: 'lyris_atelier:furniture/atelier_sewing_machine'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 1,0,0
