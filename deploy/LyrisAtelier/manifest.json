@@ -2,7 +2,7 @@
  "name": "LyrisAtelier",
  "version": "2.1.0",
  "jar": "LyrisAtelier-2.1.0.jar",
- "sha256": "1c6f0887747876871a5246fecdeaf0e84a6c5933549bfae9311326cf12949d05",
+ "sha256": "fef167bfcefdf461f8fc174af9046441f751f1b9c7a1f773d85cf9019eb7323d",
  "size": 174067,
  "files": [
   {
@@ -19,7 +19,12 @@
    "src": "lyris_atelier_furniture.yml",
    "dst": "/plugins/LyrisLoom/content/items/lyris_atelier_furniture.yml",
    "binary": false
+  },
+  {
+   "src": "config.yml",
+   "dst": "/plugins/LyrisAtelier/config.yml",
+   "binary": false
   }
  ],
- "built": "2026-10-14 04:27 UTC"
+ "built": "2026-10-14 04:28 UTC"
 }

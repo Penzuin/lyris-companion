@@ -1,0 +1,104 @@
+# LyrisAtelier settings. The pieces, fabrics, colours and trims are in catalogue.yml; the clients in clients.yml.
+
+# Letters on the order book: a new letter arrives this many minutes after the last one, up to the rank's limit.
+letters:
+  every-minutes: 20
+  expire-hours: 48          # an unaccepted letter is withdrawn after this long
+
+# What a delivered commission pays. pay = budget x (base + per-star x stars). The client's budget also has to
+# cover the cloth, dye and trims you bought for it, so a good dressmaker keeps the spend under the budget.
+pay:
+  base: 0.40
+  per-star: 0.12
+  daily-cap: 250            # copper per real day from commissions (the server's NPC income cap); over it, you still get reputation
+reputation:
+  per-stars: [ -4, 2, 6, 12, 20 ]     # reputation for a 1..5 star delivery
+  free-design: 1                      # reputation for finishing your own design (once per real day)
+
+# Quality = fit x weight + cut x weight + sewing x weight + finish x weight (weights add up to 100).
+# Your own designs have no fitting, so the other three are scaled up.
+quality:
+  fit: 25
+  cut: 25
+  sew: 35
+  finish: 15
+
+# Walk-in clients: they come in when you are within shop-radius blocks of the counter with a letter waiting.
+clients:
+  shop-radius: 8
+  speed: 0.13               # blocks per tick
+  seat-lift: -0.35          # where the bench seat sits under a seated client
+  next-after-seconds: 6     # pause before the next client comes in
+
+# The fitting tape on the dais: the pin moves one step every N ticks (27 steps across the tape).
+fitting:
+  pin-ticks: 2
+  cm-per-step: 1.5          # how far off the recorded measurement is for each step you missed the chalk by
+
+# The sewing machine menu: the cloth moves one stitch every N ticks. "Gentle" is the slower treadle (no penalty).
+sewing:
+  ticks: 8
+  gentle-ticks: 13
+  stitches-per-seam: 16
+  wander: 0.35              # chance per stitch that the seam line bends
+
+trimming:
+  max-trims: 8
+
+# The furniture stations (LyrisLoom furniture ids -> station). Right-click one to open its step.
+#   book: the workroom guide   sketch: Sketchbook, then the Trim bench   drapery / trims: Chenoweth & Son
+#   cutting: the cutting table   sewing: the sewing machine
+furniture:
+  atelier_order_desk: book
+  atelier_dress_form: sketch
+  atelier_cloth_rack: drapery
+  atelier_trim_cabinet: trims
+  atelier_cutting_table: cutting
+  atelier_sewing_machine: sewing
+stations:
+  require: true             # the guide only opens a step's menu within reach of its station
+  reach: 6
+
+# The "next step" marker over the station your work is waiting at (seen only by you, near the shop).
+guide:
+  enabled: true
+  radius: 22
+
+# Hester Polwhele, who keeps the shop: an NPC behind the counter (shared, re-made when her chunk loads).
+hester:
+  enabled: true
+  location: [314.5, 72.0, -2374.5]
+  yaw: 180
+  skin: 'lyris_atelier:entity/hester_fallbreak'   # owner's pick: "Fall Break" by rce (minecraftskins.com/skin/24393147), slim
+
+# Where things are in Polwhele's (surveyed 2026-10-13; the floor is y 71, the studio floor y 76).
+# st-<station> is where that station's furniture stands (learned when it is first used; set here once placed).
+# /atelier set <point> overrides these in stations.yml.
+places:
+  world: world
+  points:                   # x, y, z, yaw
+    door-out: [309.5, 71.5, -2378.5, 270]
+    door-in:  [312.5, 72.0, -2378.5, 270]
+    counter:  [314.5, 72.0, -2376.5, 0]
+    aisle:    [312.5, 72.0, -2377.5, 0]
+    dais:     [316.5, 72.5, -2378.5, 90]
+    bench:    [312.5, 72.5, -2374.5, 0]
+
+# Garment items. The base item gives the vanilla protection and the dye; the look comes from the equipment
+# assets in the lyris_atelier pack.
+garments:
+  top-base: LEATHER_CHESTPLATE
+  bottom-base: LEATHER_LEGGINGS
+  bind-maker-name: true
+
+# The 3D parts of worn garments (skirts, puffed sleeves, collars, peplums, coat tails, bows, lanterns): one item
+# display per wearer, moved to their waist every tick and turned with their body. Leather layers draw the rest.
+rig:
+  enabled: true
+  waist: 0.75               # blocks above the feet (x the player's scale) where the rig sits
+  sneak-drop: 0.19          # how far it drops while sneaking
+  follow-body: true         # turn with the body (true) or the head (false)
+  yaw-offset: 0             # degrees; 180 if skirts ever show back to front
+  glide-ticks: 2            # client smoothing between moves
+  view-range: 1.0
+  show-to-self: true        # false hides your own skirt from you (others still see it)
