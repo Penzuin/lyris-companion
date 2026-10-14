@@ -1,0 +1,33 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:display_context",
+  "cases": [
+   {
+    "when": [
+     "gui",
+     "firstperson_righthand",
+     "firstperson_lefthand",
+     "thirdperson_righthand",
+     "thirdperson_lefthand",
+     "head",
+     "fixed"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "lyris_totems:item/lyris_totem_bloomheart_6_icon"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "lyris_totems:item/lyris_totem_bloomheart_6_lit",
+   "tints": [
+    {
+     "type": "minecraft:dye",
+     "default": -24376
+    }
+   ]
+  }
+ }
+}

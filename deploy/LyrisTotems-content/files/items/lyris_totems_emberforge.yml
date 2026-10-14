@@ -1,0 +1,200 @@
+# LyrisTotems supporter style: Emberforge (cosmetic; permission lyristotems.skin.emberforge)
+lyris_totem_emberforge_1:
+  itemname: '<#ffb060>Forge Brazier · Homestead'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The forge brazier of a homestead.</i>'
+  - '<#ffb060>✦ Emberforge style</#ffb060> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 1 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_emberforge_1'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_emberforge_1_lit'
+        lights:
+        - 0,1,0 15
+lyris_totem_emberforge_2:
+  itemname: '<#ffb060>Forge Brazier · Steading'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The forge brazier of a steading.</i>'
+  - '<#ffb060>✦ Emberforge style</#ffb060> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 2 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_emberforge_2'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_emberforge_2_lit'
+        lights:
+        - 0,1,0 15
+lyris_totem_emberforge_3:
+  itemname: '<#ffb060>Forge Brazier · Hamlet'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The forge brazier of a hamlet.</i>'
+  - '<#ffb060>✦ Emberforge style</#ffb060> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 3 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_emberforge_3'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_emberforge_3_lit'
+        lights:
+        - 0,2,0 15
+lyris_totem_emberforge_4:
+  itemname: '<#ffb060>Forge Brazier · Village'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The forge brazier of a village.</i>'
+  - '<#ffb060>✦ Emberforge style</#ffb060> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 4 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_emberforge_4'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_emberforge_4_lit'
+        lights:
+        - 0,3,0 15
+lyris_totem_emberforge_5:
+  itemname: '<#ffb060>Forge Brazier · Town'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The forge brazier of a town.</i>'
+  - '<#ffb060>✦ Emberforge style</#ffb060> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 5 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_emberforge_5'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_emberforge_5_lit'
+        lights:
+        - 0,3,0 15
+lyris_totem_emberforge_6:
+  itemname: '<#ffb060>Forge Brazier · City'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The forge brazier of a city.</i>'
+  - '<#ffb060>✦ Emberforge style</#ffb060> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 6 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_emberforge_6'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_emberforge_6_lit'
+        lights:
+        - 0,3,0 15
+lyris_boundary_ward_emberforge:
+  itemname: '<#ffb060>Forge Brazier Ward'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>Set it out in your land: the land reaches</i>'
+  - '<gray><i>farther from it, and may hold more.</i>'
+  - '<#ffb060>✦ Emberforge style</#ffb060> <dark_gray>· a supporter reward'
+  Components:
+    max_stack_size: 16
+    item_model: 'lyris_totems:lyris_boundary_ward_emberforge'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_boundary_ward_emberforge_lit'
+        lights:
+        - 0,1,0 15

@@ -1,0 +1,200 @@
+# LyrisTotems supporter style: Cogwright (cosmetic; permission lyristotems.skin.cogwright)
+lyris_totem_cogwright_1:
+  itemname: '<#f0cc7a>Clockwork Beacon · Homestead'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The clockwork beacon of a homestead.</i>'
+  - '<#f0cc7a>✦ Cogwright style</#f0cc7a> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 1 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_cogwright_1'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_cogwright_1_lit'
+        lights:
+        - 0,1,0 15
+lyris_totem_cogwright_2:
+  itemname: '<#f0cc7a>Clockwork Beacon · Steading'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The clockwork beacon of a steading.</i>'
+  - '<#f0cc7a>✦ Cogwright style</#f0cc7a> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 2 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_cogwright_2'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_cogwright_2_lit'
+        lights:
+        - 0,1,0 15
+lyris_totem_cogwright_3:
+  itemname: '<#f0cc7a>Clockwork Beacon · Hamlet'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The clockwork beacon of a hamlet.</i>'
+  - '<#f0cc7a>✦ Cogwright style</#f0cc7a> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 3 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_cogwright_3'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_cogwright_3_lit'
+        lights:
+        - 0,2,0 15
+lyris_totem_cogwright_4:
+  itemname: '<#f0cc7a>Clockwork Beacon · Village'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The clockwork beacon of a village.</i>'
+  - '<#f0cc7a>✦ Cogwright style</#f0cc7a> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 4 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_cogwright_4'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_cogwright_4_lit'
+        lights:
+        - 0,3,0 15
+lyris_totem_cogwright_5:
+  itemname: '<#f0cc7a>Clockwork Beacon · Town'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The clockwork beacon of a town.</i>'
+  - '<#f0cc7a>✦ Cogwright style</#f0cc7a> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 5 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_cogwright_5'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_cogwright_5_lit'
+        lights:
+        - 0,3,0 15
+lyris_totem_cogwright_6:
+  itemname: '<#f0cc7a>Clockwork Beacon · City'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The clockwork beacon of a city.</i>'
+  - '<#f0cc7a>✦ Cogwright style</#f0cc7a> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 6 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_cogwright_6'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_cogwright_6_lit'
+        lights:
+        - 0,3,0 15
+lyris_boundary_ward_cogwright:
+  itemname: '<#f0cc7a>Clockwork Beacon Ward'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>Set it out in your land: the land reaches</i>'
+  - '<gray><i>farther from it, and may hold more.</i>'
+  - '<#f0cc7a>✦ Cogwright style</#f0cc7a> <dark_gray>· a supporter reward'
+  Components:
+    max_stack_size: 16
+    item_model: 'lyris_totems:lyris_boundary_ward_cogwright'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_boundary_ward_cogwright_lit'
+        lights:
+        - 0,1,0 15

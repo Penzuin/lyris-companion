@@ -1,0 +1,200 @@
+# LyrisTotems supporter style: Bloomheart (cosmetic; permission lyristotems.skin.bloomheart)
+lyris_totem_bloomheart_1:
+  itemname: '<#ffb8d8>Living Hearth · Homestead'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The living hearth of a homestead.</i>'
+  - '<#ffb8d8>✦ Bloomheart style</#ffb8d8> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 1 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_bloomheart_1'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_bloomheart_1_lit'
+        lights:
+        - 0,1,0 15
+lyris_totem_bloomheart_2:
+  itemname: '<#ffb8d8>Living Hearth · Steading'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The living hearth of a steading.</i>'
+  - '<#ffb8d8>✦ Bloomheart style</#ffb8d8> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 2 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_bloomheart_2'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_bloomheart_2_lit'
+        lights:
+        - 0,1,0 15
+lyris_totem_bloomheart_3:
+  itemname: '<#ffb8d8>Living Hearth · Hamlet'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The living hearth of a hamlet.</i>'
+  - '<#ffb8d8>✦ Bloomheart style</#ffb8d8> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 3 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_bloomheart_3'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_bloomheart_3_lit'
+        lights:
+        - 0,2,0 15
+lyris_totem_bloomheart_4:
+  itemname: '<#ffb8d8>Living Hearth · Village'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The living hearth of a village.</i>'
+  - '<#ffb8d8>✦ Bloomheart style</#ffb8d8> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 4 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_bloomheart_4'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_bloomheart_4_lit'
+        lights:
+        - 0,3,0 15
+lyris_totem_bloomheart_5:
+  itemname: '<#ffb8d8>Living Hearth · Town'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The living hearth of a town.</i>'
+  - '<#ffb8d8>✦ Bloomheart style</#ffb8d8> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 5 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_bloomheart_5'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_bloomheart_5_lit'
+        lights:
+        - 0,3,0 15
+lyris_totem_bloomheart_6:
+  itemname: '<#ffb8d8>Living Hearth · City'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The living hearth of a city.</i>'
+  - '<#ffb8d8>✦ Bloomheart style</#ffb8d8> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 6 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_bloomheart_6'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_bloomheart_6_lit'
+        lights:
+        - 0,3,0 15
+lyris_boundary_ward_bloomheart:
+  itemname: '<#ffb8d8>Living Hearth Ward'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>Set it out in your land: the land reaches</i>'
+  - '<gray><i>farther from it, and may hold more.</i>'
+  - '<#ffb8d8>✦ Bloomheart style</#ffb8d8> <dark_gray>· a supporter reward'
+  Components:
+    max_stack_size: 16
+    item_model: 'lyris_totems:lyris_boundary_ward_bloomheart'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_boundary_ward_bloomheart_lit'
+        lights:
+        - 0,1,0 15

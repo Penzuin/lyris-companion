@@ -1,0 +1,200 @@
+# LyrisTotems supporter style: Tidecaller (cosmetic; permission lyristotems.skin.tidecaller)
+lyris_totem_tidecaller_1:
+  itemname: '<#9ce8d0>Lighthouse · Homestead'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The lighthouse of a homestead.</i>'
+  - '<#9ce8d0>✦ Tidecaller style</#9ce8d0> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 1 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_tidecaller_1'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_tidecaller_1_lit'
+        lights:
+        - 0,1,0 15
+lyris_totem_tidecaller_2:
+  itemname: '<#9ce8d0>Lighthouse · Steading'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The lighthouse of a steading.</i>'
+  - '<#9ce8d0>✦ Tidecaller style</#9ce8d0> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 2 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_tidecaller_2'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_tidecaller_2_lit'
+        lights:
+        - 0,1,0 15
+lyris_totem_tidecaller_3:
+  itemname: '<#9ce8d0>Lighthouse · Hamlet'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The lighthouse of a hamlet.</i>'
+  - '<#9ce8d0>✦ Tidecaller style</#9ce8d0> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 3 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_tidecaller_3'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_tidecaller_3_lit'
+        lights:
+        - 0,2,0 15
+lyris_totem_tidecaller_4:
+  itemname: '<#9ce8d0>Lighthouse · Village'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The lighthouse of a village.</i>'
+  - '<#9ce8d0>✦ Tidecaller style</#9ce8d0> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 4 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_tidecaller_4'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_tidecaller_4_lit'
+        lights:
+        - 0,3,0 15
+lyris_totem_tidecaller_5:
+  itemname: '<#9ce8d0>Lighthouse · Town'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The lighthouse of a town.</i>'
+  - '<#9ce8d0>✦ Tidecaller style</#9ce8d0> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 5 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_tidecaller_5'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_tidecaller_5_lit'
+        lights:
+        - 0,3,0 15
+lyris_totem_tidecaller_6:
+  itemname: '<#9ce8d0>Lighthouse · City'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The lighthouse of a city.</i>'
+  - '<#9ce8d0>✦ Tidecaller style</#9ce8d0> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 6 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_tidecaller_6'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_tidecaller_6_lit'
+        lights:
+        - 0,3,0 15
+lyris_boundary_ward_tidecaller:
+  itemname: '<#9ce8d0>Lighthouse Ward'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>Set it out in your land: the land reaches</i>'
+  - '<gray><i>farther from it, and may hold more.</i>'
+  - '<#9ce8d0>✦ Tidecaller style</#9ce8d0> <dark_gray>· a supporter reward'
+  Components:
+    max_stack_size: 16
+    item_model: 'lyris_totems:lyris_boundary_ward_tidecaller'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_boundary_ward_tidecaller_lit'
+        lights:
+        - 0,1,0 15

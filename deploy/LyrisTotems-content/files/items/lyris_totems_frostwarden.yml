@@ -1,0 +1,200 @@
+# LyrisTotems supporter style: Frostwarden (cosmetic; permission lyristotems.skin.frostwarden)
+lyris_totem_frostwarden_1:
+  itemname: '<#a8e4ff>Glacier Brazier · Homestead'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The glacier brazier of a homestead.</i>'
+  - '<#a8e4ff>✦ Frostwarden style</#a8e4ff> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 1 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_frostwarden_1'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_frostwarden_1_lit'
+        lights:
+        - 0,1,0 15
+lyris_totem_frostwarden_2:
+  itemname: '<#a8e4ff>Glacier Brazier · Steading'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The glacier brazier of a steading.</i>'
+  - '<#a8e4ff>✦ Frostwarden style</#a8e4ff> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 2 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_frostwarden_2'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_frostwarden_2_lit'
+        lights:
+        - 0,1,0 15
+lyris_totem_frostwarden_3:
+  itemname: '<#a8e4ff>Glacier Brazier · Hamlet'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The glacier brazier of a hamlet.</i>'
+  - '<#a8e4ff>✦ Frostwarden style</#a8e4ff> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 3 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_frostwarden_3'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_frostwarden_3_lit'
+        lights:
+        - 0,2,0 15
+lyris_totem_frostwarden_4:
+  itemname: '<#a8e4ff>Glacier Brazier · Village'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The glacier brazier of a village.</i>'
+  - '<#a8e4ff>✦ Frostwarden style</#a8e4ff> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 4 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_frostwarden_4'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_frostwarden_4_lit'
+        lights:
+        - 0,3,0 15
+lyris_totem_frostwarden_5:
+  itemname: '<#a8e4ff>Glacier Brazier · Town'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The glacier brazier of a town.</i>'
+  - '<#a8e4ff>✦ Frostwarden style</#a8e4ff> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 5 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_frostwarden_5'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_frostwarden_5_lit'
+        lights:
+        - 0,3,0 15
+lyris_totem_frostwarden_6:
+  itemname: '<#a8e4ff>Glacier Brazier · City'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>The glacier brazier of a city.</i>'
+  - '<#a8e4ff>✦ Frostwarden style</#a8e4ff> <dark_gray>· a supporter reward'
+  - '<dark_gray>Hearth · rank 6 of 6'
+  Components:
+    max_stack_size: 1
+    item_model: 'lyris_totems:lyris_totem_frostwarden_6'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+        translation: 0,1,0
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+        - 0,1,0
+        - 0,2,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_totem_frostwarden_6_lit'
+        lights:
+        - 0,3,0 15
+lyris_boundary_ward_frostwarden:
+  itemname: '<#a8e4ff>Glacier Brazier Ward'
+  material: 'PAPER'
+  lore:
+  - '<gray><i>Set it out in your land: the land reaches</i>'
+  - '<gray><i>farther from it, and may hold more.</i>'
+  - '<#a8e4ff>✦ Frostwarden style</#a8e4ff> <dark_gray>· a supporter reward'
+  Components:
+    max_stack_size: 16
+    item_model: 'lyris_totems:lyris_boundary_ward_frostwarden'
+  Mechanics:
+    furniture:
+      properties:
+        display_transform: NONE
+      rotatable: true
+      limited_placing:
+        floor: true
+        wall: false
+        roof: false
+      hitbox:
+        barriers:
+        - 0,0,0
+      lights:
+        toggleable: true
+        toggled_item_model: 'lyris_totems:lyris_boundary_ward_frostwarden_lit'
+        lights:
+        - 0,1,0 15
